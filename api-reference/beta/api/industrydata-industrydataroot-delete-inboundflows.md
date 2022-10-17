@@ -1,6 +1,6 @@
 ---
 title: "Delete inboundFlow"
-description: "Deletes an inboundFlow object."
+description: "Delete an inboundFlow object."
 author: "mlafleur"
 ms.localizationpriority: medium
 ms.prod: "industrydata"
@@ -13,7 +13,7 @@ Namespace: microsoft.graph.industryData
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Deletes an [inboundFlow](../resources/industrydata-inboundflow.md) object.
+Delete an [inboundFlow](../resources/industrydata-inboundflow.md) object.
 
 ## Permissions
 
@@ -68,9 +68,7 @@ DELETE https://graph.microsoft.com/beta/external/industryData/inboundFlows/{inbo
 
 ### Response
 
-The following is an example of the response
-
-> **Note:** The response object shown here might be shortened for readability.
+The following is an example of the response.
 
 <!-- {
   "blockType": "response",
