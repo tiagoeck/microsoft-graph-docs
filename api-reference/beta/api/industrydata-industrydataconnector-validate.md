@@ -1,6 +1,6 @@
 ---
 title: "industryDataConnector: validate"
-description: "Perform validations applicable for the specific instance of the data connector."
+description: "Perform validations for the specific instance of the data connector."
 author: "mlafleur"
 ms.localizationpriority: medium
 ms.prod: "industrydata"
@@ -13,7 +13,7 @@ Namespace: microsoft.graph.industryData
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Perform validations applicable for the specific instance of the data connector.
+Perform validations for the specific instance of the data connector.
 
 ## Permissions
 
