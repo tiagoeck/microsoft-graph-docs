@@ -9,6 +9,8 @@ doc_type: "apiPageType"
 
 # Delete accessPackage
 
+Availability: :::image type="icon" source="/graph/images/yesandnosymbols/test-cloud-availability-icons/yes-icon.svg" border="false":::Public cloud :::image type="icon" source="/graph/images/yesandnosymbols/test-cloud-availability-icons/yes-icon.svg" border="false":::US Government cloud :::image type="icon" source="/graph/images/yesandnosymbols/test-cloud-availability-icons/no-icon.svg" border="false":::China cloud [See more](/graph/deployments "visit a drill-down experience to discover API availability in various clouds")
+
 Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
