@@ -15,7 +15,7 @@ Do not delete or change any example name without making the required change in t
 
 # Various API requests for Azure AD and Entra APIs
 
-## Example: Create a role assignment between a user and a role definition
+#### Example: Create a role assignment between a user and a role definition
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
 <!-- {
@@ -34,7 +34,7 @@ Content-type: application/json
 }
 ```
 
-## Example: Create a role assignment where the principal or role definition does not exist
+#### Example: Create a role assignment where the principal or role definition does not exist
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
@@ -54,7 +54,7 @@ Content-type: application/json
 }
 ```
 
-## Example: Create a role assignment on a single resource scope
+#### Example: Create a role assignment on a single resource scope
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
@@ -74,7 +74,7 @@ Content-type: application/json
 }
 ```
 
-## Example: Create an administrative unit scoped role assignment on a built-in role definition which is not supported
+#### Example: Create an administrative unit scoped role assignment on a built-in role definition which is not supported
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
@@ -94,7 +94,7 @@ Content-type: application/json
 }
 ```
 
-## Example: Get role assignments for a given principal
+#### Example: Get role assignments for a given principal
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
@@ -106,7 +106,7 @@ Content-type: application/json
 GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments?$filter=principalId+eq+'<object-id-of-principal>'
 ```
 
-## Example: Get role assignments for a given role definition
+#### Example: Get role assignments for a given role definition
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
@@ -118,7 +118,7 @@ GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments?$f
 GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments?$filter=roleDefinitionId+eq+'<object-id-or-template-id-of-role-definition>'
 ```
 
-## Example: Get a role assignment by ID
+#### Example: Get a role assignment by ID
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
@@ -130,7 +130,7 @@ GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments?$f
 GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/lAPpYvVpN0KRkAEhdxReEJC2sEqbR_9Hr48lds9SGHI-1
 ```
 
-## Example: Get role assignments for a given scope
+#### Example: Get role assignments for a given scope
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
@@ -142,7 +142,7 @@ GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/lA
 GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments?$filter=directoryScopeId+eq+'/d23998b1-8853-4c87-b95f-be97d6c6b610'
 ```
 
-## Example: Delete a role assignment between a user and a role definition
+#### Example: Delete a role assignment between a user and a role definition
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
@@ -154,7 +154,7 @@ GET https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments?$f
 DELETE https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/lAPpYvVpN0KRkAEhdxReEJC2sEqbR_9Hr48lds9SGHI-1
 ```
 
-## Example: Delete a role assignment between self and Global Administrator role definition
+#### Example: Delete a role assignment between self and Global Administrator role definition
 
 <!-- Required by an example in this doc https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-assign-graph  -->
 
