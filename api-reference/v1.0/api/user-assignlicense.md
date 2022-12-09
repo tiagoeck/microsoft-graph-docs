@@ -15,11 +15,8 @@ Add or remove subscriptions for the user. You can also enable and disable specif
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_assignlicense" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-assignlicense-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

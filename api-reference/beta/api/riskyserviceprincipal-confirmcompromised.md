@@ -19,11 +19,8 @@ Confirm one or more [riskyServicePrincipal](../resources/riskyserviceprincipal.m
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|IdentityRiskyServicePrincipal.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|IdentityRiskyServicePrincipal.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "riskyserviceprincipal_confirmcompromised" } -->
+[!INCLUDE [permissions-table](../includes/permissions/riskyserviceprincipal-confirmcompromised-permissions.md)]
 
 ## HTTP request
 

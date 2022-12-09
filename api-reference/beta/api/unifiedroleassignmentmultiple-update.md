@@ -27,11 +27,8 @@ Depending on the RBAC provider and the permission type (delegated or application
 
 ### For Cloud PC provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  CloudPC.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | CloudPC.ReadWrite.All  |
+<!-- { "blockType": "permissions", "name": "unifiedroleassignmentmultiple_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroleassignmentmultiple-update-permissions.md)]
 
 ### For Device management (Intune) provider
 

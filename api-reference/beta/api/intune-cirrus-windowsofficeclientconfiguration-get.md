@@ -20,11 +20,8 @@ Get a specific non-security policy [windowsOfficeClientConfiguration](../resourc
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All DeviceManagementConfiguration.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All DeviceManagementConfiguration.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_cirrus_windowsofficeclientconfiguration_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-cirrus-windowsofficeclientconfiguration-get-permissions.md)]
 
 ## HTTP Request
 <!-- {

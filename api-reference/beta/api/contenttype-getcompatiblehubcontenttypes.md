@@ -19,11 +19,8 @@ This method is part of the content type publishing changes to optimize the synci
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account) | Sites.Manage.All, Sites.FullControl.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Sites.Manage.All, Sites.FullControl.All |
+<!-- { "blockType": "permissions", "name": "contenttype_getcompatiblehubcontenttypes" } -->
+[!INCLUDE [permissions-table](../includes/permissions/contenttype-getcompatiblehubcontenttypes-permissions.md)]
 
 ## HTTP request
 

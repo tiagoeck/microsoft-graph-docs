@@ -24,11 +24,8 @@ The tenant needs to be registered to PIM. Otherwise, HTTP 403 Forbidden error wi
 
 The requestor needs to have _Privileged Role Administrator_ role. 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "privilegedroleassignment_makepermanent" } -->
+[!INCLUDE [permissions-table](../includes/permissions/privilegedroleassignment-makepermanent-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -18,11 +18,8 @@ Retrieve a list of classes owned by a school.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  EduRoster.ReadBasic  |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | EduRoster.Read.All, EduRoster.ReadWrite.All | 
+<!-- { "blockType": "permissions", "name": "educationschool_list_classes" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationschool-list-classes-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

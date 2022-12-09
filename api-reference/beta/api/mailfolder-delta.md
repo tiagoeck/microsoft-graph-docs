@@ -24,11 +24,8 @@ a local store of a user's mail folders without having to fetch all the mail fold
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.ReadBasic, Mail.Read, Mail.ReadWrite    |
-|Delegated (personal Microsoft account) | Mail.ReadBasic, Mail.Read, Mail.ReadWrite    |
-|Application | Mail.ReadBasic.All, Mail.Read, Mail.ReadWrite |
+<!-- { "blockType": "permissions", "name": "mailfolder_delta" } -->
+[!INCLUDE [permissions-table](../includes/permissions/mailfolder-delta-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

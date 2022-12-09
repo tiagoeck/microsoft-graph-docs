@@ -17,11 +17,8 @@ Retrieve the list of [appRoleAssignment](../resources/approleassignment.md) that
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All, AppRoleAssignment.ReadWrite.All, Directory.ReadWrite.All  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All, AppRoleAssignment.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "group_list_approleassignments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-list-approleassignments-permissions.md)]
 
 ## HTTP request
 

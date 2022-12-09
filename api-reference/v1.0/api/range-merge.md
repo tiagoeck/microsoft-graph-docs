@@ -15,11 +15,8 @@ Merge the range cells into one region in the worksheet.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "range_merge" } -->
+[!INCLUDE [permissions-table](../includes/permissions/range-merge-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

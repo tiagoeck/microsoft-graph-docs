@@ -26,11 +26,8 @@ To restore a team from its archived state, use the API to [unarchive](team-unarc
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | TeamSettings.ReadWrite.All, Group.ReadWrite.All**, Directory.ReadWrite.All** |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | TeamSettings.ReadWrite.Group*, TeamSettings.ReadWrite.All, Group.ReadWrite.All**, Directory.ReadWrite.All** |
+<!-- { "blockType": "permissions", "name": "team_archive" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-archive-permissions.md)]
 
 [!INCLUDE [teamwork-permissions-note](../../../includes/teamwork-permissions-note.md)]
 

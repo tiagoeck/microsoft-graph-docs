@@ -16,11 +16,8 @@ Get all the [messageRule](../resources/messagerule.md) objects defined for the u
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | MailboxSettings.Read    |
-|Delegated (personal Microsoft account) | MailboxSettings.Read    |
-|Application | MailboxSettings.Read |
+<!-- { "blockType": "permissions", "name": "mailfolder_list_messagerules" } -->
+[!INCLUDE [permissions-table](../includes/permissions/mailfolder-list-messagerules-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

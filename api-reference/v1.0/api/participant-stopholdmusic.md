@@ -16,11 +16,8 @@ Reincorporate a participant previously put on hold to the call.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Not Supported.                               |
-| Delegated (personal Microsoft account) | Not Supported.                               |
-| Application                            | Calls.JoinGroupCallsasGuest.All or Calls.JoinGroupCalls.All |
+<!-- { "blockType": "permissions", "name": "participant_stopholdmusic" } -->
+[!INCLUDE [permissions-table](../includes/permissions/participant-stopholdmusic-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

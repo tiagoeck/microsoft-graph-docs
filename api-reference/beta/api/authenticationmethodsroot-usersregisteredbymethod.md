@@ -17,11 +17,8 @@ Get the number of users registered for each authentication method.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|AuditLog.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "authenticationmethodsroot_usersregisteredbymethod" } -->
+[!INCLUDE [permissions-table](../includes/permissions/authenticationmethodsroot-usersregisteredbymethod-permissions.md)]
 
 In order to access the API, [one of the following roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) is required:
 

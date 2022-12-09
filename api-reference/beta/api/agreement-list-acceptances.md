@@ -17,11 +17,8 @@ Get the details about the acceptance records for a specific agreement.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | AgreementAcceptance.Read, AgreementAcceptance.Read.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "agreement_list_acceptances" } -->
+[!INCLUDE [permissions-table](../includes/permissions/agreement-list-acceptances-permissions.md)]
 
 ## HTTP request
 

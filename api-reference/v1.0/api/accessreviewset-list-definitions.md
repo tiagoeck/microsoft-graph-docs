@@ -15,11 +15,8 @@ Get a list of the [accessReviewScheduleDefinition](../resources/accessreviewsche
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|AccessReview.Read.All, AccessReview.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|AccessReview.Read.All, AccessReview.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "accessreviewset_list_definitions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewset-list-definitions-permissions.md)]
 
  The signed-in user must also be in a directory role that permits them to read an access review. See access review [role and application permission authorization checks](../resources/accessreviewsv2-overview.md#role-and-application-permission-authorization-checks).
 

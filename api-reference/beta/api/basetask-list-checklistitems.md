@@ -19,11 +19,8 @@ Get the [checklistItem](../resources/checklistitem.md) resources associated to t
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Tasks.Read, Tasks.ReadWrite|
-|Delegated (personal Microsoft account)|Tasks.Read, Tasks.ReadWrite|
-|Application|Tasks.Read, Tasks.ReadWrite|
+<!-- { "blockType": "permissions", "name": "basetask_list_checklistitems" } -->
+[!INCLUDE [permissions-table](../includes/permissions/basetask-list-checklistitems-permissions.md)]
 
 ## HTTP request
 

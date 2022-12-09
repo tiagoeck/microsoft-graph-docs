@@ -17,11 +17,8 @@ Create a new [section group](../resources/sectiongroup.md) in the specified sect
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Notes.Create, Notes.ReadWrite, Notes.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Notes.Create, Notes.ReadWrite    |
-|Application | Notes.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "sectiongroup_post_sectiongroups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/sectiongroup-post-sectiongroups-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

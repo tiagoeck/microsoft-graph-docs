@@ -17,11 +17,8 @@ Get an [app](../resources/teamsappinstallation.md) installed in a [chat](../reso
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | TeamsAppInstallation.ReadForChat, TeamsAppInstallation.ReadWriteSelfForChat, TeamsAppInstallation.ReadWriteForChat |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | TeamsAppInstallation.ReadForChat.All, TeamsAppInstallation.ReadWriteSelfForChat.All, TeamsAppInstallation.ReadWriteForChat.All
+<!-- { "blockType": "permissions", "name": "chat_get_installedapps" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-get-installedapps-permissions.md)]
 
 ## HTTP request
 

@@ -21,11 +21,8 @@ Send a new [chatMessage](../resources/chatmessage.md) in the specified [chat](..
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ChatMessage.Send, Chat.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "chat_post_messages" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-post-messages-permissions.md)]
 
 ## HTTP request
 

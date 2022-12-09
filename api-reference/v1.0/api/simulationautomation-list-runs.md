@@ -15,11 +15,8 @@ Get a list of the attack simulation automation runs for a tenant.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | AttackSimulation.Read.All                   |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | AttackSimulation.Read.All                   |
+<!-- { "blockType": "permissions", "name": "simulationautomation_list_runs" } -->
+[!INCLUDE [permissions-table](../includes/permissions/simulationautomation-list-runs-permissions.md)]
 
 ## HTTP request
 

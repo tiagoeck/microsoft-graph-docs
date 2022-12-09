@@ -17,11 +17,8 @@ Gets the smallest range object that encompasses the given ranges. For example, t
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Files.ReadWrite    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "range_boundingrect" } -->
+[!INCLUDE [permissions-table](../includes/permissions/range-boundingrect-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

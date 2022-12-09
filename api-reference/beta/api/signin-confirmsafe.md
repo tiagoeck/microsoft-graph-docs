@@ -17,11 +17,8 @@ Allow admins to mark an event in Azure AD sign in logs as safe. Admins can eithe
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|IdentityRiskyUser.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|IdentityRiskEvent.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "signin_confirmsafe" } -->
+[!INCLUDE [permissions-table](../includes/permissions/signin-confirmsafe-permissions.md)]
 
 ## HTTP request
 

@@ -19,11 +19,8 @@ Get newly created or updated [educationUser](../resources/educationuser.md) with
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                              |
-| :------------------------------------- | :----------------------------------------------------------------------- |
-| Delegated (work or school account)     | EduRoster.ReadBasic, EduRoster.Read, or EduRoster.ReadWrite              |
-| Delegated (personal Microsoft account) | Not supported.                                                           |
-| Application                            | EduRoster.ReadBasic.All, EduRoster.Read.All, or EduRoster.WriteWrite.All |
+<!-- { "blockType": "permissions", "name": "educationuser_delta" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationuser-delta-permissions.md)]
 
 ## HTTP request
 

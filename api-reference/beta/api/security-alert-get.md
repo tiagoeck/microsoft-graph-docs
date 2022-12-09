@@ -18,11 +18,8 @@ Get the properties and relationships of an [alert](../resources/security-alert.m
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|SecurityAlert.Read.All, SecurityAlert.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|SecurityAlert.Read.All, SecurityAlert.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "security_alert_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-alert-get-permissions.md)]
 
 ## HTTP request
 

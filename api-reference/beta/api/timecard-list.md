@@ -19,11 +19,8 @@ Retrieve a list of [timeCard](../resources/timecard.md) entries in a [schedule](
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Schedule.Read.All, Schedule.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Schedule.Read.All*, Schedule.ReadWrite.All* |
+<!-- { "blockType": "permissions", "name": "timecard_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/timecard-list-permissions.md)]
 
 >\* **Important:** When you use application permissions, you must include the `MS-APP-ACTS-AS` header in the request.
 

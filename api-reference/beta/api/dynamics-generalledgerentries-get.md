@@ -20,11 +20,8 @@ Retrieve the properties and relationships of a general ledger entry object for D
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type |Permissions (from least to most privileged)|
-|:---------------|:------------------------------------------|
-|Delegated (work or school account)|Financials.ReadWrite.All |
-|Delegated (personal Microsoft account|Not supported.|
-|Application|Financials.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "dynamics_generalledgerentries_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/dynamics-generalledgerentries-get-permissions.md)]
 
 
 ## HTTP request

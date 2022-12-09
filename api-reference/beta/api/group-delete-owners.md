@@ -21,11 +21,8 @@ Use this API to remove an owner from a Microsoft 365 group or a security group t
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)  |
-| :------------------------------------- | :------------------------------------------- |
-| Delegated (work or school account)     | Group.ReadWrite.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                               |
-| Application                            | Group.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "group_delete_owners" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-delete-owners-permissions.md)]
 
 ## HTTP request
 

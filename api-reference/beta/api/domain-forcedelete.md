@@ -36,11 +36,8 @@ After the domain deletion completes, API operations for the deleted domain will 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Domain.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Domain.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "domain_forcedelete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/domain-forcedelete-permissions.md)]
 
 ## HTTP request
 

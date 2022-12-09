@@ -21,11 +21,8 @@ Only certain properties of a device can be updated through approved Mobile Devic
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.AccessAsUser.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application | Device.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "device_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/device-update-permissions.md)]
 
 The calling user must also be in one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference): *Global Administrator*, *Intune Administrator*. A calling user in the *Cloud Device Administrator* role can only enable or disable devices using this API and a user with the *Windows 365 Administrator* role can only update basic device properties.
 

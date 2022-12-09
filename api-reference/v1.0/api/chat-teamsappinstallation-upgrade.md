@@ -21,11 +21,8 @@ Upgrade an [app installation](../resources/teamsappinstallation.md) within a [ch
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | TeamsAppInstallation.ReadWriteSelfForChat, TeamsAppInstallation.ReadWriteForChat |
-|Delegated (personal Microsoft account) | Not supported.   |
-|Application | TeamsAppInstallation.ReadWriteSelfForChat.All, TeamsAppInstallation.ReadWriteForChat.All |
+<!-- { "blockType": "permissions", "name": "chat_teamsappinstallation_upgrade" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-teamsappinstallation-upgrade-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

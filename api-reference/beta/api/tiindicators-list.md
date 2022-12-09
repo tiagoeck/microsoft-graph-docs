@@ -19,11 +19,8 @@ Retrieve a list of [tiIndicator](../resources/tiindicator.md) objects.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type     | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ThreatIndicators.ReadWrite.OwnedBy  |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | ThreatIndicators.ReadWrite.OwnedBy |
+<!-- { "blockType": "permissions", "name": "tiindicators_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/tiindicators-list-permissions.md)]
 
 ## HTTP request
 

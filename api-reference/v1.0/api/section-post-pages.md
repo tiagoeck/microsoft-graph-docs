@@ -16,11 +16,8 @@ Create a new [page](../resources/page.md) in the specified section.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Notes.Create, Notes.ReadWrite, Notes.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Notes.Create, Notes.ReadWrite    |
-|Application | Notes.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "section_post_pages" } -->
+[!INCLUDE [permissions-table](../includes/permissions/section-post-pages-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

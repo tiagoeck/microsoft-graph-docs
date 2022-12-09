@@ -16,11 +16,8 @@ Get the default [channel](../resources/channel.md), **General**, of a [team](../
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Channel.ReadBasic.All, ChannelSettings.Read.All, ChannelSettings.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | ChannelSettings.Read.Group*, ChannelSettings.ReadWrite.Group*, Channel.ReadBasic.All, ChannelSettings.Read.All, ChannelSettings.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "team_get_primarychannel" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-get-primarychannel-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

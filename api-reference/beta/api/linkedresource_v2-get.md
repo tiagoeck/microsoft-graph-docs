@@ -19,11 +19,8 @@ Read the properties and relationships of a [linkedResource_v2](../resources/link
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Tasks.Read, Tasks.ReadWrite|
-|Delegated (personal Microsoft account)|Tasks.Read, Tasks.ReadWrite|
-|Application|Tasks.Read, Tasks.ReadWrite|
+<!-- { "blockType": "permissions", "name": "linkedresource_v2_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/linkedresource_v2-get-permissions.md)]
 
 ## HTTP request
 

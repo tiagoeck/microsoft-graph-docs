@@ -19,11 +19,8 @@ Used by a [learning provider](../resources/learningprovider.md) to ingest or upd
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Not supported.|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|LearningContent.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "learningcontent_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/learningcontent-update-permissions.md)]
 
 ## HTTP request
 

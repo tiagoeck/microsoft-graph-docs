@@ -17,11 +17,8 @@ Retrieve a list of organization objects.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read, Directory.Read.All, Directory.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "organization_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/organization-list-permissions.md)]
 
 > Note: Applications granted the User.Read permission are able to read only the *id*, *displayName*, and *verifiedDomains* properties of the organization.  All other properties will return with `null` values. To read all properties, use Directory.Read.All.
 

@@ -19,11 +19,8 @@ Create a new [authenticationContextClassReference](../resources/authenticationCo
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)                    |
-|:--------------------------------------|:---------------------------------------------------------------|
-|Delegated (work or school account)     | Policy.ReadWrite.ConditionalAccess |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | Policy.ReadWrite.ConditionalAccess |
+<!-- { "blockType": "permissions", "name": "conditionalaccessroot_post_authenticationcontextclassreferences" } -->
+[!INCLUDE [permissions-table](../includes/permissions/conditionalaccessroot-post-authenticationcontextclassreferences-permissions.md)]
 
 > [!NOTE]
 > This API has a [known issue](/graph/known-issues#permissions) related to permissions.

@@ -18,11 +18,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Permissions acting on self
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:---------------------------------------|:-------------------------|
-| Delegated (work or school account)     | UserAuthenticationMethod.Read, UserAuthenticationMethod.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "microsoftauthenticatorauthenticationmethod_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/microsoftauthenticatorauthenticationmethod-list-permissions.md)]
 
 ### Permissions acting on other users
 

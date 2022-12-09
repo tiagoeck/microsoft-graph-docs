@@ -21,11 +21,8 @@ For more information about how to handle mute operations, see [muteParticipantOp
 
 ## Permissions
 
-| Permission type | Permissions (from least to most privileged) |
-| :-------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Not Supported        |
-| Delegated (personal Microsoft account) | Not Supported        |
-| Application     | Calls.JoinGroupCallsasGuest.All or Calls.JoinGroupCalls.All |
+<!-- { "blockType": "permissions", "name": "participant_mute" } -->
+[!INCLUDE [permissions-table](../includes/permissions/participant-mute-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

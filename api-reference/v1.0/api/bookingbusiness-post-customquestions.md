@@ -17,11 +17,8 @@ Create a new [bookingCustomQuestion](../resources/bookingcustomquestion.md) obje
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                    |
-| :------------------------------------- | :----------------------------------------------------------------------------- |
-| Delegated (work or school account)     | BookingsAppointment.ReadWrite.All, Bookings.ReadWrite.All, Bookings.Manage.All |
-| Delegated (personal Microsoft account) | Not supported.                                                                 |
-| Application                            | Not supported.                                                                 |
+<!-- { "blockType": "permissions", "name": "bookingbusiness_post_customquestions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/bookingbusiness-post-customquestions-permissions.md)]
 
 ## HTTP request
 

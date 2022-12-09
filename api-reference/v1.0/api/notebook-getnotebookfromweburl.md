@@ -17,10 +17,8 @@ The location can be user notebooks on Microsoft 365, group notebooks, or SharePo
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, Notes.ReadWrite.All    |
-|Application | Notes.Read.All, Notes.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "notebook_getnotebookfromweburl" } -->
+[!INCLUDE [permissions-table](../includes/permissions/notebook-getnotebookfromweburl-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

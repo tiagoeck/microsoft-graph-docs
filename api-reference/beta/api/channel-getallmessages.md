@@ -23,11 +23,8 @@ To learn more about using the Microsoft Teams export APIs to export content, see
 
 The following permissions are required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Not supported |
-|Delegated (personal Microsoft account) | Not supported |
-|Application | ChannelMessage.Read.All |
+<!-- { "blockType": "permissions", "name": "channel_getallmessages" } -->
+[!INCLUDE [permissions-table](../includes/permissions/channel-getallmessages-permissions.md)]
 
 > [!NOTE]
 > Before calling this API with application permissions, you must request access. For details, see [Protected APIs in Microsoft Teams](/graph/teams-protected-apis).

@@ -18,11 +18,8 @@ Retrieve a list of **plannerbucket** objects.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Tasks.Read, Tasks.ReadWrite, Group.Read.All, Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "planner_list_buckets" } -->
+[!INCLUDE [permissions-table](../includes/permissions/planner-list-buckets-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

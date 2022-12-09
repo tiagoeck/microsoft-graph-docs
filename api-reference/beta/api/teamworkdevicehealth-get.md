@@ -19,11 +19,8 @@ Get the [health](../resources/teamworkdevicehealth.md) details of a Microsoft Te
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamworkDevice.Read.All, TeamworkDevice.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|TeamworkDevice.Read.All, TeamworkDevice.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "teamworkdevicehealth_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamworkdevicehealth-get-permissions.md)]
 
 ## HTTP request
 

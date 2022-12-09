@@ -20,11 +20,8 @@ Create an item in Dynamics 365 Business Central for use on invoices, quotes, etc
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type |Permissions (from least to most privileged)|
-|:---------------|:------------------------------------------|
-|Delegated (work or school account)|Financials.ReadWrite.All |
-|Delegated (personal Microsoft account|Not supported.|
-|Application|Financials.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "dynamics_create_item" } -->
+[!INCLUDE [permissions-table](../includes/permissions/dynamics-create-item-permissions.md)]
 
 ## HTTP request
 ```http

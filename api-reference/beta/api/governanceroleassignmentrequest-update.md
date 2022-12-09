@@ -24,11 +24,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Azure resources
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureResources |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governanceroleassignmentrequest_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governanceroleassignmentrequest-update-permissions.md)]
 
 ### Azure AD
 

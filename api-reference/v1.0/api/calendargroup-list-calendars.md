@@ -17,11 +17,8 @@ Retrieve a list of calendars belonging to a calendar group.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Calendars.Read                              |
-| Delegated (personal Microsoft account) | Calendars.Read                              |
-| Application                            | Calendars.Read                              |
+<!-- { "blockType": "permissions", "name": "calendargroup_list_calendars" } -->
+[!INCLUDE [permissions-table](../includes/permissions/calendargroup-list-calendars-permissions.md)]
 
 ## HTTP request
 

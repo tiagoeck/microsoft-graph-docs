@@ -15,11 +15,8 @@ In PIM, read the details of a request for for a role eligibility request made th
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|RoleEligibilitySchedule.Read.Directory, RoleManagement.Read.Directory, RoleManagement.Read.All, RoleEligibilitySchedule.ReadWrite.Directory, RoleManagement.ReadWrite.Directory	|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|RoleManagement.ReadWrite.Directory|
+<!-- { "blockType": "permissions", "name": "unifiedroleeligibilityschedulerequest_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroleeligibilityschedulerequest-get-permissions.md)]
 
 ## HTTP request
 

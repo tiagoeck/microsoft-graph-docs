@@ -15,11 +15,8 @@ Gets the last column within the range. For example, the last column of "B2:D5" i
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "range_lastcolumn" } -->
+[!INCLUDE [permissions-table](../includes/permissions/range-lastcolumn-permissions.md)]
 
 ## HTTP request
 

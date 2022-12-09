@@ -18,11 +18,8 @@ Set the **isPublished** property to `true`, and the **publicUrl** property to th
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  Bookings.Manage.All   |
-|Delegated (personal Microsoft account) | Not supported.   |
-|Application | Not supported.  |
+<!-- { "blockType": "permissions", "name": "bookingbusiness_publish" } -->
+[!INCLUDE [permissions-table](../includes/permissions/bookingbusiness-publish-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

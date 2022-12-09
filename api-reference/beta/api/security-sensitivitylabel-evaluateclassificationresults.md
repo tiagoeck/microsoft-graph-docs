@@ -36,11 +36,8 @@ To evaluate based on classification results, provide the [contentInfo](../resour
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | InformationProtectionPolicy.Read            |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | InformationProtectionPolicy.Read.All        |
+<!-- { "blockType": "permissions", "name": "security_sensitivitylabel_evaluateclassificationresults" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-sensitivitylabel-evaluateclassificationresults-permissions.md)]
 
 ## HTTP request
 

@@ -36,11 +36,8 @@ See [attach large files to Outlook messages or events](/graph/outlook-large-atta
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Calendars.ReadWrite, Mail.ReadWrite |
-| Delegated (personal Microsoft account) | Calendars.ReadWrite, Mail.ReadWrite |
-| Application                            | Calendars.ReadWrite, Mail.ReadWrite |
+<!-- { "blockType": "permissions", "name": "attachment_createuploadsession" } -->
+[!INCLUDE [permissions-table](../includes/permissions/attachment-createuploadsession-permissions.md)]
 
 ## HTTP request
 

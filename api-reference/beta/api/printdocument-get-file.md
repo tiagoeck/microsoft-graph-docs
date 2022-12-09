@@ -20,11 +20,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In addition to the following permissions, the user or app's tenant must have an active Universal Print subscription and have a permission that grants grants [Get printer](printer-get.md) access.
 
-| Permission type                        | Permissions (from least to most privileged)                  |
-| :------------------------------------- | :----------------------------------------------------------- |
-| Delegated (work or school account)     | PrintJob.Read, PrintJob.Read.All, PrintJob.ReadWrite, PrintJob.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not Supported.                                               |
-| Application                            | PrintJob.Read.All, PrintJob.ReadWrite.All                    |
+<!-- { "blockType": "permissions", "name": "printdocument_get_file" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printdocument-get-file-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

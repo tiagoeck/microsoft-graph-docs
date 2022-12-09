@@ -19,11 +19,8 @@ Retrieve a list of [trustFrameworkKeySets](../resources/trustframeworkkeyset.md)
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | TrustFrameworkKeySet.Read.All, TrustFrameworkKeySet.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | TrustFrameworkKeySet.Read.All, TrustFrameworkKeySet.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "trustframework_list_keysets" } -->
+[!INCLUDE [permissions-table](../includes/permissions/trustframework-list-keysets-permissions.md)]
 
 ## HTTP request
 

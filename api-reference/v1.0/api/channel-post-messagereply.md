@@ -18,11 +18,8 @@ Create a new reply to a [chatMessage](../resources/chatmessage.md) in a specifie
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ChannelMessage.Send, Group.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Teamwork.Migrate.All |
+<!-- { "blockType": "permissions", "name": "channel_post_messagereply" } -->
+[!INCLUDE [permissions-table](../includes/permissions/channel-post-messagereply-permissions.md)]
 
 > **Note**: Application permissions are *only* supported for [migration](/microsoftteams/platform/graph-api/import-messages/import-external-messages-to-teams).
 In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data imported.

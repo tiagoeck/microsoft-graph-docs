@@ -22,11 +22,8 @@ Note that you cannot modify the name of the default task group, "My Tasks".
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Tasks.ReadWrite    |
-|Delegated (personal Microsoft account) | Tasks.ReadWrite    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "outlooktaskgroup_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/outlooktaskgroup-update-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

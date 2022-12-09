@@ -21,11 +21,8 @@ Users in the rejected senders list cannot post to conversations of the group (id
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Group.Read.All, Group.ReadWrite.All         |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Not supported.                              |
+<!-- { "blockType": "permissions", "name": "group_list_rejectedsenders" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-list-rejectedsenders-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

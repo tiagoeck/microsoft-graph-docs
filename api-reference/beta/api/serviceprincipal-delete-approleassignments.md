@@ -21,11 +21,8 @@ App roles which are assigned to service principals are also known as [applicatio
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | AppRoleAssignment.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | AppRoleAssignment.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_delete_approleassignments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-delete-approleassignments-permissions.md)]
 
 ## HTTP request
 

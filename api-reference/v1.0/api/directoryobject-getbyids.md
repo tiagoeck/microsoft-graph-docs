@@ -26,11 +26,8 @@ Some common uses for this function are to:
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_getbyids" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-getbyids-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

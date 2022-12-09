@@ -21,11 +21,8 @@ Retrieve the list of [callTranscript](../resources/calltranscript.md) objects as
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | OnlineMeetingTranscript.Read.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | OnlineMeetingTranscript.Read.All |
+<!-- { "blockType": "permissions", "name": "onlinemeeting_list_transcripts" } -->
+[!INCLUDE [permissions-table](../includes/permissions/onlinemeeting-list-transcripts-permissions.md)]
 
 To use application permission for this API, tenant administrators must create an application access policy and grant it to a user. This authorizes the app configured in the policy to fetch online meetings and/or online meeting artifacts on behalf of that user (with the user ID specified in the request path). For more details, see [Allow applications to access online meetings on behalf of a user](/graph/cloud-communication-online-meeting-application-access-policy).
 

@@ -18,11 +18,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 To use the Universal Print service, the user or app's tenant must have an active Universal Print subscription, in addition to the permissions listed in the following table. The signed in user must be a [Printer Administrator](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#printer-administrator).
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| PrinterShare.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application|Not Supported.|
+<!-- { "blockType": "permissions", "name": "printershare_delete_allowedgroup" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printershare-delete-allowedgroup-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

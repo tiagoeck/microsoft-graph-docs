@@ -31,11 +31,8 @@ To learn more, see [JSON batching](/graph/json-batching).
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite, User.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "usersettings_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/usersettings-update-permissions.md)]
 
 ## HTTP request
 

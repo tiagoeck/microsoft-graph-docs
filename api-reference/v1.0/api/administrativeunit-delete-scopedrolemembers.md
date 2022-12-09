@@ -17,11 +17,8 @@ Remove an Azure Active Directory (Azure AD) role assignment with administrative 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | RoleManagement.ReadWrite.Directory    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | RoleManagement.ReadWrite.Directory |
+<!-- { "blockType": "permissions", "name": "administrativeunit_delete_scopedrolemembers" } -->
+[!INCLUDE [permissions-table](../includes/permissions/administrativeunit-delete-scopedrolemembers-permissions.md)]
 
 To remove a role assignment from an administrative unit, the calling principal must be assigned one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference):
 

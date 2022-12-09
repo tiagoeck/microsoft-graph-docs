@@ -35,11 +35,8 @@ Alternatively, [send a new message](../api/user-sendmail.md) in a single action,
 ## Permissions
 One of the following permissions are required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.ReadWrite    |
-|Delegated (personal Microsoft account) | Mail.ReadWrite    |
-|Application | Mail.ReadWrite |
+<!-- { "blockType": "permissions", "name": "user_post_messages" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-post-messages-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -20,15 +20,8 @@ Read properties and relationships of the [mobileAppTroubleshootingEvent](../reso
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-|&nbsp; &nbsp; **Device management**|DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementManagedDevices.Read.All|
-|&nbsp; &nbsp; **Troubleshooting**|DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementManagedDevices.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-|&nbsp; &nbsp; **Device management**|DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementManagedDevices.Read.All|
-|&nbsp; &nbsp; **Troubleshooting**|DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementManagedDevices.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_mobileapptroubleshootingevent_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-mobileapptroubleshootingevent-get-permissions.md)]
 
 ## HTTP Request
 <!-- {

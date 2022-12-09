@@ -19,11 +19,8 @@ You can also use the method [removeMembersById](windowsupdates-updatableassetgro
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|WindowsUpdates.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|WindowsUpdates.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "windowsupdates_updatableassetgroup_removemembers" } -->
+[!INCLUDE [permissions-table](../includes/permissions/windowsupdates-updatableassetgroup-removemembers-permissions.md)]
 
 ## HTTP request
 

@@ -17,11 +17,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In addition to the following permissions, the user or app's tenant must have an active Universal Print subscription.
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| PrintJob.ReadWriteBasic, PrintJob.ReadWrite, PrintJob.ReadWriteBasic.All, PrintJob.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| Not supported. |
+<!-- { "blockType": "permissions", "name": "printjob_cancel" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printjob-cancel-permissions.md)]
 
 For an app with delegated permissions to cancel other users' jobs, the signed-in user must be a member of one of the following administrator roles:
 - Global Administrator

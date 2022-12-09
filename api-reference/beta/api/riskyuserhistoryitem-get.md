@@ -20,11 +20,8 @@ Get a [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) object of a [
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "riskyuserhistoryitem_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/riskyuserhistoryitem-get-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -20,11 +20,8 @@ Outlook carries out those actions if an incoming message in the user's Inbox mee
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | MailboxSettings.ReadWrite    |
-|Delegated (personal Microsoft account) | MailboxSettings.ReadWrite    |
-|Application | MailboxSettings.ReadWrite |
+<!-- { "blockType": "permissions", "name": "mailfolder_post_messagerules" } -->
+[!INCLUDE [permissions-table](../includes/permissions/mailfolder-post-messagerules-permissions.md)]
 
 
 ## HTTP request

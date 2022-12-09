@@ -19,11 +19,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### List tenant-wide settings
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Directory.Read.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "group_list_settings" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-list-settings-permissions.md)]
 
 ### List group-specific settings
 

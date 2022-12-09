@@ -21,11 +21,8 @@ If the specified [timeOffReason](../resources/timeoffreason.md) doesn't exist, t
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Schedule.ReadWrite.All*  |
+<!-- { "blockType": "permissions", "name": "timeoffreason_put" } -->
+[!INCLUDE [permissions-table](../includes/permissions/timeoffreason-put-permissions.md)]
 
 >\* **Important:** Application permissions are currently in private preview only and are not available for public use.
 

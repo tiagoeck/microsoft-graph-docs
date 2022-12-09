@@ -22,11 +22,8 @@ Attempting to send a request to a call that has already ended will result in a `
 ## Permissions
 One of the following permissions may be required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged) |
-| :-------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Not Supported        |
-| Delegated (personal Microsoft account) | Not Supported        |
-| Application                            | Calls.Initiate.All, Calls.AccessMedia.All |
+<!-- { "blockType": "permissions", "name": "call_keepalive" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-keepalive-permissions.md)]
 
 > **Note:** Permissions are checked when the call is created; no additional permission check is made when calling this API. Calls.AccessMedia.All is only necessary for calls that use app-hosted media.
 

@@ -20,11 +20,8 @@ Currently, a [user](../resources/user.md) can be associated with a [team](../res
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account) | Team.ReadBasic.All, TeamSettings.Read.All, TeamSettings.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Team.ReadBasic.All, TeamSettings.Read.All, TeamSettings.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "associatedteaminfo_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/associatedteaminfo-list-permissions.md)]
 
 > **Note:** Currently, with user delegated permissions, this operation only works for the `me` user. With application permissions, it works for all users by specifying the specific user ID (`me` alias is not supported with application permissions).
 

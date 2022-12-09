@@ -19,11 +19,8 @@ Updating a rubric attached to an assignment (`PATCH /education/classes/acdefc6b-
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | EduAssignments.ReadWriteBasic, EduAssignments.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "educationrubric_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationrubric-update-permissions.md)]
 
 ## HTTP request
 

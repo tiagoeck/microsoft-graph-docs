@@ -20,15 +20,8 @@ Deletes a [mdmWindowsInformationProtectionPolicy](../resources/intune-shared-mdm
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-| &nbsp; &nbsp; **Mobile app management (MAM)** | DeviceManagementApps.ReadWrite.All|
-| &nbsp; &nbsp; **Policy Set** | DeviceManagementApps.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-| &nbsp; &nbsp; **Mobile app management (MAM)** | DeviceManagementApps.ReadWrite.All|
-| &nbsp; &nbsp; **Policy Set** | DeviceManagementApps.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_mdmwindowsinformationprotectionpolicy_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-mdmwindowsinformationprotectionpolicy-delete-permissions.md)]
 
 ## HTTP Request
 <!-- {

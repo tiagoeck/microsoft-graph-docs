@@ -19,11 +19,8 @@ Reset any changes made to the default configuration in a cross-tenant access pol
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.ReadWrite.CrossTenantAccess|
-|Delegated (personal Microsoft account)|Not applicable|
-|Application|Policy.ReadWrite.CrossTenantAccess|
+<!-- { "blockType": "permissions", "name": "crosstenantaccesspolicyconfigurationdefault_resettosystemdefault" } -->
+[!INCLUDE [permissions-table](../includes/permissions/crosstenantaccesspolicyconfigurationdefault-resettosystemdefault-permissions.md)]
 
 ## HTTP request
 

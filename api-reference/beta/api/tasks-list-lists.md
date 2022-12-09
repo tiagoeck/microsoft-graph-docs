@@ -19,11 +19,8 @@ Get a list of the [baseTaskList](../resources/basetasklist.md) objects of a user
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Tasks.Read, Tasks.ReadWrite|
-|Delegated (personal Microsoft account)|Tasks.Read, Tasks.ReadWrite|
-|Application|Not supported|
+<!-- { "blockType": "permissions", "name": "tasks_list_lists" } -->
+[!INCLUDE [permissions-table](../includes/permissions/tasks-list-lists-permissions.md)]
 
 ## HTTP request
 

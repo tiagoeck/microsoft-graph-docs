@@ -19,11 +19,8 @@ Restore a previous version of a ListItem to be the current version. This will cr
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|            Permission type             |         Permissions (from least to most privileged)          |
-| :------------------------------------- | :----------------------------------------------------------- |
-| Delegated (work or school account)     | Sites.ReadWrite.All, Sites.Manage.All, Sites.FullControl.All |
-| Delegated (personal Microsoft account) | n/a                                                          |
-| Application                            | Sites.ReadWrite.All, Sites.Manage.All, Sites.FullControl.All |
+<!-- { "blockType": "permissions", "name": "listitemversion_restore" } -->
+[!INCLUDE [permissions-table](../includes/permissions/listitemversion-restore-permissions.md)]
 
 ## HTTP request
 

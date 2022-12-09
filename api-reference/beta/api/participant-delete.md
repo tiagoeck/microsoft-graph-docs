@@ -18,11 +18,8 @@ Delete a specific participant in a call. In some situations, it is appropriate f
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Not Supported                               |
-| Delegated (personal Microsoft account) | Not Supported                               |
-| Application                            | Calls.JoinGroupCallsasGuest.All or Calls.JoinGroupCalls.All |
+<!-- { "blockType": "permissions", "name": "participant_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/participant-delete-permissions.md)]
 
 Tenant-level application meeting configuration is required to allow an application to call this API. The tenant admin should call the following cmdlet on the tenant remote PowerShell to grant the permission to the application to call this API. For more information, see [Set-CsApplicationMeetingConfiguration](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsApplicationMeetingConfiguration.md).
 ```

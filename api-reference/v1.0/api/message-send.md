@@ -22,11 +22,8 @@ Alternatively, [send a new message](../api/user-sendmail.md) in a single operati
 ## Permissions
 One of the following permissions are required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.Send    |
-|Delegated (personal Microsoft account) | Mail.Send    |
-|Application | Mail.Send |
+<!-- { "blockType": "permissions", "name": "message_send" } -->
+[!INCLUDE [permissions-table](../includes/permissions/message-send-permissions.md)]
 
 ## HTTP request
 

@@ -19,11 +19,8 @@ Get the properties of an [insightsSettings](../resources/insightssettings.md) ob
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Organization.Read.All, Organization.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "organizationsettings_list_contactinsights" } -->
+[!INCLUDE [permissions-table](../includes/permissions/organizationsettings-list-contactinsights-permissions.md)]
 
 ## HTTP request
 

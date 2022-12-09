@@ -18,10 +18,8 @@ Retrieve the [accessReviewInstance](../resources/accessreviewinstance.md) object
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | AccessReview.Read.All, AccessReview.ReadWrite.All  |
-|Application                            | AccessReview.Read.All, AccessReview.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "accessreviewscheduledefinition_list_instances" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewscheduledefinition-list-instances-permissions.md)]
 
 The signed-in user must also be in a directory role that permits them to read an access review. To view just the instances that the signed-in user is assigned the reviewer on, see [List pending access review instances](accessreviewinstance-pendingaccessreviewinstances.md)
 

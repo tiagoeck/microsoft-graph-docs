@@ -17,11 +17,8 @@ Update the properties of a [conditionalAccessPolicy](../resources/conditionalacc
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Policy.Read.All, Policy.ReadWrite.ConditionalAccess and Application.Read.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Policy.Read.All, Policy.ReadWrite.ConditionalAccess and Application.Read.All |
+<!-- { "blockType": "permissions", "name": "conditionalaccesspolicy_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/conditionalaccesspolicy-update-permissions.md)]
 
 > [!NOTE]
 > This API has a [known issue](/graph/known-issues##conditional-access-policy) related to permissions.

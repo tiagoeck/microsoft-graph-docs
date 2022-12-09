@@ -17,11 +17,8 @@ Read the properties and relationships of a [deviceCompliancePolicySettingStateSu
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "managedtenants_devicecompliancepolicysettingstatesummary_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/managedtenants-devicecompliancepolicysettingstatesummary-get-permissions.md)]
 
 ## HTTP request
 

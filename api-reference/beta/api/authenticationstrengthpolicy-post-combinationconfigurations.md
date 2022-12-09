@@ -17,11 +17,8 @@ Create a new authenticationCombinationConfiguration object. In use, only [fido2c
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.ReadWrite.ConditionalAccess, Policy.ReadWrite.AuthenticationMethod|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Policy.ReadWrite.ConditionalAccess, Policy.ReadWrite.AuthenticationMethod|
+<!-- { "blockType": "permissions", "name": "authenticationstrengthpolicy_post_combinationconfigurations" } -->
+[!INCLUDE [permissions-table](../includes/permissions/authenticationstrengthpolicy-post-combinationconfigurations-permissions.md)]
 
 ## HTTP request
 

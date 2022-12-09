@@ -17,11 +17,8 @@ Get a list of the [attributeSet](../resources/attributeset.md) objects and their
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|CustomSecAttributeDefinition.Read.All, CustomSecAttributeDefinition.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|CustomSecAttributeDefinition.Read.All, CustomSecAttributeDefinition.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "directory_list_attributesets" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-list-attributesets-permissions.md)]
 
 The signed-in user must also be assigned one of the following [directory roles](/azure/active-directory/roles/permissions-reference):
 

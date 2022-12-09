@@ -17,11 +17,8 @@ Update the properties of an [adminConsentRequestPolicy](../resources/adminconsen
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.ReadWrite.ConsentRequest, Directory.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Policy.ReadWrite.ConsentRequest, Directory.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "adminconsentrequestpolicy_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/adminconsentrequestpolicy-update-permissions.md)]
 
 When calling on behalf of a user, the user needs to belong to the [Global Administrator](/azure/active-directory/roles/permissions-reference) directory role.
 

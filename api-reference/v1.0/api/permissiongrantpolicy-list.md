@@ -17,11 +17,8 @@ Retrieve the list of [permissionGrantPolicy](../resources/permissiongrantpolicy.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Policy.Read.PermissionGrant, Policy.ReadWrite.PermissionGrant |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Policy.Read.PermissionGrant, Policy.ReadWrite.PermissionGrant |
+<!-- { "blockType": "permissions", "name": "permissiongrantpolicy_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/permissiongrantpolicy-list-permissions.md)]
 
 ## HTTP request
 

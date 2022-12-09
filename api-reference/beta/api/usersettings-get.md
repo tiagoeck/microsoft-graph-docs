@@ -20,11 +20,8 @@ To learn how to update the properties of the [userSettings](../resources/userset
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read.All, User.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.Read.All,User.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "usersettings_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/usersettings-get-permissions.md)]
 
 ## HTTP request
 

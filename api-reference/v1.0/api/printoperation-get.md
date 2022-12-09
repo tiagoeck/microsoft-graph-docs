@@ -17,11 +17,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 The signed in user must be a [Printer Administrator](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#printer-administrator).
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| Printer.Create, Printer.ReadWrite.All, Printer.FullControl.All |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application| Not supported. |
+<!-- { "blockType": "permissions", "name": "printoperation_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printoperation-get-permissions.md)]
 
 ## HTTP request
 

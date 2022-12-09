@@ -21,11 +21,8 @@ Add a new [conversation member](../resources/conversationmember.md) to a [team](
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)| TeamMember.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application| TeamMember.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "team_post_members" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-post-members-permissions.md)]
 
 > [!NOTE]
 > Using application permissions to [add guest members](/microsoft-365/admin/add-users/about-guest-users?view=o365-worldwide&preserve-view=true) to a team is not supported.

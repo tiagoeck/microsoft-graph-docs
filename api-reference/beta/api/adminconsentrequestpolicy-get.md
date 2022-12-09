@@ -17,11 +17,8 @@ Read the properties and relationships of an [adminConsentRequestPolicy](../resou
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.Read.All, Policy.ReadWrite.ConsentRequest, Directory.Read.All, Directory.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Policy.Read.All, Policy.ReadWrite.ConsentRequest, Directory.Read.All, Directory.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "adminconsentrequestpolicy_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/adminconsentrequestpolicy-get-permissions.md)]
 
 When calling on behalf of a user, the user needs to belong to one of the following directory roles. To learn more about directory roles, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference):
 + Global Administrator

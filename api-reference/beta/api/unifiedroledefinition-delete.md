@@ -27,11 +27,8 @@ Depending on the RBAC provider and the permission type (delegated or application
 
 ### For a Cloud PC provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | RoleManagement.ReadWrite.CloudPC, CloudPC.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | RoleManagement.ReadWrite.CloudPC, CloudPC.ReadWrite.All  |
+<!-- { "blockType": "permissions", "name": "unifiedroledefinition_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroledefinition-delete-permissions.md)]
 
 ### For a device management (Intune) provider
 

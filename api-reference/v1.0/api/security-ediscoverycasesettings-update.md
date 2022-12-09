@@ -17,11 +17,8 @@ Update the properties of an [ediscoveryCaseSettings](../resources/security-edisc
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|eDiscovery.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "security_ediscoverycasesettings_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-ediscoverycasesettings-update-permissions.md)]
 
 ## HTTP request
 

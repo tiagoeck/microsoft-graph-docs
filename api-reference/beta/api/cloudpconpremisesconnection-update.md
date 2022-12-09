@@ -21,11 +21,8 @@ Update the properties of a [cloudPcOnPremisesConnection](../resources/cloudpconp
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|CloudPC.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "cloudpconpremisesconnection_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/cloudpconpremisesconnection-update-permissions.md)]
 
 ## HTTP request
 

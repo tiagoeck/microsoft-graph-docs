@@ -18,11 +18,8 @@ Delete the specified [outlookCategory](../resources/outlookcategory.md) object.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | MailboxSettings.ReadWrite    |
-|Delegated (personal Microsoft account) | MailboxSettings.ReadWrite    |
-|Application | MailboxSettings.ReadWrite |
+<!-- { "blockType": "permissions", "name": "outlookcategory_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/outlookcategory-delete-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

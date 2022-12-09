@@ -28,11 +28,8 @@ This action is not intended to record the entire call. The maximum length of rec
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged) |
-| :-------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Not Supported        |
-| Delegated (personal Microsoft account) | Not Supported        |
-| Application     | Calls.AccessMedia.All                       |
+<!-- { "blockType": "permissions", "name": "call_record" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-record-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

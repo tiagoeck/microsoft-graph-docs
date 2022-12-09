@@ -16,11 +16,8 @@ Add a teacher to a class.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  Not supported.  |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | EduRoster.ReadWrite.All | 
+<!-- { "blockType": "permissions", "name": "educationclass_post_teachers" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationclass-post-teachers-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

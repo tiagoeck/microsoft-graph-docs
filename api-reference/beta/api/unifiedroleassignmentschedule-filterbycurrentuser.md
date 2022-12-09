@@ -17,11 +17,8 @@ Retrieve the schedules for active role assignment operations for which the signe
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|RoleAssignmentSchedule.Read.Directory, RoleManagement.Read.Directory, RoleManagement.Read.All, RoleAssignmentSchedule.ReadWrite.Directory|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|RoleManagement.Read.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
+<!-- { "blockType": "permissions", "name": "unifiedroleassignmentschedule_filterbycurrentuser" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroleassignmentschedule-filterbycurrentuser-permissions.md)]
 
 ## HTTP request
 

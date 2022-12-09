@@ -19,11 +19,8 @@ Delete single sign-on credentials using a password for a user or group.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Application.ReadWrite.All and Directory.Read.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Application.ReadWrite.All and Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_deletepasswordsinglesignoncredentials" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-deletepasswordsinglesignoncredentials-permissions.md)]
 
 > [!NOTE]
 > Users can create credentials for themselves. Service principal owners and admins with the following roles can create credentials for any user or group: GlobalAdministrator, ApplicationAdministrator, CloudApplicationAdministrator. To learn more, see [Directory roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).

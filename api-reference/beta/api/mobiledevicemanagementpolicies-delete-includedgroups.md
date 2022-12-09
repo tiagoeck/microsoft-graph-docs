@@ -19,11 +19,8 @@ Delete a group from the list of groups included in a mobile device management po
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.ReadWrite.MobilityManagement|
-|Delegated (personal Microsoft account) | Not supported.|
-|Application | Not supported.|
+<!-- { "blockType": "permissions", "name": "mobiledevicemanagementpolicies_delete_includedgroups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/mobiledevicemanagementpolicies-delete-includedgroups-permissions.md)]
 
 ## HTTP request
 

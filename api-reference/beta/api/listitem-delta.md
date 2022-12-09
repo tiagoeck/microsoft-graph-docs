@@ -33,11 +33,8 @@ Items with this property should be removed from your local state.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Sites.Read.All, Sites.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.   |
-|Application | Sites.Read.All, Sites.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "listitem_delta" } -->
+[!INCLUDE [permissions-table](../includes/permissions/listitem-delta-permissions.md)]
 
 ## HTTP request
 

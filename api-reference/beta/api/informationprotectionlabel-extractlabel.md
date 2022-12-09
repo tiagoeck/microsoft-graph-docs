@@ -24,11 +24,8 @@ Using the metadata that exists on an already-labeled piece of information, resol
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | InformationProtectionPolicy.Read            |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | InformationProtectionPolicy.Read.All        |
+<!-- { "blockType": "permissions", "name": "informationprotectionlabel_extractlabel" } -->
+[!INCLUDE [permissions-table](../includes/permissions/informationprotectionlabel-extractlabel-permissions.md)]
 
 ## HTTP request
 

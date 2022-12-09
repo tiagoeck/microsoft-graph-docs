@@ -20,11 +20,8 @@ List properties and relationships of the [officeClientConfigurationAssignment](.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine scopes **|
+<!-- { "blockType": "permissions", "name": "intune_cirrus_officeclientconfigurationassignment_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-cirrus-officeclientconfigurationassignment-list-permissions.md)]
 
 ## HTTP Request
 <!-- {

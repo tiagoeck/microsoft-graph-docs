@@ -19,11 +19,8 @@ Update the properties of a [schema](../resources/externalconnectors-schema.md) f
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ExternalConnection.ReadWrite.OwnedBy, ExternalConnection.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | ExternalConnection.ReadWrite.OwnedBy, ExternalConnection.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "externalconnectors_schema_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/externalconnectors-schema-update-permissions.md)]
 
 ## HTTP request
 

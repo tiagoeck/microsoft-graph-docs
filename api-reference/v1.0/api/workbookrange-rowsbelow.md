@@ -16,11 +16,8 @@ Gets certain number of rows below a given range.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "workbookrange_rowsbelow" } -->
+[!INCLUDE [permissions-table](../includes/permissions/workbookrange-rowsbelow-permissions.md)]
 
 ## HTTP request
 

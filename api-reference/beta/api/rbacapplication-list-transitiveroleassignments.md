@@ -24,11 +24,8 @@ For more information, see [Use Azure AD groups to manage role assignments](/azur
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | RoleManagement.Read.Directory, Directory.Read.All, RoleManagement.ReadWrite.Directory, Directory.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | RoleManagement.Read.Directory, Directory.Read.All, RoleManagement.ReadWrite.Directory, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "rbacapplication_list_transitiveroleassignments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/rbacapplication-list-transitiveroleassignments-permissions.md)]
 
 ## HTTP request
 

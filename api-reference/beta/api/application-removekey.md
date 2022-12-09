@@ -23,11 +23,8 @@ As part of the request validation for this method, a proof of possession of an e
 
 ## Permissions
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All, Directory.ReadWrite.All  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "application_removekey" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-removekey-permissions.md)]
 
 > [!NOTE] 
 > An application does not need any specific permission to roll its own keys.

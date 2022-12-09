@@ -15,11 +15,8 @@ Get a list of the [conditionalAccessTemplate](../resources/conditionalaccesstemp
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)                                       |
-|:--------------------------------------|:----------------------------------------------------------------------------------|
-|Delegated (work or school account)     | Policy.Read.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | Policy.Read.All |
+<!-- { "blockType": "permissions", "name": "conditionalaccessroot_list_templates" } -->
+[!INCLUDE [permissions-table](../includes/permissions/conditionalaccessroot-list-templates-permissions.md)]
 
 ## HTTP request
 

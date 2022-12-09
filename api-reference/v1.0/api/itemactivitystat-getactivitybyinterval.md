@@ -20,11 +20,8 @@ Analytics aggregates might not be available for all action types.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)
-|:--------------------------------------|:-------------------------------------
-|Delegated (work or school account)     | Files.Read, Files.ReadWrite, Files.Read.All, Files.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All
-|Delegated (personal Microsoft account) | Not supported.
-|Application                            | Files.Read.All, Files.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All
+<!-- { "blockType": "permissions", "name": "itemactivitystat_getactivitybyinterval" } -->
+[!INCLUDE [permissions-table](../includes/permissions/itemactivitystat-getactivitybyinterval-permissions.md)]
 
 ## HTTP request
 

@@ -17,11 +17,8 @@ Retrieve a list of [attachment](../resources/attachment.md) objects attached to 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.Read    |
-|Delegated (personal Microsoft account) | Mail.Read    |
-|Application | Mail.Read |
+<!-- { "blockType": "permissions", "name": "message_list_attachments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/message-list-attachments-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

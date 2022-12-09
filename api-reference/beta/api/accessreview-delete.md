@@ -19,11 +19,8 @@ In the Azure AD [access reviews](../resources/accessreviews-root.md) feature, de
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | AccessReview.ReadWrite.Membership, AccessReview.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | AccessReview.ReadWrite.Membership |
+<!-- { "blockType": "permissions", "name": "accessreview_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreview-delete-permissions.md)]
 
 The caller should also have ProgramControl.ReadWrite.All permission, so that it can delete a [programControl](../resources/programcontrol.md).
 

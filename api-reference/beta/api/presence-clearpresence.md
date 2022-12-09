@@ -20,11 +20,8 @@ Read more about [presence sessions](presence-setpresence.md#presence-sessions) a
 ## Permissions
 The following permission is required to call the API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Presence.ReadWrite                          |
-| Delegated (personal Microsoft account) | Not Supported.                              |
-| Application                            | Presence.ReadWrite.All                      |
+<!-- { "blockType": "permissions", "name": "presence_clearpresence" } -->
+[!INCLUDE [permissions-table](../includes/permissions/presence-clearpresence-permissions.md)]
 
 ## HTTP Request
 <!-- { "blockType": "ignored" } -->

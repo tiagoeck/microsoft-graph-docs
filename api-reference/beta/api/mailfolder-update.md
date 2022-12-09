@@ -18,11 +18,8 @@ Update the properties of [mailFolder](../resources/mailfolder.md) object.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.ReadWrite    |
-|Delegated (personal Microsoft account) | Mail.ReadWrite    |
-|Application | Mail.ReadWrite |
+<!-- { "blockType": "permissions", "name": "mailfolder_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/mailfolder-update-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

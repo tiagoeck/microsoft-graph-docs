@@ -19,11 +19,8 @@ Get the list of [siteSource](../resources/ediscovery-sitesource.md) objecs assoc
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions- reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|eDiscovery.Read.All, eDiscovery.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "ediscovery_legalhold_list_sitesources" } -->
+[!INCLUDE [permissions-table](../includes/permissions/ediscovery-legalhold-list-sitesources-permissions.md)]
 
 ## HTTP request
 

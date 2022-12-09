@@ -19,11 +19,8 @@ For Copy operations, you follow an asynchronous calling pattern:  First call the
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Notes.Create, Notes.ReadWrite, Notes.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Notes.Create, Notes.ReadWrite    |
-|Application | Notes.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "section_copytonotebook" } -->
+[!INCLUDE [permissions-table](../includes/permissions/section-copytonotebook-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

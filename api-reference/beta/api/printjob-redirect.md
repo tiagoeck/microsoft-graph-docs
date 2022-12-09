@@ -24,11 +24,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 To use the Universal Print service, the user or app's tenant must have an active Universal Print subscription, a permission that grants [Get printer](printer-get.md) access, and one of the permissions listed in the following table.
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| Not supported. |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application| PrintJob.Manage.All |
+<!-- { "blockType": "permissions", "name": "printjob_redirect" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printjob-redirect-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

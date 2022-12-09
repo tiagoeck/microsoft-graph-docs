@@ -21,10 +21,8 @@ Update access decisions, known as [accessReviewInstanceDecisionItems](../resourc
 ## Permissions
 One of the following permissions is required to call this API. Delegated permissions to personal Microsoft accounts are not supported. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | AccessReview.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not supported.|
+<!-- { "blockType": "permissions", "name": "accessreviewinstancedecisionitem_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewinstancedecisionitem-update-permissions.md)]
 
 ## HTTP request
 

@@ -25,11 +25,8 @@ ServicePrincipals that don’t have any existing valid certificates (i.e.: no ce
 
 ## Permissions
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All, Directory.ReadWrite.All   |
-|Delegated (personal Microsoft account) | None.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_addkey" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-addkey-permissions.md)]
 
 
 ## HTTP request

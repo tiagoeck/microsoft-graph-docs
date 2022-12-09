@@ -19,11 +19,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 The following permissions are for getting the operation on a chat:
 
-| Permission type                        | Permissions (from least to most privileged)|
-| :------------------------------------- | :--------------------------------------------------- |
-| Delegated (work or school account)     | Chat.ReadBasic, Chat.Read, Chat.ReadWrite|
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | ChatSettings.Read.Chat*, ChatSettings.ReadWrite.Chat*, Chat.Manage.Chat*, Chat.ReadBasic.All, Chat.Read.All, Chat.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "teamsasyncoperation_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamsasyncoperation-get-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

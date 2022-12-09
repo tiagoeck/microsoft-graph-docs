@@ -24,11 +24,8 @@ use the schema extension definition to [create a new group with training course 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.All and Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "schemaextension_post_schemaextensions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/schemaextension-post-schemaextensions-permissions.md)]
 
 > [!NOTE]
 > Additionally for the delegated flow, the signed-in user must be the owner of the calling application OR the owner of the (application with the) **appId** used to set the **owner** property.

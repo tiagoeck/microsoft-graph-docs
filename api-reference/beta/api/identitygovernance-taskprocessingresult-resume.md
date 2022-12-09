@@ -19,11 +19,8 @@ Resume a task processing result that's `inProgress`. An Azure Logic Apps system-
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Not supported.|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not Supported.|
+<!-- { "blockType": "permissions", "name": "identitygovernance_taskprocessingresult_resume" } -->
+[!INCLUDE [permissions-table](../includes/permissions/identitygovernance-taskprocessingresult-resume-permissions.md)]
 
 > [!IMPORTANT]
 > Only the Azure Logic Apps system-assigned managed identity that's specified in the [custom task extension authentication Configuration](../resources/identitygovernance-customtaskextension.md) can call this API. The authorized resource doesn't require any Microsoft Graph permissions.

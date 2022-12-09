@@ -19,11 +19,8 @@ Adds a strong password to an [application](../resources/application.md).
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Application.ReadWrite.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Application.ReadWrite.All |
-| Application                            | Application.ReadWrite.OwnedBy, Application.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "application_addpassword" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-addpassword-permissions.md)]
 
 ## HTTP request
 

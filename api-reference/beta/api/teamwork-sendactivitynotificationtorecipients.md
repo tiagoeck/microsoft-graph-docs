@@ -23,11 +23,8 @@ For more details about sending notifications and the requirements for doing so, 
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | TeamsActivity.Send                          |
-| Delegated (personal Microsoft account) | Not Supported.                              |
-| Application                            | TeamsActivity.Send                          |
+<!-- { "blockType": "permissions", "name": "teamwork_sendactivitynotificationtorecipients" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamwork-sendactivitynotificationtorecipients-permissions.md)]
 
 ## HTTP request
 

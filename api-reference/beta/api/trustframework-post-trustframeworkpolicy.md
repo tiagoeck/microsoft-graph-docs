@@ -18,11 +18,8 @@ Create new [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)|Policy.ReadWrite.TrustFramework|
-|Delegated (personal Microsoft account)| Not supported.|
-|Application|Policy.ReadWrite.TrustFramework|
+<!-- { "blockType": "permissions", "name": "trustframework_post_trustframeworkpolicy" } -->
+[!INCLUDE [permissions-table](../includes/permissions/trustframework-post-trustframeworkpolicy-permissions.md)]
 
 The work or school account must be a global administrator of the tenant.
 

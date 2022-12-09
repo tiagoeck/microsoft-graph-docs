@@ -20,13 +20,8 @@ Deletes a [deviceManagementDerivedCredentialSettings](../resources/intune-shared
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-|&nbsp; &nbsp; **Resource Access Policy**|DeviceManagementManagedDevices.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-|&nbsp; &nbsp; **Resource Access Policy**|DeviceManagementManagedDevices.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_devicemanagementderivedcredentialsettings_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-devicemanagementderivedcredentialsettings-delete-permissions.md)]
 
 ## HTTP Request
 <!-- {

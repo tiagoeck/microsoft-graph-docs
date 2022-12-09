@@ -18,11 +18,8 @@ Read the properties and relationships of a [riskyUserHistoryItem](../resources/r
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "riskyuser_get_riskyuserhistoryitem" } -->
+[!INCLUDE [permissions-table](../includes/permissions/riskyuser-get-riskyuserhistoryitem-permissions.md)]
 
 ## HTTP request
 

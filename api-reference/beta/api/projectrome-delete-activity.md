@@ -20,11 +20,8 @@ Delete an existing user activity for your app.
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | UserActivity.ReadWrite.CreatedByApp    |
-|Delegated (personal Microsoft account) | UserActivity.ReadWrite.CreatedByApp    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "projectrome_delete_activity" } -->
+[!INCLUDE [permissions-table](../includes/permissions/projectrome-delete-activity-permissions.md)]
 
 ## HTTP request
 

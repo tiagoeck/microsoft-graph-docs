@@ -19,11 +19,8 @@ Create a new [externalConnection](../resources/externalconnectors-externalconnec
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ExternalConnection.ReadWrite.OwnedBy, ExternalConnection.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | ExternalConnection.ReadWrite.OwnedBy, ExternalConnection.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "externalconnectors_external_post_connections" } -->
+[!INCLUDE [permissions-table](../includes/permissions/externalconnectors-external-post-connections-permissions.md)]
 
 ## HTTP request
 

@@ -17,11 +17,8 @@ Delete an [openShift](../resources/openshift.md) object.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Schedule.ReadWrite.All, Group.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Schedule.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "openshift_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/openshift-delete-permissions.md)]
 
 > **Note**: This API supports admin permissions. Global admins can access groups that they are not a member of.
 

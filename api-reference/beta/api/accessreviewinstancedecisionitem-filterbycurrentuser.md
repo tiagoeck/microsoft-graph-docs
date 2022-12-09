@@ -17,11 +17,8 @@ Retrieve all decision items on an instance of an access review or a stage of an 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|AccessReview.Read.All, AccessReview.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|AccessReview.Read.All, AccessReview.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "accessreviewinstancedecisionitem_filterbycurrentuser" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewinstancedecisionitem-filterbycurrentuser-permissions.md)]
 
 ## HTTP request
 

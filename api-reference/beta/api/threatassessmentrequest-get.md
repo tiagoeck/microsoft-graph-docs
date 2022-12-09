@@ -26,11 +26,8 @@ A threat assessment request can be one of the following types:
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ThreatAssessment.ReadWrite.All             |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | ThreatAssessment.Read.All                  |
+<!-- { "blockType": "permissions", "name": "threatassessmentrequest_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/threatassessmentrequest-get-permissions.md)]
 
 ## HTTP request
 

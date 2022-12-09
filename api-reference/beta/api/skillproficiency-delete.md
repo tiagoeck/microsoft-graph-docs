@@ -19,11 +19,8 @@ Delete a [skillProficiency](../resources/skillproficiency.md) object from a user
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | User.ReadWrite, User.ReadWrite.All          |
-| Delegated (personal Microsoft account) | User.ReadWrite, User.ReadWrite.All          |
-| Application                            | User.ReadWrite.All                          |
+<!-- { "blockType": "permissions", "name": "skillproficiency_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/skillproficiency-delete-permissions.md)]
 
 ## HTTP request
 

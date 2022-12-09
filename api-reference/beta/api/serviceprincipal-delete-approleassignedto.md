@@ -19,11 +19,8 @@ Deletes an [appRoleAssignment](../resources/approleassignment.md) that a user, g
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | AppRoleAssignment.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | AppRoleAssignment.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_delete_approleassignedto" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-delete-approleassignedto-permissions.md)]
 
 ## HTTP request
 

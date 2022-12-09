@@ -15,11 +15,8 @@ Retrieve a list of [onenoteSection](../resources/section.md) objects.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, Notes.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Notes.Create, Notes.Read, Notes.ReadWrite    |
-|Application | Notes.Read.All, Notes.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "onenote_list_sections" } -->
+[!INCLUDE [permissions-table](../includes/permissions/onenote-list-sections-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -20,11 +20,8 @@ This operation lets you filter and sort through alerts to create an informed cyb
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|SecurityAlert.Read.All, SecurityAlert.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|SecurityAlert.Read.All, SecurityAlert.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "security_list_alerts_v2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-list-alerts_v2-permissions.md)]
 
 ## HTTP request
 

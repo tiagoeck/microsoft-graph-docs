@@ -17,11 +17,8 @@ Update the role of a [conversationMember](../resources/conversationmember.md) in
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission Type|Permissions (from least to most privileged)|
-|---------|-------------|
-|Delegated (work or school account)| In teams: TeamMember.ReadWrite.All<br/>In channels: ChannelMember.ReadWrite.All  |
-|Delegated (personal Microsoft account)|Not supported|
-|Application| In teams: TeamMember.ReadWrite.All<br/>In channels:  ChannelMember.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "conversationmember_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/conversationmember-update-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored"} -->

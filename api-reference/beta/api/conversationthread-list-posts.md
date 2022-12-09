@@ -19,11 +19,8 @@ you can specify the thread without referencing the parent conversation.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Group.Read.All, Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Group.Read.All, Group.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "conversationthread_list_posts" } -->
+[!INCLUDE [permissions-table](../includes/permissions/conversationthread-list-posts-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -20,11 +20,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In addition to the following permissions, the user's tenant must have an active Universal Print subscription.
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| Not supported. |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application| PrintTaskDefinition.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "printtaskdefinition_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printtaskdefinition-get-permissions.md)]
 
 ## HTTP request
 

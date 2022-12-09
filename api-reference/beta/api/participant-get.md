@@ -17,11 +17,8 @@ Retrieve the properties and relationships of a **participant** object.
 
 ## Permissions
 
-| Permission type | Permissions (from least to most privileged) |
-| :-------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Not Supported        |
-| Delegated (personal Microsoft account) | Not Supported        |
-| Application     | Calls.JoinGroupCallsasGuest.All or Calls.JoinGroupCalls.All |
+<!-- { "blockType": "permissions", "name": "participant_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/participant-get-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

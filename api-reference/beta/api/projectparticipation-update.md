@@ -19,11 +19,8 @@ Update the properties of a [projectParticipation](../resources/projectParticipat
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | User.ReadWrite, User.ReadWrite.All          |
-| Delegated (personal Microsoft account) | User.ReadWrite, User.ReadWrite.All          |
-| Application                            | User.ReadWrite.All                          |
+<!-- { "blockType": "permissions", "name": "projectparticipation_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/projectparticipation-update-permissions.md)]
 
 ## HTTP request
 

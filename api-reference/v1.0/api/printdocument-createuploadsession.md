@@ -21,11 +21,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In addition to the following permissions, the user or app's tenant must have an active Universal Print subscription and have a permission that grants [Get printer](printer-get.md) or [Get printerShare](printershare-get.md) access depending upon whether printer or printerShare is being used.
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | PrintJob.Create, PrintJob.ReadWrite, PrintJob.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not Supported. |
-| Application                            | PrintJob.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "printdocument_createuploadsession" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printdocument-createuploadsession-permissions.md)]
 
 ## HTTP request
 

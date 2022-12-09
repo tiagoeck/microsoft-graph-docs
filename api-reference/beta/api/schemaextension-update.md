@@ -26,11 +26,8 @@ This criteria for the **owner** property allows a signed-in user to make updates
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.All and Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "schemaextension_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/schemaextension-update-permissions.md)]
 
 ## HTTP request
 

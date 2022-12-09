@@ -20,11 +20,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Delete a user
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-delete-permissions.md)]
 
 ### Delete a group
 

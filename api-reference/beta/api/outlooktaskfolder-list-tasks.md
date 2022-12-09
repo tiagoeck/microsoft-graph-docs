@@ -29,11 +29,8 @@ and then get the tasks in each of these task folders.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Tasks.Read    |
-|Delegated (personal Microsoft account) | Tasks.Read    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "outlooktaskfolder_list_tasks" } -->
+[!INCLUDE [permissions-table](../includes/permissions/outlooktaskfolder-list-tasks-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

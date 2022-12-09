@@ -23,11 +23,8 @@ The third-party partners own the VTC media leg and the Teams infrastructure cann
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Not supported. |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Calls.AccessMedia.All |
+<!-- { "blockType": "permissions", "name": "call_logteleconferencedevicequality" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-logteleconferencedevicequality-permissions.md)]
 
 ## HTTP request
 

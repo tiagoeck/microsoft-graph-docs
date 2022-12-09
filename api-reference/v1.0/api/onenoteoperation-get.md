@@ -22,11 +22,8 @@ If the status is `failed`, the error and `@api.diagnostics` properties provide e
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, Notes.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Notes.Create, Notes.Read, Notes.ReadWrite    |
-|Application | Notes.Read.All, Notes.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "onenoteoperation_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/onenoteoperation-get-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

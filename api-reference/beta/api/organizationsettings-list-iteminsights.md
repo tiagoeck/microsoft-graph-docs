@@ -22,11 +22,8 @@ To learn how to customize the privacy of item insights in an organization, see [
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read.All, User.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "organizationsettings_list_iteminsights" } -->
+[!INCLUDE [permissions-table](../includes/permissions/organizationsettings-list-iteminsights-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

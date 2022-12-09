@@ -19,11 +19,8 @@ This method supports federation. When a user ID is provided, the calling applica
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Chat.ReadBasic, Chat.Read, Chat.ReadWrite |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Chat.ReadBasic.All*, Chat.Read.All*, Chat.ReadWrite.All* |
+<!-- { "blockType": "permissions", "name": "chat_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-list-permissions.md)]
 
 ## HTTP request
 

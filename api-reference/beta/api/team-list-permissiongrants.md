@@ -19,11 +19,8 @@ List all [resource-specific permission grants](../resources/resourcespecificperm
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission Type                        | Permissions (from least to most privileged)                                                                                                                                                                                                                              |
-| :------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Delegated (work or school account)     | TeamsAppInstallation.ReadForTeam, TeamsAppInstallation.ReadWriteSelfForTeam, TeamsAppInstallation.ReadWriteForTeam                                                                     |
-| Delegated (personal Microsoft account) | Not supported.                                                                                                                                                                                                                                                           |
-| Application                            | TeamsAppInstallation.Read.Group*, TeamsAppInstallation.ReadForTeam.All, TeamsAppInstallation.ReadWriteSelfForTeam.All, TeamsAppInstallation.ReadWriteForTeam.All, TeamsApp.Read.Group* |
+<!-- { "blockType": "permissions", "name": "team_list_permissiongrants" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-list-permissiongrants-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

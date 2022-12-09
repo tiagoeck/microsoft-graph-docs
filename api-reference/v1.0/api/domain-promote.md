@@ -17,11 +17,8 @@ Promote a verified subdomain to the root domain. A verified domain has its **isV
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions  |
-|:--------------------|:-------------|
-|Delegated (work or school account) | Domain.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application | Domain.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "domain_promote" } -->
+[!INCLUDE [permissions-table](../includes/permissions/domain-promote-permissions.md)]
 
 The work or school account needs to belong to one of the following roles:
 

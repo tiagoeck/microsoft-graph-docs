@@ -16,11 +16,8 @@ Get the bot associated with a specific [definition](../resources/teamsappdefinit
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)| AppCatalog.Read.All, AppCatalog.ReadWrite.All, AppCatalog.Submit |
-|Delegated (personal Microsoft account)| Not supported. |
-|Application| AppCatalog.Read.All, AppCatalog.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "teamworkbot_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamworkbot-get-permissions.md)]
 
 ## HTTP request
 

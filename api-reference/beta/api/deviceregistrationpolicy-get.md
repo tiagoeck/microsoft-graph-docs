@@ -17,11 +17,8 @@ Read the properties and relationships of a [deviceRegistrationPolicy](../resourc
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)| Policy.Read.All, Policy.ReadWrite.DeviceConfiguration|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|Not supported|
+<!-- { "blockType": "permissions", "name": "deviceregistrationpolicy_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/deviceregistrationpolicy-get-permissions.md)]
 
 When calling on behalf of a user, the user needs to belong to the following [Azure AD roles](/azure/active-directory/roles/permissions-reference):
 + Global administrator

@@ -15,11 +15,8 @@ Get a list of the [tag](../resources/teamworktag.md) objects and their propertie
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamworkTag.Read, TeamworkTag.ReadWrite|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|TeamworkTag.Read.All, TeamworkTag.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "teamworktag_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamworktag-list-permissions.md)]
 
 ## HTTP request
 

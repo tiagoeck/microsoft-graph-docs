@@ -17,11 +17,8 @@ Update the properties of an [allowedValue](../resources/allowedvalue.md) object.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|CustomSecAttributeDefinition.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|CustomSecAttributeDefinition.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "allowedvalue_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/allowedvalue-update-permissions.md)]
 
 The signed-in user must also be assigned the Attribute Definition Administrator [directory role](/azure/active-directory/roles/permissions-reference). By default, Global Administrator and other administrator roles do not have permissions to read, define, or assign custom security attributes.
 

@@ -19,11 +19,8 @@ Create the schema for a Microsoft Search [connection](../resources/externalconne
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ExternalConnection.ReadWrite.OwnedBy, ExternalConnection.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | ExternalConnection.ReadWrite.OwnedBy, ExternalConnection.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "externalconnectors_externalconnection_post_schema" } -->
+[!INCLUDE [permissions-table](../includes/permissions/externalconnectors-externalconnection-post-schema-permissions.md)]
 
 ## HTTP request
 

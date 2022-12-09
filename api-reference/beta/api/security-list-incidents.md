@@ -22,11 +22,8 @@ This operation allows you to filter and sort through incidents to create an info
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|SecurityIncident.Read.All, SecurityIncident.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|SecurityIncident.Read.All, SecurityIncident.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "security_list_incidents" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-list-incidents-permissions.md)]
 
 ## HTTP request
 

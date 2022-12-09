@@ -19,11 +19,8 @@ Retrieve the list of [delegatedPermissionClassification](../resources/delegatedp
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.Read.All, Directory.Read.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.Read.All, Application.ReadWrite.OwnedBy, Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_list_delegatedpermissionclassifications" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-list-delegatedpermissionclassifications-permissions.md)]
 
 ## HTTP request
 

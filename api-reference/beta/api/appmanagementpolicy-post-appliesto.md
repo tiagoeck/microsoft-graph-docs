@@ -19,11 +19,8 @@ Assign an [appManagementPolicy](../resources/appManagementPolicy.md) policy obje
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                                |
-| :------------------------------------- | :--------------------------------------------------------- |
-| Delegated (work or school account)     | Application.Read.All and Policy.ReadWrite.ApplicationConfiguration |
-| Delegated (personal Microsoft account) | Not supported.                                             |
-| Application                            | Application.Read.All and Policy.ReadWrite.ApplicationConfiguration |
+<!-- { "blockType": "permissions", "name": "appmanagementpolicy_post_appliesto" } -->
+[!INCLUDE [permissions-table](../includes/permissions/appmanagementpolicy-post-appliesto-permissions.md)]
 
 ## HTTP request
 

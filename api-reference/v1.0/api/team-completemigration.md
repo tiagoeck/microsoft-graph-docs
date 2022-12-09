@@ -19,11 +19,8 @@ After a **completeMigration** request is made, you cannot import additional mess
 
 The following permission is required to call this API. To learn more, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permission  |
-|:--------------------|:---------------------------------------------------------|
-| Delegated (work or school account)  | Not supported.|
-| Delegated (personal Microsoft account) | Not supported. |
-|Application | Teamwork.Migrate.All|
+<!-- { "blockType": "permissions", "name": "team_completemigration" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-completemigration-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

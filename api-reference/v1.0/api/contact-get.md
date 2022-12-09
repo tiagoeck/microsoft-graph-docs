@@ -22,11 +22,8 @@ There are two scenarios where an app can get a contact in another user's contact
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Contacts.Read, Contacts.ReadWrite    |
-|Delegated (personal Microsoft account) | Contacts.Read, Contacts.ReadWrite    |
-|Application | Contacts.Read, Contacts.ReadWrite |
+<!-- { "blockType": "permissions", "name": "contact_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/contact-get-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

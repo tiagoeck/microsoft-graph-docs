@@ -19,11 +19,8 @@ To list the direct and transitive role assignments for a specific principal, use
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|RoleManagement.Read.Directory, Directory.Read.All, RoleManagement.ReadWrite.Directory|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|RoleManagement.Read.Directory, Directory.Read.All, RoleManagement.ReadWrite.Directory|
+<!-- { "blockType": "permissions", "name": "unifiedroledefinition_assignedprincipals" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroledefinition-assignedprincipals-permissions.md)]
 
 If the caller does not have the permission to read properties for some of the objects included in the result set, the response will follow the [limited information returned for inaccessible member objects](/graph/permissions-reference#limited-information-returned-for-inaccessible-member-objects) pattern.
 

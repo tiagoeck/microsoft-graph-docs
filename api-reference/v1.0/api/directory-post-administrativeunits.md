@@ -16,11 +16,8 @@ Use this API to create a new [administrativeUnit](../resources/administrativeuni
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | AdministrativeUnit.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | AdministrativeUnit.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_post_administrativeunits" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-post-administrativeunits-permissions.md)]
 
 To create an administrative unit, the calling principal must be assigned one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference):
 

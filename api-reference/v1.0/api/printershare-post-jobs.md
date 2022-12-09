@@ -21,11 +21,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In addition to the following permissions, the user or app's tenant must have an active Universal Print subscription and have a permission that grants [Get printerShare](printerShare-get.md) access.
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| PrintJob.ReadWriteBasic, PrintJob.ReadWrite, PrintJob.ReadWriteBasic.All, PrintJob.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application| Not Supported. |
+<!-- { "blockType": "permissions", "name": "printershare_post_jobs" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printershare-post-jobs-permissions.md)]
 
 ## HTTP request
 

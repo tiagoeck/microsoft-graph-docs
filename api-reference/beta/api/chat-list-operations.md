@@ -17,11 +17,8 @@ List all [Teams async operations](../resources/teamsasyncoperation.md) that ran 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)|
-| :------------------------------------- | :--------------------------------------------------- |
-| Delegated (work or school account)     | Chat.ReadBasic, Chat.Read, Chat.ReadWrite|
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | ChatSettings.Read.Chat*, ChatSettings.ReadWrite.Chat*, Chat.Manage.Chat*, Chat.ReadBasic.All, Chat.Read.All, Chat.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "chat_list_operations" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-list-operations-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

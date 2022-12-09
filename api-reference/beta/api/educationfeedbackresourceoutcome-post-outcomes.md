@@ -23,11 +23,8 @@ To create a new file-based resource, upload the file to the feedback resources f
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  EduAssignments.ReadWriteBasic, EduAssignments.ReadWrite  |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "educationfeedbackresourceoutcome_post_outcomes" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationfeedbackresourceoutcome-post-outcomes-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

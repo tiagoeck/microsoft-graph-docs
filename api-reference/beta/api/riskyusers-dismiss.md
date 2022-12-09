@@ -21,11 +21,8 @@ Dismiss the risk of one or more [riskyUser](../resources/riskyuser.md) objects. 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | IdentityRiskyUser.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | IdentityRiskyUser.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "riskyusers_dismiss" } -->
+[!INCLUDE [permissions-table](../includes/permissions/riskyusers-dismiss-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

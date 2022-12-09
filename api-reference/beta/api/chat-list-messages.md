@@ -23,11 +23,8 @@ This method supports federation. To list chat messages in application context, t
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Chat.Read, Chat.ReadWrite |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | ChatMessage.Read.Chat*, Chat.Read.All, Chat.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "chat_list_messages" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-list-messages-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

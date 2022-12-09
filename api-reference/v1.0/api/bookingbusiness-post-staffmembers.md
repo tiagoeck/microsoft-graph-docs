@@ -15,11 +15,8 @@ Create a new [bookingStaffMember](../resources/bookingstaffmember.md) in the spe
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  Bookings.ReadWrite.All, Bookings.Manage.All   |
-|Delegated (personal Microsoft account) | Not supported.   |
-|Application | Not supported.  |
+<!-- { "blockType": "permissions", "name": "bookingbusiness_post_staffmembers" } -->
+[!INCLUDE [permissions-table](../includes/permissions/bookingbusiness-post-staffmembers-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

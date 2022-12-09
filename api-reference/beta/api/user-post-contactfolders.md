@@ -19,11 +19,8 @@ You can also [create a new contactfolder as a child of any specified contact fol
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Contacts.ReadWrite    |
-|Delegated (personal Microsoft account) | Contacts.ReadWrite    |
-|Application | Contacts.ReadWrite |
+<!-- { "blockType": "permissions", "name": "user_post_contactfolders" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-post-contactfolders-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

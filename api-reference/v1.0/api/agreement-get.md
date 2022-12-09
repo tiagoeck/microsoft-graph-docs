@@ -15,11 +15,8 @@ Retrieve the properties and relationships of an [agreement](../resources/agreeme
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | Agreement.Read.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "agreement_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/agreement-get-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

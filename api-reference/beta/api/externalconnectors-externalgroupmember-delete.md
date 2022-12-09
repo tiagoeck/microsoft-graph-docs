@@ -19,11 +19,8 @@ Delete an [externalGroupMember](../resources/externalconnectors-externalgroupmem
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ExternalItem.ReadWrite.OwnedBy, ExternalItem.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | ExternalItem.ReadWrite.OwnedBy, ExternalItem.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "externalconnectors_externalgroupmember_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/externalconnectors-externalgroupmember-delete-permissions.md)]
 
 ## HTTP request
 

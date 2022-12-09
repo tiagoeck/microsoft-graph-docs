@@ -18,11 +18,8 @@ Update the properties of a [user](../resources/user.md) object. Not all properti
 ## Permissions
 One of the following pefrmissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite, User.ReadWrite.All, User.ManageIdentities.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | User.ReadWrite    |
-|Application | User.ReadWrite.All, User.ManageIdentities.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-update-permissions.md)]
 
 >[!NOTE]
 > - To update user properties, such as **businessPhones**, **mobilePhone** and **otherMails** for users with more privileged administrator roles, applications need to be assigned the *Directory.AccessAsUser.All* delegated permission and either the Global Admin role or the Privileged Auth Admin role. For more information about who can update sensitive properties or reset passwords, see [Authorization and privileges](/graph/api/resources/users#authorization-and-privileges).

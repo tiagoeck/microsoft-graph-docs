@@ -19,11 +19,8 @@ Typically, synchronizing events in a **calendarView** in a local store entails a
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Calendars.Read    |
-|Delegated (personal Microsoft account) | Calendars.Read    |
-|Application | Calendars.Read |
+<!-- { "blockType": "permissions", "name": "event_delta" } -->
+[!INCLUDE [permissions-table](../includes/permissions/event-delta-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

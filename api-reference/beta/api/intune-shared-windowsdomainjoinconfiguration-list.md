@@ -19,13 +19,8 @@ List properties and relationships of the [windowsDomainJoinConfiguration](../res
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-| &nbsp; &nbsp; **Device configuration** | DeviceManagementConfiguration.ReadWrite.All, DeviceManagementConfiguration.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-| &nbsp; &nbsp; **Device configuration** | DeviceManagementConfiguration.ReadWrite.All, DeviceManagementConfiguration.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_windowsdomainjoinconfiguration_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-windowsdomainjoinconfiguration-list-permissions.md)]
 
 ## HTTP Request
 <!-- {

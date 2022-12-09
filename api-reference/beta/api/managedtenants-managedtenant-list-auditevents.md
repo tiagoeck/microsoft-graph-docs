@@ -17,11 +17,8 @@ Get a list of the [auditEvent](../resources/managedtenants-auditevent.md) object
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|ManagedTenant.Read.All, ManagedTenant.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "managedtenants_managedtenant_list_auditevents" } -->
+[!INCLUDE [permissions-table](../includes/permissions/managedtenants-managedtenant-list-auditevents-permissions.md)]
 
 ## HTTP request
 

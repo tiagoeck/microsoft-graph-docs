@@ -16,11 +16,8 @@ Create a new task object in a specified [todoTaskList](../resources/todotasklist
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Tasks.ReadWrite|
-|Delegated (personal Microsoft account)|Tasks.ReadWrite|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "todotasklist_post_tasks" } -->
+[!INCLUDE [permissions-table](../includes/permissions/todotasklist-post-tasks-permissions.md)]
 
 ## HTTP request
 

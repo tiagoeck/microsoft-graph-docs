@@ -19,11 +19,8 @@ The bot is expected to redirect the call before the call times out. The current 
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged)         |
-| :-------------- | :-------------------------------------------------- |
-| Delegated (work or school account)     | Not Supported                |
-| Delegated (personal Microsoft account) | Not Supported                |
-| Application     | Calls.Initiate.All                                  |
+<!-- { "blockType": "permissions", "name": "call_redirect" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-redirect-permissions.md)]
 
 ## HTTP request
 

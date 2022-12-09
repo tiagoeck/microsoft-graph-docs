@@ -20,11 +20,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### For applications and service principals:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_restore" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-restore-permissions.md)]
 
 The calling app must be assigned one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference):
 + Global Administrator

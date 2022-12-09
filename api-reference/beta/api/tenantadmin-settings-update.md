@@ -17,11 +17,8 @@ Update one or more tenant-level [settings](../resources/tenantadmin-settings.md)
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|SharePointTenantSettings.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|SharePointTenantSettings.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "tenantadmin_settings_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/tenantadmin-settings-update-permissions.md)]
 
 When calling on behalf of a user, the user needs to belong to one of the following admin roles. To learn more about admin roles, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles):
 * Global Administrator

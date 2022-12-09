@@ -17,11 +17,8 @@ Get the unifiedRoleEligibilitySchedule resources from the roleEligibilitySchedul
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|RoleEligibilitySchedule.Read.Directory, RoleManagement.Read.Directory, RoleManagement.Read.All, RoleEligibilitySchedule.ReadWrite.Directory, RoleManagement.ReadWrite.Directory |
-|Delegated (personal Microsoft account)|Not supported|
-|Application|RoleManagement.Read.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
+<!-- { "blockType": "permissions", "name": "rbacapplication_list_roleeligibilityschedules" } -->
+[!INCLUDE [permissions-table](../includes/permissions/rbacapplication-list-roleeligibilityschedules-permissions.md)]
 
 ## HTTP request
 

@@ -19,11 +19,8 @@ When deleted, Microsoft 365 groups are moved to a temporary container and can be
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Group.ReadWrite.All                         |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Group.ReadWrite.All                         |
+<!-- { "blockType": "permissions", "name": "group_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-delete-permissions.md)]
 
 The following conditions apply for apps to delete role-assignable groups:
 + For delegated scenarios, the app must be assigned the _RoleManagement.ReadWrite.Directory_ delegated permission, and the calling user must be the creator of the group or a global administrator or a privileged role administrator.

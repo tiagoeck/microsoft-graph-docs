@@ -25,11 +25,8 @@ This operation returns by default only a subset of the properties for each user.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_post_users" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-post-users-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

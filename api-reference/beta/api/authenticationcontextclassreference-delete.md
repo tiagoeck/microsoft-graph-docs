@@ -17,11 +17,8 @@ Delete an [authenticationContextClassReference](../resources/authenticationconte
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Policy.Read.ConditionalAccess               |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Policy.Read.ConditionalAccess               |
+<!-- { "blockType": "permissions", "name": "authenticationcontextclassreference_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/authenticationcontextclassreference-delete-permissions.md)]
 
 ## HTTP request
 

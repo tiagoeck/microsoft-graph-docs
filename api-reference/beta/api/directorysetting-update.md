@@ -21,11 +21,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### For all settings except the Consent Policy Settings object
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directorysetting_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directorysetting-update-permissions.md)]
 
 ### For the Consent Policy Settings object
 

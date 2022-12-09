@@ -15,11 +15,8 @@ Get the list of devices that are owned by the user.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read, User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_list_owneddevices" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-owneddevices-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

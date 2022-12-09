@@ -18,11 +18,8 @@ Make the grade and feedback associated with this submission available to the stu
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  EduAssignments.ReadWriteBasic, EduAssignments.ReadWrite   |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | EduAssignments.ReadWrite.All, EduAssignments.ReadWriteBasic.All |
+<!-- { "blockType": "permissions", "name": "educationsubmission_return" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationsubmission-return-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

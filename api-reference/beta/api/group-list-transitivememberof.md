@@ -19,11 +19,8 @@ Get groups and administrative units that the group is a member of. This operatio
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | GroupMember.Read.All, Group.Read.All, Directory.Read.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "group_list_transitivememberof" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-list-transitivememberof-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

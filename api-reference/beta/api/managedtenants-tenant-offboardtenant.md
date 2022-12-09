@@ -17,11 +17,8 @@ Carries out the appropriate procedures to remove a managed tenant from the multi
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|ManagedTenants.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "managedtenants_tenant_offboardtenant" } -->
+[!INCLUDE [permissions-table](../includes/permissions/managedtenants-tenant-offboardtenant-permissions.md)]
 
 ## HTTP request
 

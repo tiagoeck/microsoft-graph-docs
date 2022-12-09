@@ -17,11 +17,8 @@ Retrieve a list of [workbookCommentReply](../resources/workbookcommentreply.md) 
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Files.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "workbookcomment_list_replies" } -->
+[!INCLUDE [permissions-table](../includes/permissions/workbookcomment-list-replies-permissions.md)]
 
 ## HTTP request
 

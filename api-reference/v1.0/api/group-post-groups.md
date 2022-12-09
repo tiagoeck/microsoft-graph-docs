@@ -26,11 +26,8 @@ To get properties that are _not_ returned by default, do a [GET operation](group
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                |
-| :------------------------------------- | :--------------------------------------------------------- |
-| Delegated (work or school account)     | Group.ReadWrite.All, Directory.ReadWrite.All               |
-| Delegated (personal Microsoft account) | Not supported.                                             |
-| Application                            | Group.Create, Group.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "group_post_groups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-post-groups-permissions.md)]
 
 For an app create a group with owners or members while it has the *Group.Create* permission, the app must have the privileges to read the object type that it wants to assign as the group owner or member. Therefore:
 + The app can assign itself as the group's owner or member.

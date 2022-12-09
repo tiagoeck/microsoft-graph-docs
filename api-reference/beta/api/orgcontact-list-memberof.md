@@ -18,11 +18,8 @@ Retrieve the list of groups and adminstrative units the contact is a member of.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "orgcontact_list_memberof" } -->
+[!INCLUDE [permissions-table](../includes/permissions/orgcontact-list-memberof-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

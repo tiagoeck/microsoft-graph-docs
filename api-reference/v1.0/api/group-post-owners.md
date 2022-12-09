@@ -19,11 +19,8 @@ Add a user or service principal to a Microsoft 365 or security group's owners. T
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)  |
-| :------------------------------------- | :------------------------------------------- |
-| Delegated (work or school account)     | Group.ReadWrite.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                               |
-| Application                            | Group.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "group_post_owners" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-post-owners-permissions.md)]
 
 ## HTTP request
 

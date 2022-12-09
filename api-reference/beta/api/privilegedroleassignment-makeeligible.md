@@ -22,11 +22,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 The requestor needs to have _Privileged Role Administrator_ role. 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "privilegedroleassignment_makeeligible" } -->
+[!INCLUDE [permissions-table](../includes/permissions/privilegedroleassignment-makeeligible-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

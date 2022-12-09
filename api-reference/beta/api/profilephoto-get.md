@@ -32,11 +32,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### To retrieve the profile photo of a contact
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)      |   Contacts.Read, Contacts.ReadWrite           |
-|Delegated (personal Microsoft account)      |   Contacts.Read, Contacts.ReadWrite            |
-|Application      |    Contacts.Read, Contacts.ReadWrite           |
+<!-- { "blockType": "permissions", "name": "profilephoto_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-get-permissions.md)]
 
 ### To retrieve the profile photo of a group
 

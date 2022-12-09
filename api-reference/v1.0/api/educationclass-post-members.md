@@ -16,11 +16,8 @@ Add an [educationUser](../resources/educationuser.md) member to an [educationCla
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  Not supported.  |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | EduRoster.ReadWrite.All plus Member.Read.Hidden | 
+<!-- { "blockType": "permissions", "name": "educationclass_post_members" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationclass-post-members-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

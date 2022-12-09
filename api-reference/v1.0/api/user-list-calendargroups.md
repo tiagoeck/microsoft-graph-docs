@@ -15,11 +15,8 @@ Get the user's calendar groups.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Calendars.Read, Calendars.ReadWrite    |
-|Delegated (personal Microsoft account) | Calendars.Read, Calendars.ReadWrite    |
-|Application | Calendars.Read, Calendars.ReadWrite |
+<!-- { "blockType": "permissions", "name": "user_list_calendargroups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-calendargroups-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

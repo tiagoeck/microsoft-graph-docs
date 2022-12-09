@@ -18,11 +18,8 @@ Get all the contact folders in the signed-in user's mailbox.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Contacts.Read, Contacts.ReadWrite    |
-|Delegated (personal Microsoft account) | Contacts.Read, Contacts.ReadWrite    |
-|Application | Contacts.Read, Contacts.ReadWrite |
+<!-- { "blockType": "permissions", "name": "user_list_contactfolders" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-contactfolders-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

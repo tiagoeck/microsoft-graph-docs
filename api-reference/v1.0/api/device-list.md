@@ -17,11 +17,8 @@ Retrieve a list of device objects registered in the organization.
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Device.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Device.Read.All, Device.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "device_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/device-list-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

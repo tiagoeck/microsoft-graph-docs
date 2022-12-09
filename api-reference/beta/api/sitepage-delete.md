@@ -25,11 +25,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 >**Note:** To delete an item, the user must have granted the application write access to the item to be deleted.
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Sites.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Sites.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "sitepage_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/sitepage-delete-permissions.md)]
 
 ## HTTP request
 

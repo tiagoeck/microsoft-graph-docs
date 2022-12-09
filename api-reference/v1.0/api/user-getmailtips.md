@@ -19,11 +19,8 @@ be returned for more than one recipient at one time. The requested MailTips are 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.Read, Mail.Read.Shared    |
-|Delegated (personal Microsoft account) | Mail.Read    |
-|Application | Mail.Read |
+<!-- { "blockType": "permissions", "name": "user_getmailtips" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-getmailtips-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

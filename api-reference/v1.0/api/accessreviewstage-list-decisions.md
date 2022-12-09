@@ -15,11 +15,8 @@ Get the decisions from a stage in a multi-stage access review. The decisions in 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|AccessReview.Read.All, AccessReview.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|AccessReview.Read.All, AccessReview.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "accessreviewstage_list_decisions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewstage-list-decisions-permissions.md)]
 
 ## HTTP request
 

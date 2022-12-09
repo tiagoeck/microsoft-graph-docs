@@ -19,11 +19,8 @@ The default branding is created only once. It's loaded when a localized branding
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Organization.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Organization.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "organizationalbranding_post_localizations" } -->
+[!INCLUDE [permissions-table](../includes/permissions/organizationalbranding-post-localizations-permissions.md)]
 
 ## HTTP request
 This request creates a new localization branding and a default branding if one does not already exist. 

@@ -19,13 +19,8 @@ Deletes a [deviceCategory](../resources/intune-shared-devicecategory.md).
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-| &nbsp; &nbsp; **Onboarding** | DeviceManagementManagedDevices.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-| &nbsp; &nbsp; **Onboarding** | DeviceManagementManagedDevices.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_devicecategory_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-devicecategory-delete-permissions.md)]
 
 ## HTTP Request
 <!-- {

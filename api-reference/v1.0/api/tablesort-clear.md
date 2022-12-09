@@ -15,11 +15,8 @@ Clears the sorting that is currently on the table. While this doesn't modify the
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "tablesort_clear" } -->
+[!INCLUDE [permissions-table](../includes/permissions/tablesort-clear-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

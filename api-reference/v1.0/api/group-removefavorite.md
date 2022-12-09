@@ -17,11 +17,8 @@ Remove the group from the list of the current user's favorite groups. Supported 
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Group.ReadWrite.All                         |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Not supported.                              |
+<!-- { "blockType": "permissions", "name": "group_removefavorite" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-removefavorite-permissions.md)]
 
 ## HTTP request
 

@@ -17,11 +17,8 @@ Retrieve the properties and relationships of a [shiftPreferences](../resources/s
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read.All, User.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | UserShiftPreferences.Read.All, UserShiftPreferences.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "shiftpreferences_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/shiftpreferences-get-permissions.md)]
 
 > **Note**: This API supports admin permissions. Global admins can access groups that they are not a member of.
 

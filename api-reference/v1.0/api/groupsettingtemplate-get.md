@@ -17,11 +17,8 @@ A group setting template represents a template of settings from which settings m
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Directory.Read.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "groupsettingtemplate_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/groupsettingtemplate-get-permissions.md)]
 
 ## HTTP request
 

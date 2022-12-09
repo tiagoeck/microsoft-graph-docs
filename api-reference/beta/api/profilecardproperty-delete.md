@@ -19,11 +19,8 @@ Delete the [profileCardProperty](../resources/profilecardproperty.md) object spe
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | User.ReadWrite, User.ReadWrite.All          |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Not supported.                              |
+<!-- { "blockType": "permissions", "name": "profilecardproperty_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilecardproperty-delete-permissions.md)]
 
 >**Note:** Using delegated permissions for this operation requires the signed-in user to have a tenant administrator or global administrator role.
 

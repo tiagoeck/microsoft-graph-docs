@@ -15,11 +15,8 @@ Create a new [term](../resources/termstore-term.md) object.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account) | TermStore.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "termstore_term_post" } -->
+[!INCLUDE [permissions-table](../includes/permissions/termstore-term-post-permissions.md)]
 
 
 ## HTTP request

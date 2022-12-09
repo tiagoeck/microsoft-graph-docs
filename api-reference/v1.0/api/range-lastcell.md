@@ -15,11 +15,8 @@ Gets the last cell within the range. For example, the last cell of "B2:D5" is "D
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "range_lastcell" } -->
+[!INCLUDE [permissions-table](../includes/permissions/range-lastcell-permissions.md)]
 
 ## HTTP request
 

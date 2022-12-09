@@ -16,11 +16,8 @@ Submit a data policy operation request from a company administrator or an applic
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  User.Export.All  |
-|Delegated (personal Microsoft account) |  Not applicable  |
-|Application | User.Export.All |
+<!-- { "blockType": "permissions", "name": "user_exportpersonaldata" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-exportpersonaldata-permissions.md)]
 
 >**Note:** The export can only be performed by a company administrator when delegated permissions are used.
 

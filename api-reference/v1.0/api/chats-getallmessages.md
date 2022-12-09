@@ -19,11 +19,8 @@ Get all [messages](../resources/chatmessage.md) from all [chats](../resources/ch
 
 The following permissions are required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)| Not supported. |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application | Chat.Read.All, Chat.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "chats_getallmessages" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chats-getallmessages-permissions.md)]
 
 > [!NOTE]
 > Before you call this API with application permissions, you must request access. For details, see [Protected APIs in Microsoft Teams](/graph/teams-protected-apis).

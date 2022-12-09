@@ -24,11 +24,8 @@ There are two ways to get the **id** of a **callRecord**:
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Not supported. |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | CallRecords.Read.All |
+<!-- { "blockType": "permissions", "name": "callrecords_callrecord_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/callrecords-callrecord-get-permissions.md)]
 
 ## HTTP request
 

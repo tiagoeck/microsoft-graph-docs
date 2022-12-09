@@ -19,11 +19,8 @@ once you have created the category.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | MailboxSettings.ReadWrite    |
-|Delegated (personal Microsoft account) | MailboxSettings.ReadWrite    |
-|Application | MailboxSettings.ReadWrite |
+<!-- { "blockType": "permissions", "name": "outlookcategory_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/outlookcategory-update-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

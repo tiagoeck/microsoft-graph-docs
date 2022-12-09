@@ -17,11 +17,8 @@ Get a specific Azure Active Directory audit log item. This includes an audit log
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | AuditLog.Read.All and Directory.Read.All |
-|Delegated (personal Microsoft account) | Not supported   |
-|Application | AuditLog.Read.All and Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "directoryaudit_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryaudit-get-permissions.md)]
 
 > [!IMPORTANT]
 > This API has a [known issue](/graph/known-issues#license-check-errors-for-azure-ad-activity-reports) and currently requires consent to both the **AuditLog.Read.All** and **Directory.Read.All** permissions.

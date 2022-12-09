@@ -18,11 +18,8 @@ Retrieve the properties and relationships of the specified [tab](../resources/te
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | TeamsTab.Read.All, TeamsTab.ReadWriteSelfForChat, TeamsTab.ReadWriteForChat, TeamsTab.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | TeamsTab.Read.Chat*, TeamsTab.ReadWrite.Chat*, TeamsTab.Read.All, TeamsTab.ReadWriteSelfForChat.All, TeamsTab.ReadWriteForChat.All, TeamsTab.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "chat_get_tabs" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-get-tabs-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

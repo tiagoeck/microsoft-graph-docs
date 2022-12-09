@@ -17,11 +17,8 @@ Searches for the specified managed tenants across tenant groups.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|ManagedTenants.Read.All, ManagedTenants.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "managedtenants_tenantgroup_tenantsearch" } -->
+[!INCLUDE [permissions-table](../includes/permissions/managedtenants-tenantgroup-tenantsearch-permissions.md)]
 
 ## HTTP request
 

@@ -17,11 +17,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In addition to the following permissions, the user or app's tenant must have an active Universal Print subscription.
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| PrinterShare.ReadBasic.All, PrinterShare.Read.All, PrinterShare.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application|Not Supported.|
+<!-- { "blockType": "permissions", "name": "printershare_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printershare-get-permissions.md)]
 
 ## HTTP request
 

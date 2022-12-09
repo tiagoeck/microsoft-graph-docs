@@ -23,11 +23,8 @@ Get a list of user devices that support Project Rome capabilities. This includes
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Not supported.    |
-|Delegated (personal Microsoft account) | Device.Read    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "user_list_devices" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-devices-permissions.md)]
 
 ## HTTP request
 

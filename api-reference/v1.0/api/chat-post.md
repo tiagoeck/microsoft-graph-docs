@@ -17,11 +17,8 @@ Create a new [chat](../resources/chat.md) object.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Chat.Create, Chat.ReadWrite|
-|Delegated (personal Microsoft account) | Not supported. |
-|Application | Chat.Create |
+<!-- { "blockType": "permissions", "name": "chat_post" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-post-permissions.md)]
 
 ## HTTP request
 

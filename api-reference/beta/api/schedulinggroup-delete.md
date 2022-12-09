@@ -20,11 +20,8 @@ This method does not remove the [schedulingGroup](../resources/schedulinggroup.m
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Schedule.ReadWrite.All, Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Schedule.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "schedulinggroup_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/schedulinggroup-delete-permissions.md)]
 
 ## HTTP request
 

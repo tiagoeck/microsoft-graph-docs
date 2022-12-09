@@ -29,11 +29,8 @@ For an example that describes the end-to-end attachment process, see [attach fil
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Tasks.ReadWrite|
-|Delegated (personal Microsoft account)|Tasks.ReadWrite|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "taskfileattachment_createuploadsession" } -->
+[!INCLUDE [permissions-table](../includes/permissions/taskfileattachment-createuploadsession-permissions.md)]
 
 
 ## HTTP request

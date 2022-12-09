@@ -23,11 +23,8 @@ This includes apps from the Microsoft Teams store, as well as apps from your org
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission Type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:------------------------------------|
-| Delegated (work or school account)     | AppCatalog.Submit, AppCatalog.Read.All, AppCatalog.ReadWrite.All, Directory.Read.All**, Directory.ReadWrite.All** |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | AppCatalog.Read.All, AppCatalog.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "appcatalogs_list_teamsapps" } -->
+[!INCLUDE [permissions-table](../includes/permissions/appcatalogs-list-teamsapps-permissions.md)]
 
 > **Note**: Permissions marked with ** are supported only for backward compatibility. We recommend that you update your solutions to use an alternative permission listed in the previous table and avoid using these permissions going forward.
 

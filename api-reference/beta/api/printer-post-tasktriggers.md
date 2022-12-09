@@ -22,11 +22,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In addition to the following permissions, the user's tenant must have an active Universal Print subscription. The signed in user must be a [Printer Administrator](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#printer-administrator).
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| Printer.ReadWrite.All, Printer.FullControl.All |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application|Not Supported.|
+<!-- { "blockType": "permissions", "name": "printer_post_tasktriggers" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printer-post-tasktriggers-permissions.md)]
 
 ## HTTP request
 

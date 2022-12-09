@@ -21,11 +21,8 @@ Use [list azureADDevice resources](windowsupdates-updates-list-updatableassets-a
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|WindowsUpdates.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|WindowsUpdates.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "windowsupdates_updates_list_updatableassets" } -->
+[!INCLUDE [permissions-table](../includes/permissions/windowsupdates-updates-list-updatableassets-permissions.md)]
 
 ## HTTP request
 

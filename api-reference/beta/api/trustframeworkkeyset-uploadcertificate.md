@@ -19,11 +19,8 @@ Upload a certificate to a [trustFrameworkKeyset](../resources/trustframeworkkeys
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | TrustFrameworkKeySet.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | TrustFrameworkKeySet.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "trustframeworkkeyset_uploadcertificate" } -->
+[!INCLUDE [permissions-table](../includes/permissions/trustframeworkkeyset-uploadcertificate-permissions.md)]
 
 ## HTTP request
 

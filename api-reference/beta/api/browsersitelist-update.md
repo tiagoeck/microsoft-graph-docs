@@ -17,11 +17,8 @@ Update the properties of a [browserSiteList](../resources/browsersitelist.md) ob
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|BrowserSiteLists.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|BrowserSiteLists.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "browsersitelist_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/browsersitelist-update-permissions.md)]
 
 ## HTTP request
 

@@ -18,11 +18,8 @@ Remove (unpin) a tab from the specified [chat](../resources/chat.md).
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | TeamsTab.ReadWriteSelfForChat, TeamsTab.ReadWriteForChat, TeamsTab.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | TeamsTab.ReadWriteSelfForChat.All, TeamsTab.ReadWriteForChat, TeamsTab.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "chat_delete_tabs" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-delete-tabs-permissions.md)]
 
 
 ## HTTP request

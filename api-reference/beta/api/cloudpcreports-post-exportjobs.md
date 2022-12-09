@@ -17,11 +17,8 @@ Create a new [cloudPcExportJob](../resources/cloudpcexportjob.md) object.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|CloudPC.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|CloudPC.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "cloudpcreports_post_exportjobs" } -->
+[!INCLUDE [permissions-table](../includes/permissions/cloudpcreports-post-exportjobs-permissions.md)]
 
 ## HTTP request
 

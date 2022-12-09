@@ -20,11 +20,8 @@ Calculated insight that returns the list of items trending around a user.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Sites.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Sites.Read.All |
+<!-- { "blockType": "permissions", "name": "user_list_trendingaround" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-trendingaround-permissions.md)]
 
 ## HTTP request
 ```http

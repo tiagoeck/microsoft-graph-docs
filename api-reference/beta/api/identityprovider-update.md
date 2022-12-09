@@ -20,11 +20,8 @@ Update the properties of an [identityProvider](../resources/identityprovider.md)
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)|IdentityProvider.ReadWrite.All|
-|Delegated (personal Microsoft account)| Not supported.|
-|Application| IdentityProvider.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "identityprovider_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/identityprovider-update-permissions.md)]
 
 The work or school account needs to belong to one of the following roles:
 

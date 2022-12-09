@@ -22,11 +22,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In addition to the following permissions, the app's tenant must have an active Universal Print subscription and have either the Printer.Read.All or Printer.ReadWrite.All application permission.
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| Not Supported |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application| PrintJob.ReadWriteBasic.All, PrintJob.ReadWrite.All, PrintJob.Manage.All |
+<!-- { "blockType": "permissions", "name": "printjob_abort" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printjob-abort-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

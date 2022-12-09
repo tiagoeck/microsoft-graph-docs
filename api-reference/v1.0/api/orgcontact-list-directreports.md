@@ -16,11 +16,8 @@ Get the direct reports for this [organizational contact](../resources/orgcontact
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | OrgContact.Read.All and Group.Read.All, Directory.Read.All  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | OrgContact.Read.All and Group.Read.All, Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "orgcontact_list_directreports" } -->
+[!INCLUDE [permissions-table](../includes/permissions/orgcontact-list-directreports-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

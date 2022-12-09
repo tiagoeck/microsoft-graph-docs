@@ -18,11 +18,8 @@ List all operators supported in the [scoping filters](../resources/synchronizati
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     |Directory.Read.All  |
-|Delegated (personal Microsoft account) |Not supported.|
-|Application                            |Application.ReadWrite.OwnedBy, Directory.ReadWrite.All | 
+<!-- { "blockType": "permissions", "name": "synchronization_synchronizationschema_filteroperators" } -->
+[!INCLUDE [permissions-table](../includes/permissions/synchronization-synchronizationschema-filteroperators-permissions.md)]
 
 ## HTTP Request
 <!-- { "blockType": "ignored" } -->

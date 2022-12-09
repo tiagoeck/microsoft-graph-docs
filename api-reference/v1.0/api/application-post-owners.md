@@ -16,11 +16,8 @@ Add an owner to an [application](../resources/application.md) by posting to the 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  Application.ReadWrite.All and Directory.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.OwnedBy and Directory.Read.All, Application.ReadWrite.All and Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "application_post_owners" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-post-owners-permissions.md)]
 
 > **Note:** **Application.ReadWrite.OwnedBy** will not be sufficient to add another owner. Consent also to **Application.ReadWrite.All**. 
 

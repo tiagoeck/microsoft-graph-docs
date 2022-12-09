@@ -21,11 +21,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Permissions acting on other users
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:---------------------------------------|:-------------------------|
-| Delegated (work or school account)     | UserAuthenticationMethod.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | UserAuthenticationMethod.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "authentication_post_temporaryaccesspassmethods" } -->
+[!INCLUDE [permissions-table](../includes/permissions/authentication-post-temporaryaccesspassmethods-permissions.md)]
 
 For delegated scenarios where an admin is acting on another user, the admin needs one of the following [Azure AD roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
 * Global administrator

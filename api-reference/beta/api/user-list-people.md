@@ -19,11 +19,8 @@ Retrieve a list of [person](../resources/person.md) objects ordered by their rel
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | People.Read, People.Read.All    |
-|Delegated (personal Microsoft account) | People.Read    |
-|Application | People.Read.All |
+<!-- { "blockType": "permissions", "name": "user_list_people" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-people-permissions.md)]
 
 ## HTTP request
 

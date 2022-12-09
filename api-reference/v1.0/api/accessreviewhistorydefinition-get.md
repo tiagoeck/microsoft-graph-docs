@@ -17,11 +17,8 @@ Retrieve an [accessReviewHistoryDefinition](../resources/accessreviewhistorydefi
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|AccessReview.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|AccessReview.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "accessreviewhistorydefinition_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewhistorydefinition-get-permissions.md)]
 
 The signed-in user must also be the creator of the associated review history definition, a Global Administrator directory role member, or a Global Reader directory role member to retrieve the definition.
 

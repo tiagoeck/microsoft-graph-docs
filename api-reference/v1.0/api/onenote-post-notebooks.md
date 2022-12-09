@@ -15,11 +15,8 @@ Create a new OneNote [notebook](../resources/notebook.md).
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Notes.Create, Notes.ReadWrite, Notes.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Notes.Create, Notes.ReadWrite    |
-|Application | Notes.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "onenote_post_notebooks" } -->
+[!INCLUDE [permissions-table](../includes/permissions/onenote-post-notebooks-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -16,11 +16,8 @@ Get the list of [organizational contacts](../resources/orgcontact.md) for this o
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | OrgContact.Read.All, Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | OrgContact.Read.All, Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "orgcontact_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/orgcontact-list-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

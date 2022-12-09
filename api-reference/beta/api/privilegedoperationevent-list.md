@@ -25,11 +25,8 @@ The requestor needs to have one of the following roles: _Privileged Role Adminis
 
  
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "privilegedoperationevent_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/privilegedoperationevent-list-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

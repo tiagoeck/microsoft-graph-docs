@@ -22,11 +22,8 @@ The upload URL is provided only for the [CSV data provider](../resources/educati
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions |
-|:-----------|:----------|
-| Delegated (work or school account) | EduAdministration.ReadWrite |
-|Delegated (personal Microsoft account|Not supported.|
-|Application|EduAdministration.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "educationsynchronizationprofile_uploadurl" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationsynchronizationprofile-uploadurl-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

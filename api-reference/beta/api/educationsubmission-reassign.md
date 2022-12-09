@@ -24,11 +24,8 @@ If the header `Prefer: include-unknown-enum-members` is provided, a reassigned s
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  EduAssignments.ReadWriteBasic, EduAssignments.ReadWrite   |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | Notes.ReadWrite.All, EduAssignments.ReadWrite.All | 
+<!-- { "blockType": "permissions", "name": "educationsubmission_reassign" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationsubmission-reassign-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

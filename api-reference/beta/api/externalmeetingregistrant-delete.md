@@ -19,11 +19,8 @@ The meeting organizer removes an [externalMeetingRegistrant](../resources/extern
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged) |
-|:----------------|:--------------------------------------------|
-| Delegated (work or school account) | OnlineMeetings.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | OnlineMeetings.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "externalmeetingregistrant_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/externalmeetingregistrant-delete-permissions.md)]
 
 To use application permission for this API, tenant administrators must create an [application access policy](/graph/cloud-communication-online-meeting-application-access-policy) and grant it to a user to authorize the app configured in the policy to fetch online meetings and/or online meeting artifacts on behalf of that user (with user ID specified in the request path).
 

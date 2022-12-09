@@ -22,11 +22,8 @@ Get a list of [certificateBasedAuthConfiguration](../resources/certificateBasedA
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Organization.Read.All, Organization.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application    | Organization.Read.All, Organization.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "certificatebasedauthconfiguration_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/certificatebasedauthconfiguration-list-permissions.md)]
 
 ## HTTP request
 

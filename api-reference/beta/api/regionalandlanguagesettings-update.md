@@ -18,11 +18,8 @@ Update some or all of the properties of a [regionalAndLanguageSettings](../resou
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission Type                   |Permission (from least to most privileged)     |
-|----------------------------------|---------------------------------------------- |
-|Delegated (work or school account)|User.ReadWrite, User.ReadWrite.All             |
-|Delegated (personal account)      |User.ReadWrite, User.ReadWrite.All             |
-|Application                       |User.ReadWrite, User.ReadWrite.All             |
+<!-- { "blockType": "permissions", "name": "regionalandlanguagesettings_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/regionalandlanguagesettings-update-permissions.md)]
 
 ## HTTP request
 

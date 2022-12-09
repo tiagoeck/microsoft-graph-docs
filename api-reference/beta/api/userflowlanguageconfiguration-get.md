@@ -21,11 +21,8 @@ Read the properties and relationships of a [userFlowLanguageConfiguration](../re
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)|IdentityUserFlow.Read.All, IdentityUserFlow.ReadWrite.All|
-|Delegated (personal Microsoft account)| Not supported.|
-|Application|IdentityUserFlow.Read.All, IdentityUserFlow.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "userflowlanguageconfiguration_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/userflowlanguageconfiguration-get-permissions.md)]
 
 The work or school account needs to belong to one of the following roles:
 

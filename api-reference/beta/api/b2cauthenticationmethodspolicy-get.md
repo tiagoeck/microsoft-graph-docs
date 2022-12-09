@@ -19,11 +19,8 @@ Read the properties of a [b2cAuthenticationMethodsPolicy](../resources/b2cauthen
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions|
-|:---------------------------------------|:---------------|
-| Delegated (work or school account)     | Policy.Read.All|
-| Delegated (personal Microsoft account) | Policy.Read.All|
-| Application                            | Policy.Read.All|
+<!-- { "blockType": "permissions", "name": "b2cauthenticationmethodspolicy_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/b2cauthenticationmethodspolicy-get-permissions.md)]
 
 ## HTTP request
 

@@ -16,11 +16,8 @@ Send an activity feed notification in the scope of a team. For more details abou
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamsActivity.Send|
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application|TeamsActivity.Send.Group*, TeamsActivity.Send|
+<!-- { "blockType": "permissions", "name": "team_sendactivitynotification" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-sendactivitynotification-permissions.md)]
 
 >**Note:** Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

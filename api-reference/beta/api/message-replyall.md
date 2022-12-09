@@ -30,11 +30,8 @@ Alternatively, [create a draft to reply-all to a message](../api/message-creater
 ## Permissions
 One of the following permissions are required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.Send    |
-|Delegated (personal Microsoft account) | Mail.Send    |
-|Application | Mail.Send |
+<!-- { "blockType": "permissions", "name": "message_replyall" } -->
+[!INCLUDE [permissions-table](../includes/permissions/message-replyall-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

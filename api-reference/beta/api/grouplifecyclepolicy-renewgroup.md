@@ -21,11 +21,8 @@ Renew a group's expiration. When a group is renewed, the group expiration is ext
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)    |
-| :------------------------------------- | :--------------------------------------------- |
-| Delegated (work or school account)     | Group.ReadWrite.All or Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported                                  |
-| Application                            | Group.ReadWrite.All or Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "grouplifecyclepolicy_renewgroup" } -->
+[!INCLUDE [permissions-table](../includes/permissions/grouplifecyclepolicy-renewgroup-permissions.md)]
 
 ## HTTP request
 

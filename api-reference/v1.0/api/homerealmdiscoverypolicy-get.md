@@ -19,11 +19,8 @@ Retrieve the properties and relationships of a [homeRealmDiscoveryPolicy](../res
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Policy.Read.All, Policy.ReadWrite.ApplicationConfiguration |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Policy.Read.All, Policy.ReadWrite.ApplicationConfiguration |
+<!-- { "blockType": "permissions", "name": "homerealmdiscoverypolicy_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/homerealmdiscoverypolicy-get-permissions.md)]
 
 ## HTTP request
 

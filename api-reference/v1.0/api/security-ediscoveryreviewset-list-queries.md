@@ -17,11 +17,8 @@ Get the list of [queries](../resources/security-ediscoveryreviewsetquery.md) ass
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|eDiscovery.Read.All, eDiscovery.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "security_ediscoveryreviewset_list_queries" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-ediscoveryreviewset-list-queries-permissions.md)]
 ## HTTP request
 
 <!-- {

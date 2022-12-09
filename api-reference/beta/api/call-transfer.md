@@ -22,11 +22,8 @@ A consultative transfer means that the transferor can inform the person they wan
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged)         |
-| :-------------- | :-------------------------------------------------- |
-| Delegated (work or school account)     | Not Supported                |
-| Delegated (personal Microsoft account) | Not Supported                |
-| Application     | Calls.Initiate.All                                  |
+<!-- { "blockType": "permissions", "name": "call_transfer" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-transfer-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

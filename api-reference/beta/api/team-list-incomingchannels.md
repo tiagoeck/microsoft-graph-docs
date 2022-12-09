@@ -17,11 +17,8 @@ Get the list of incoming [channels](../resources/channel.md) (channels shared wi
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account) | Channel.ReadBasic.All, ChannelSettings.Read.All, ChannelSettings.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Channel.ReadBasic.All, ChannelSettings.Read.All, ChannelSettings.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "team_list_incomingchannels" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-list-incomingchannels-permissions.md)]
 
 > **Note**: This API supports admin permissions. Global admins and Microsoft Teams service admins can access teams that they are not a member of.
 

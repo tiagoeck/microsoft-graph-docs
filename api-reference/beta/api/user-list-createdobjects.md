@@ -18,11 +18,8 @@ Get a list of directory objects that were created by the user. This API returns 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read, User.ReadWrite, User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | User.Read, User.ReadWrite    |
-|Application | User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_list_createdobjects" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-createdobjects-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

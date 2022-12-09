@@ -20,11 +20,8 @@ Get the [conversationMember](../resources/conversationmember.md) collection of a
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)| TeamMember.Read.All, TeamMember.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application| TeamMember.Read.Group*, TeamMember.Read.All, TeamMember.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "team_list_members" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-list-members-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

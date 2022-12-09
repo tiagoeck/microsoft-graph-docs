@@ -20,11 +20,8 @@ Get Outlook task folders in a specific [outlookTaskGroup](../resources/outlookta
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Tasks.Read    |
-|Delegated (personal Microsoft account) | Tasks.Read    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "outlooktaskgroup_list_taskfolders" } -->
+[!INCLUDE [permissions-table](../includes/permissions/outlooktaskgroup-list-taskfolders-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

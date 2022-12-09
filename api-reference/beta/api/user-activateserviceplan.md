@@ -22,11 +22,8 @@ Activate a service plan with a given `servicePlanId` and `skuId` for a given use
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-| :--- | :--- |
-| Delegated (work or school account) | Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not Supported. |
-| Application | Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_activateserviceplan" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-activateserviceplan-permissions.md)]
 
 ## HTTP request
 

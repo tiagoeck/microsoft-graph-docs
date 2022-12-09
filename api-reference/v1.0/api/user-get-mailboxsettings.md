@@ -33,11 +33,8 @@ This `GET` operation returns the user's preferred time zone in the format that t
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | MailboxSettings.Read, MailboxSettings.ReadWrite    |
-|Delegated (personal Microsoft account) | MailboxSettings.Read, MailboxSettings.ReadWrite    |
-|Application | MailboxSettings.Read, MailboxSettings.ReadWrite |
+<!-- { "blockType": "permissions", "name": "user_get_mailboxsettings" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-get-mailboxsettings-permissions.md)]
 
 ## HTTP request
 To get all the mailbox settings for a user:

@@ -18,11 +18,8 @@ Update the properties of a [virtualAppointment](../resources/virtualappointment.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                            |
-|:---------------------------------------|:---------------------------------------------------------------------------------------|
-| Delegated (work or school account)     | OnlineMeetings.ReadWrite                                  |
-| Delegated (personal Microsoft account) | Not supported.                                                                         |
-| Application                            | Not supported.
+<!-- { "blockType": "permissions", "name": "virtualappointment_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/virtualappointment-update-permissions.md)]
 
 > [!NOTE]
 > Virtual appointment will transition from online meeting permissions to more specific virtual appointment permissions during the preview period. This will provide more granular control over virtual appointment permissions. When the transition date approaches, we'll provide more details about the updated permission requirements and timeline.

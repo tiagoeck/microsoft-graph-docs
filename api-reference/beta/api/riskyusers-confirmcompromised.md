@@ -20,11 +20,8 @@ Confirm one or more [riskyUser](../resources/riskyuser.md) objects as compromise
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | IdentityRiskyUser.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | IdentityRiskyUser.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "riskyusers_confirmcompromised" } -->
+[!INCLUDE [permissions-table](../includes/permissions/riskyusers-confirmcompromised-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

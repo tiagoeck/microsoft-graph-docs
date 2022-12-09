@@ -18,11 +18,8 @@ The Company Administrators and the implicit user directory roles (**User**, **Gu
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | RoleManagement.ReadWrite.Directory    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | RoleManagement.ReadWrite.Directory |
+<!-- { "blockType": "permissions", "name": "directoryrole_post_directoryroles" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryrole-post-directoryroles-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

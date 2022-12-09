@@ -15,11 +15,8 @@ Create a new [ediscoveryReviewTag](../resources/security-ediscoveryreviewtag.md)
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|eDiscovery.Read.All, eDiscovery.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "security_ediscoverycase_post_tags" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-ediscoverycase-post-tags-permissions.md)]
 
 ## HTTP request
 

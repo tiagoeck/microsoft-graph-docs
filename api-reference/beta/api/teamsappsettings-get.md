@@ -17,11 +17,8 @@ Read the properties and relationships of a [teamsAppSettings](../resources/teams
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamworkAppSettings.Read.All, TeamworkAppSettings.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|Not supported|
+<!-- { "blockType": "permissions", "name": "teamsappsettings_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamsappsettings-get-permissions.md)]
 
 > [!NOTE]
 > TeamworkAppSettings.* permissions might not be visible in the Azure portal. For details and workarounds, see [known issues](/graph/known-issues#teamworkappsettings-permissions-are-not-visible-in-the-azure-portal).

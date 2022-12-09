@@ -19,13 +19,8 @@ Not yet documented
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-| &nbsp; &nbsp; **Device management** | DeviceManagementManagedDevices.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-| &nbsp; &nbsp; **Device management** | DeviceManagementManagedDevices.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_devicemanagement_sendcustomnotificationtocompanyportal" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-devicemanagement-sendcustomnotificationtocompanyportal-permissions.md)]
 ## HTTP Request
 <!-- {
   "blockType": "ignored"

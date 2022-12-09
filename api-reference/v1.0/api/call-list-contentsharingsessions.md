@@ -15,11 +15,8 @@ Retrieve a list of [contentSharingSession](../resources/contentsharingsession.md
 
 ## Permissions
 
-| Permission type                        | Permissions (from least to most privileged)                                                              |
-|:---------------------------------------|:---------------------------------------------------------------------------------------------------------|
-| Delegated (work or school account)     | Not supported.                                                                                           |
-| Delegated (personal Microsoft account) | Not supported.                                                                                           |
-| Application                            | Calls.JoinGroupCallAsGuest.All, Calls.JoinGroupCall.All, Calls.Initiate.All, Calls.InitiateGroupCall.All |
+<!-- { "blockType": "permissions", "name": "call_list_contentsharingsessions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-list-contentsharingsessions-permissions.md)]
 
 ## HTTP request
 

@@ -17,11 +17,8 @@ Update the properties of a identityUserFlowAttributeAssignment object.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|IdentityUserFlow.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|IdentityUserFlow.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "identityuserflowattributeassignment_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/identityuserflowattributeassignment-update-permissions.md)]
 
 ## HTTP request
 

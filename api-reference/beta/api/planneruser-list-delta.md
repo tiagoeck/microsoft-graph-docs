@@ -25,11 +25,8 @@ For more information about tracking changes in Microsoft Graph data, see [Use de
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Tasks.Read, Tasks.ReadWrite, Group.Read.All, Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "planneruser_list_delta" } -->
+[!INCLUDE [permissions-table](../includes/permissions/planneruser-list-delta-permissions.md)]
 
 ## HTTP request
 

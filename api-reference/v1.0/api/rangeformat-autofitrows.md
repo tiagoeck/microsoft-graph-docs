@@ -15,11 +15,8 @@ Changes the height of the rows of the current range to achieve the best fit, bas
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "rangeformat_autofitrows" } -->
+[!INCLUDE [permissions-table](../includes/permissions/rangeformat-autofitrows-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

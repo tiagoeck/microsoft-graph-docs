@@ -17,11 +17,8 @@ Retrieve the properties and relationships of a [secureScoreControlProfiles](../r
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  SecurityEvents.Read.All, SecurityEvents.ReadWrite.All   |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | SecurityEvents.Read.All, SecurityEvents.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "security_list_securescorecontrolprofiles" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-list-securescorecontrolprofiles-permissions.md)]
 
 ## HTTP request
 

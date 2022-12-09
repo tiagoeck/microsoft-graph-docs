@@ -19,13 +19,8 @@ Retrieves the list of devices with failed apps
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-| &nbsp; &nbsp; **Troubleshooting** | DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementManagedDevices.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-| &nbsp; &nbsp; **Troubleshooting** | DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementManagedDevices.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_user_getmanageddeviceswithappfailures" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-user-getmanageddeviceswithappfailures-permissions.md)]
 
 ## HTTP Request
 <!-- {

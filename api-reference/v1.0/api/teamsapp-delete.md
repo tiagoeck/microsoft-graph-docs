@@ -24,11 +24,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 >**Note:** Only global administrators can call this API.
 
-| Permission Type                        | Permissions (from least to most privileged)|
-|:----------------------------------     |:-------------|
-| Delegated (work or school account) | AppCatalog.Submit, AppCatalog.ReadWrite.All, Directory.ReadWrite.All** |
-| Delegated (personal Microsoft account) | Not supported|
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "teamsapp_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamsapp-delete-permissions.md)]
 
 > **Note**: Permissions marked with ** are supported only for backward compatibility. We recommend that you update your solutions to use an alternative permission listed in the previous table and avoid using these permissions going forward.
 

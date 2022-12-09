@@ -21,11 +21,8 @@ Only use this method when the **allowedRegistrant** property of the [meetingRegi
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged) |
-|:----------------|:--------------------------------------------|
-| Delegated (work or school account) | OnlineMeetings.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | OnlineMeetings.Read.All |
+<!-- { "blockType": "permissions", "name": "meetingregistrant_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/meetingregistrant-delete-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

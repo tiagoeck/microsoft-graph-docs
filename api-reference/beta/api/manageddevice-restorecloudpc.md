@@ -17,11 +17,8 @@ Restore a Cloud PC device to a previous state with an Intune [managed device](..
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|CloudPC.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|CloudPC.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "manageddevice_restorecloudpc" } -->
+[!INCLUDE [permissions-table](../includes/permissions/manageddevice-restorecloudpc-permissions.md)]
 
 ## HTTP request
 

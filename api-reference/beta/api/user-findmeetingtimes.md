@@ -24,11 +24,8 @@ The algorithm used to suggest meeting times and locations undergoes fine-tuning 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Calendars.Read.Shared, Calendars.ReadWrite.Shared    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "user_findmeetingtimes" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-findmeetingtimes-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

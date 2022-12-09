@@ -19,11 +19,8 @@ Update the properties of a [b2cAuthenticationMethodsPolicy](../resources/b2cauth
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions|
-|:---------------------------------------|:---------------|
-| Delegated (work or school account)     | Policy.ReadWrite.AuthenticationMethod|
-| Delegated (personal Microsoft account) | Policy.ReadWrite.AuthenticationMethod|
-| Application                            | Policy.ReadWrite.AuthenticationMethod|
+<!-- { "blockType": "permissions", "name": "b2cauthenticationmethodspolicy_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/b2cauthenticationmethodspolicy-update-permissions.md)]
 
 ## HTTP request
 

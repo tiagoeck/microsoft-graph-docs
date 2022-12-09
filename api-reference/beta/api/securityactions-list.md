@@ -19,11 +19,8 @@ Retrieve a list of [securityAction](../resources/securityaction.md) objects.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Not supported. |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | SecurityActions.Read.All, SecurityActions.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "securityactions_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/securityactions-list-permissions.md)]
 
 ## HTTP request
 

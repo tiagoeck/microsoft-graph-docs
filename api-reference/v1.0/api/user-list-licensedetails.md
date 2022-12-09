@@ -17,11 +17,8 @@ Retrieve a list of [licenseDetails](../resources/licensedetails.md) objects for 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read, User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | User.Read    |
-|Application | User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_list_licensedetails" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-licensedetails-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

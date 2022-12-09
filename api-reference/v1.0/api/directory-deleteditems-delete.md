@@ -21,11 +21,8 @@ One of the following permissions is required to call this API. To learn more, in
 ### For applications and service principals:
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-delete-permissions.md)]
 
 The calling user must be the owner of the application or the calling app must be assigned one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference):
 + Global Administrator

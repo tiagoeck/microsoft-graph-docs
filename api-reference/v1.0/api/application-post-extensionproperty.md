@@ -17,11 +17,8 @@ Create a new directory extension definition, represented by an [extensionPropert
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Application.ReadWrite.All |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "application_post_extensionproperty" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-post-extensionproperty-permissions.md)]
 
 ## HTTP request
 

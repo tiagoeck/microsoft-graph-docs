@@ -19,11 +19,8 @@ Update the properties of an [educationOutcome](../resources/educationoutcome.md)
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | EduAssignments.ReadWriteBasic, EduAssignments.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | EduAssignments.ReadWrite.All, EduAssignments.ReadWriteBasic.All |
+<!-- { "blockType": "permissions", "name": "educationoutcome_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationoutcome-update-permissions.md)]
 
 ## HTTP request
 

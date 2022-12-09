@@ -16,11 +16,8 @@ Retrieve a list of [administrativeUnit](../resources/administrativeunit.md) obje
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | AdministrativeUnit.Read.All, Directory.Read.All, AdministrativeUnit.ReadWrite.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | AdministrativeUnit.Read.All, Directory.Read.All, AdministrativeUnit.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_list_administrativeunits" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-list-administrativeunits-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

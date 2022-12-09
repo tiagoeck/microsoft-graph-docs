@@ -17,11 +17,8 @@ Read the properties and relationships of an [urlThreatSubmission](../resources/s
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|ThreatSubmission.Read,ThreatSubmission.ReadWrite,ThreatSubmission.Read.All,ThreatSubmission.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|ThreatSubmission.Read.All,ThreatSubmission.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "security_urlthreatsubmission_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-urlthreatsubmission-get-permissions.md)]
 
 ## HTTP request
 

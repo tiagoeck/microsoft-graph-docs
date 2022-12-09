@@ -21,11 +21,8 @@ Create an online meeting on behalf of a user.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)           |
-| :------------------------------------- | :---------------------------------------------------- |
-| Delegated (work or school account)     | OnlineMeetings.ReadWrite                              |
-| Delegated (personal Microsoft account) | Not supported.                                        |
-| Application                            | OnlineMeetings.ReadWrite.All*                         |
+<!-- { "blockType": "permissions", "name": "application_post_onlinemeetings" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-post-onlinemeetings-permissions.md)]
 
 To use application permission for this API, tenant administrators must create an [application access policy](/graph/cloud-communication-online-meeting-application-access-policy) and grant it to a user to authorize the app configured in the policy to create online meetings on behalf of that user (with user ID specified in the request path).
 

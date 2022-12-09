@@ -18,11 +18,8 @@ Send a reminder to the reviewers of a currently active [accessReviewInstance](..
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | AccessReview.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application                            | AccessReview.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "accessreviewinstance_sendreminder" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewinstance-sendreminder-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

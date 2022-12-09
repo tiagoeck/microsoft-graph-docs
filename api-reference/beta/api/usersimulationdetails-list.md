@@ -17,11 +17,8 @@ List users of a tenant and their online actions in an attack simulation campaign
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | AttackSimulation.Read.All                   |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | AttackSimulation.Read.All                   |
+<!-- { "blockType": "permissions", "name": "usersimulationdetails_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/usersimulationdetails-list-permissions.md)]
 
 ## HTTP request
 

@@ -19,11 +19,8 @@ Cancel a security operation.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Not supported. |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | SecurityActions.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "securityaction_cancelsecurityaction" } -->
+[!INCLUDE [permissions-table](../includes/permissions/securityaction-cancelsecurityaction-permissions.md)]
 
 ## HTTP request
 

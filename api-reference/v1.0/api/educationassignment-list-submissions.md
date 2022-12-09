@@ -18,11 +18,8 @@ A teacher or an application with application permissions can get all the submiss
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  EduAssignments.ReadBasic, EduAssignments.ReadWriteBasic, EduAssignments.Read, EduAssignments.ReadWrite  |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | EduAssignments.ReadBasic.All, EduAssignments.ReadWriteBasic.All, EduAssignments.Read.All, EduAssignments.ReadWrite.All | 
+<!-- { "blockType": "permissions", "name": "educationassignment_list_submissions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationassignment-list-submissions-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

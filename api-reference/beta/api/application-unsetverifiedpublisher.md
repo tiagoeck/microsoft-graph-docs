@@ -17,11 +17,8 @@ Unset the the [verifiedPublisher](../resources/verifiedPublisher.md) previously 
 
 ## Permissions
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported |
-|Application | Not supported |
+<!-- { "blockType": "permissions", "name": "application_unsetverifiedpublisher" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-unsetverifiedpublisher-permissions.md)]
 
 ## HTTP request
 

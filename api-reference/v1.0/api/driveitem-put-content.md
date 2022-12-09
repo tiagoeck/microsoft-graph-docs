@@ -20,11 +20,8 @@ To upload large files see [Upload large files with an upload session](driveitem-
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite, Files.ReadWrite.All, Sites.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Files.ReadWrite, Files.ReadWrite.All    |
-|Application | Files.ReadWrite.All, Sites.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "driveitem_put_content" } -->
+[!INCLUDE [permissions-table](../includes/permissions/driveitem-put-content-permissions.md)]
 
 ## HTTP request (to replace an existing item)
 

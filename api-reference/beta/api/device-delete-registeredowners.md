@@ -19,11 +19,8 @@ Remove a user as a registered owner of the device.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.AccessAsUser.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "device_delete_registeredowners" } -->
+[!INCLUDE [permissions-table](../includes/permissions/device-delete-registeredowners-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

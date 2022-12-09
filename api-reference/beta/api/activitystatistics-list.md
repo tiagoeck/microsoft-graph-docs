@@ -19,11 +19,8 @@ Get a collection of [activityStatistics](../resources/activitystatistics.md) for
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Analytics.Read |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "activitystatistics_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/activitystatistics-list-permissions.md)]
 
 ## HTTP request
 

@@ -21,19 +21,8 @@ Update the properties of a [user](../resources/intune-shared-user.md) object.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-| &nbsp; &nbsp; **Device management** | DeviceManagementManagedDevices.ReadWrite.All|
-| &nbsp; &nbsp; **MAM** | DeviceManagementApps.ReadWrite.All|
-| &nbsp; &nbsp; **Onboarding** | DeviceManagementServiceConfig.ReadWrite.All|
-| &nbsp; &nbsp; **Troubleshooting** | DeviceManagementManagedDevices.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-| &nbsp; &nbsp; **Device management** | DeviceManagementManagedDevices.ReadWrite.All|
-| &nbsp; &nbsp; **MAM** | DeviceManagementApps.ReadWrite.All|
-| &nbsp; &nbsp; **Onboarding** | DeviceManagementServiceConfig.ReadWrite.All|
-| &nbsp; &nbsp; **Troubleshooting** | DeviceManagementManagedDevices.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_user_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-user-update-permissions.md)]
 
 ## HTTP Request
 

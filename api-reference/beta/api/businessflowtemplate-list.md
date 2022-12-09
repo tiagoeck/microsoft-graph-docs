@@ -19,11 +19,8 @@ In the Azure AD [access reviews](../resources/accessreviews-root.md) feature, li
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | AccessReview.Read.All, AccessReview.ReadWrite.Membership, AccessReview.ReadWrite.All  |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | AccessReview.Read.All, AccessReview.ReadWrite.Membership |
+<!-- { "blockType": "permissions", "name": "businessflowtemplate_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/businessflowtemplate-list-permissions.md)]
 
 The signed in user must also be in a directory role that permits them to read an access review.
 

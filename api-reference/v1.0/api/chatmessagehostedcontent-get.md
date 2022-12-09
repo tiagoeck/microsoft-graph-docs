@@ -19,11 +19,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Permissions for channel
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| ChannelMessage.Read.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChannelMessage.Read.Group*, ChannelMessage.Read.All |
+<!-- { "blockType": "permissions", "name": "chatmessagehostedcontent_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessagehostedcontent-get-permissions.md)]
 
 ### Permissions for chat
 

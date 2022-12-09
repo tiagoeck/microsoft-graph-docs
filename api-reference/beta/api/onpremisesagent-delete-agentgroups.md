@@ -19,11 +19,8 @@ Remove an [onPremisesAgent](../resources/onpremisesagent.md) from an [onPremises
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:--------------------------------------|:---------------------------------------------------------|
-| Delegated (work or school account)     | Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "onpremisesagent_delete_agentgroups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/onpremisesagent-delete-agentgroups-permissions.md)]
 
 ## HTTP request
 

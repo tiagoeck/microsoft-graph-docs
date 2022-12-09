@@ -19,11 +19,8 @@ Run and generate diagnostic logs for the specified Microsoft Teams-enabled [devi
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamworkDevice.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|TeamworkDevice.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "teamworkdevice_rundiagnostics" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamworkdevice-rundiagnostics-permissions.md)]
 
 ## HTTP request
 

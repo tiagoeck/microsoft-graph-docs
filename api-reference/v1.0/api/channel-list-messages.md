@@ -23,11 +23,8 @@ This method supports federation. To list channel messages in application context
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission Type|Permissions (from least to most privileged)|
-|---------|-------------|
-|Delegated (work or school account)| ChannelMessage.Read.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChannelMessage.Read.Group*, ChannelMessage.Read.All |
+<!-- { "blockType": "permissions", "name": "channel_list_messages" } -->
+[!INCLUDE [permissions-table](../includes/permissions/channel-list-messages-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

@@ -18,11 +18,8 @@ Remove an owner from a [servicePrincipal](../resources/serviceprincipal.md) obje
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All, Directory.ReadWrite.All  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_delete_owners" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-delete-owners-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -22,11 +22,8 @@ By default, this operation does not return hidden folders. Use a query parameter
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:------------------------------------|
-| Delegated (work or school account)     | Mail.ReadBasic, Mail.Read, Mail.ReadWrite           |
-| Delegated (personal Microsoft account) | Mail.ReadBasic, Mail.Read, Mail.ReadWrite           |
-| Application                            | Mail.ReadBasic.All, Mail.Read, Mail.ReadWrite           |
+<!-- { "blockType": "permissions", "name": "mailfolder_list_childfolders" } -->
+[!INCLUDE [permissions-table](../includes/permissions/mailfolder-list-childfolders-permissions.md)]
 
 ## HTTP request
 

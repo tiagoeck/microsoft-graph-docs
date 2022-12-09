@@ -17,11 +17,8 @@ Read the properties and relationships of an [attributeSet](../resources/attribut
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|CustomSecAttributeDefinition.Read.All, CustomSecAttributeDefinition.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|CustomSecAttributeDefinition.Read.All, CustomSecAttributeDefinition.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "attributeset_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/attributeset-get-permissions.md)]
 
 The signed-in user must also be assigned one of the following [directory roles](/azure/active-directory/roles/permissions-reference):
 

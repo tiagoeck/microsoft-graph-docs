@@ -17,11 +17,8 @@ Create a new [fileThreatSubmission](../resources/security-filethreatsubmission.m
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|ThreatSubmission.ReadWrite,ThreatSubmission.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|ThreatSubmission.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "security_filethreatsubmission_post_filethreats" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-filethreatsubmission-post-filethreats-permissions.md)]
 
 ## HTTP request
 

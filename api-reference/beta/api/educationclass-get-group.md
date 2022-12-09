@@ -20,11 +20,8 @@ Retrieve the Microsoft 365 **group** that corresponds to this **educationClass**
 ## Permissions
 A combination of permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  One from EduRoster.ReadBasic, EduRoster.Read, EduRoster.Write plus Directory.Read.All|
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | EduRoster.Read.All, EduRoster.ReadWrite.All plus Directory.Read.All| 
+<!-- { "blockType": "permissions", "name": "educationclass_get_group" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationclass-get-group-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -18,11 +18,8 @@ Retrieve a list of **audioRoutingGroup** objects.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Not supported.                              |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application     | Calls.JoinGroupCall.All, Calls.InitiateGroupCall.All               |
+<!-- { "blockType": "permissions", "name": "call_list_audioroutinggroups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-list-audioroutinggroups-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

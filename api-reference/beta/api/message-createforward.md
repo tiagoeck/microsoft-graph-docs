@@ -31,11 +31,8 @@ Alternatively, [forward a message](../api/message-forward.md) in a single operat
 ## Permissions
 One of the following permissions are required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.ReadWrite    |
-|Delegated (personal Microsoft account) | Mail.ReadWrite    |
-|Application | Mail.ReadWrite |
+<!-- { "blockType": "permissions", "name": "message_createforward" } -->
+[!INCLUDE [permissions-table](../includes/permissions/message-createforward-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

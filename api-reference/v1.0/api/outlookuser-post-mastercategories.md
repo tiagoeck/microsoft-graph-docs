@@ -17,11 +17,8 @@ Create an [outlookCategory](../resources/outlookcategory.md) object in the user'
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | MailboxSettings.ReadWrite    |
-|Delegated (personal Microsoft account) | MailboxSettings.ReadWrite   |
-|Application | MailboxSettings.ReadWrite |
+<!-- { "blockType": "permissions", "name": "outlookuser_post_mastercategories" } -->
+[!INCLUDE [permissions-table](../includes/permissions/outlookuser-post-mastercategories-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

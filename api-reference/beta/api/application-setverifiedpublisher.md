@@ -17,11 +17,8 @@ Set the the [verifiedPublisher](../resources/verifiedPublisher.md) on an [applic
 
 ## Permissions
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported |
-|Application | Not supported |
+<!-- { "blockType": "permissions", "name": "application_setverifiedpublisher" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-setverifiedpublisher-permissions.md)]
 
 ## HTTP request
 

@@ -24,11 +24,8 @@ Send a new [chatMessage](../resources/chatmessage.md) in the specified [channel]
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 ### Permissions for channel
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ChannelMessage.Send, Group.ReadWrite.All** |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Teamwork.Migrate.All |
+<!-- { "blockType": "permissions", "name": "chatmessage_post" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-post-permissions.md)]
 
 > **Note**: Permissions marked with ** are supported only for backward compatibility. We recommend that you update your solutions to use an alternative permission listed in the previous table and avoid using these permissions going forward.
 

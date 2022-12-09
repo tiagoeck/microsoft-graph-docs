@@ -19,11 +19,8 @@ Delete a [timeOff](../resources/timeoff.md) instance from a [schedule](../resour
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Schedule.ReadWrite.All* |
+<!-- { "blockType": "permissions", "name": "timeoff_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/timeoff-delete-permissions.md)]
 
 >\* **Important:** Application permissions are currently in private preview only and are not available for public use.
 

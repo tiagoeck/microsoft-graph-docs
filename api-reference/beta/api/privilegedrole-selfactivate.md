@@ -26,11 +26,8 @@ One of the following permissions is required to call this API. To learn more, in
 The requestor can only call ```selfActivate``` for the role that is assigned to him.
  
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "privilegedrole_selfactivate" } -->
+[!INCLUDE [permissions-table](../includes/permissions/privilegedrole-selfactivate-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

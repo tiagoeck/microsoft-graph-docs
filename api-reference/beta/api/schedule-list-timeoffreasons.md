@@ -18,11 +18,8 @@ Get the list of [timeOffReasons](../resources/timeoffreason.md) in a [schedule](
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Group.Read.All, Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Schedule.Read.All*, Schedule.ReadWrite.All* |
+<!-- { "blockType": "permissions", "name": "schedule_list_timeoffreasons" } -->
+[!INCLUDE [permissions-table](../includes/permissions/schedule-list-timeoffreasons-permissions.md)]
 
 >\* **Important:** Application permissions are currently in private preview only and are not available for public use.
 

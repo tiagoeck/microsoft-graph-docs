@@ -21,11 +21,8 @@ Publish the latest version of a [sitePage][] resource, which makes the version o
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite, Files.ReadWrite.All, Sites.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Files.ReadWrite, Files.ReadWrite.All    |
-|Application | Files.ReadWrite.All, Sites.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "sitepage_publish" } -->
+[!INCLUDE [permissions-table](../includes/permissions/sitepage-publish-permissions.md)]
 
 ## HTTP request
 

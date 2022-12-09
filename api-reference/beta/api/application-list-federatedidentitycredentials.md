@@ -17,11 +17,8 @@ Get a list of the [federatedIdentityCredential](../resources/federatedidentitycr
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.Read.All, Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) |  Application.ReadWrite.All |
-|Application | Application.Read.All, Application.ReadWrite.OwnedBy, Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "application_list_federatedidentitycredentials" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-list-federatedidentitycredentials-permissions.md)]
 
 [!INCLUDE [permissions-applicationreadwriteownedby-disclaimer](../../includes/permissions-applicationreadwriteownedby-disclaimer.md)]
 

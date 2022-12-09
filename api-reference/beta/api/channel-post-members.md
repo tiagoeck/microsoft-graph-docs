@@ -19,11 +19,8 @@ Add a [conversationMember](../resources/conversationmember.md) to a [channel](..
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission Type|Permissions (from least to most privileged)|
-|---------|-------------|
-|Delegated (work or school account)| ChannelMember.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChannelMember.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "channel_post_members" } -->
+[!INCLUDE [permissions-table](../includes/permissions/channel-post-members-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored"} -->

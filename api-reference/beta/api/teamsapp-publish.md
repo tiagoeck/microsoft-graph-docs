@@ -23,11 +23,8 @@ The **requiresReview** property allows any user to submit an app for review by a
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission Type                        | Permissions (from least to most privileged)|
-|:----------------------------------     |:-------------|
-| Delegated (work or school account) | AppCatalog.Submit, AppCatalog.ReadWrite.All, Directory.ReadWrite.All** |
-| Delegated (personal Microsoft account) | Not supported|
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "teamsapp_publish" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamsapp-publish-permissions.md)]
 
 > **Note**: Permissions marked with ** are supported only for backward compatibility. We recommend that you update your solutions to use an alternative permission listed in the previous table and avoid using these permissions going forward.
 

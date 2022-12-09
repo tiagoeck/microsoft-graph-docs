@@ -16,11 +16,8 @@ Get a list of **administrativeUnits** associated with an [educationSchool](../re
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | EduRoster.ReadBasic                         |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | EduRoster.Read.All, EduRoster.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "educationschool_list_administrativeunit" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationschool-list-administrativeunit-permissions.md)]
 
 ## HTTP request
 

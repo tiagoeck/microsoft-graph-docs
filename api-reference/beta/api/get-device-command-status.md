@@ -22,11 +22,8 @@ Get the status of a command on a device. For the  full list of status codes, see
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Not supported.    |
-|Delegated (personal Microsoft account) | Device.Command    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "get_device_command_status" } -->
+[!INCLUDE [permissions-table](../includes/permissions/get-device-command-status-permissions.md)]
 
 ## HTTP request
 

@@ -19,11 +19,8 @@ By default, this operation does not return the **key** property that represents 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|BitLockerKey.ReadBasic.All, BitLockerKey.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "bitlockerrecoverykey_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/bitlockerrecoverykey-get-permissions.md)]
 
 >**Note:** For delegated permissions to allow apps to get **bitLockerRecoveryKey** resources on behalf of the signed-in user, the tenant administrator must have assigned the user one of the following roles, or the user must be the **registered owner** of the device that the BitLocker key was originally backed up from: 
 * Global administrator

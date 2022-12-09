@@ -17,11 +17,8 @@ Delete an existing [category](../resources/educationcategory.md).
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)             |
-| :------------------------------------- | :------------------------------------------------------ |
-| Delegated (work or school account)     | EduAssignments.ReadWriteBasic, EduAssignments.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported.                                          |
-| Application                            | Not supported.                                          |
+<!-- { "blockType": "permissions", "name": "educationcategory_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationcategory-delete-permissions.md)]
 
 ## HTTP request
 

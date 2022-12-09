@@ -17,11 +17,8 @@ Get the groups and directory roles that this [servicePrincipal](../resources/ser
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_list_memberof" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-list-memberof-permissions.md)]
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
 

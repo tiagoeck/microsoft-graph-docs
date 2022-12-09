@@ -17,11 +17,8 @@ Get a list of the group's members. A group can have users, devices, organization
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                                              |
-| :------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| Delegated (work or school account)     | GroupMember.Read.All, Group.Read.All, GroupMember.ReadWrite.All, Group.ReadWrite.All, Directory.Read.All |
-| Delegated (personal Microsoft account) | Not supported.                                                                                           |
-| Application                            | GroupMember.Read.All, Group.Read.All, GroupMember.ReadWrite.All, Group.ReadWrite.All, Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "group_list_transitivemembers" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-list-transitivemembers-permissions.md)]
 
 > **Note:** To list the members of a hidden membership group, the _Member.Read.Hidden_ permission is required.
 

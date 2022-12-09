@@ -19,11 +19,8 @@ Move a [baseTask](../resources/basetask.md) object from one [baseTaskList](../re
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Tasks.ReadWrite|
-|Delegated (personal Microsoft account)|Tasks.ReadWrite|
-|Application|Not supported|
+<!-- { "blockType": "permissions", "name": "basetask_move" } -->
+[!INCLUDE [permissions-table](../includes/permissions/basetask-move-permissions.md)]
 
 ## HTTP request
 

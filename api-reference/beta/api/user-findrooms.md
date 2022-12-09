@@ -23,11 +23,8 @@ up to the first 100 rooms in the tenant.
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadBasic.All, User.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.Read.All |
+<!-- { "blockType": "permissions", "name": "user_findrooms" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-findrooms-permissions.md)]
 
 ## HTTP request
 

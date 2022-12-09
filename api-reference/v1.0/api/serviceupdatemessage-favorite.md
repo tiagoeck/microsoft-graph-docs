@@ -15,11 +15,8 @@ Change the status of a list of [serviceUpdateMessages](../resources/serviceupdat
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|ServiceMessageViewpoint.Write|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "serviceupdatemessage_favorite" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceupdatemessage-favorite-permissions.md)]
 
 ## HTTP request
 

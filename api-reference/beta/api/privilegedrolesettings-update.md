@@ -20,11 +20,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 >**Note:** The requester must have the Privileged Role Administrator role to update role settings. 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureAD    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "privilegedrolesettings_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/privilegedrolesettings-update-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

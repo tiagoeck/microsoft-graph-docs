@@ -15,11 +15,8 @@ Create a new [relation](../resources/termstore-relation.md) object. These are us
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account) |TermStore.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "termstore_relation_post" } -->
+[!INCLUDE [permissions-table](../includes/permissions/termstore-relation-post-permissions.md)]
 
 
 ## HTTP request

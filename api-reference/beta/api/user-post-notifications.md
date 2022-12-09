@@ -22,11 +22,8 @@ Your application service does not require any additional permissions to post not
 > [!IMPORTANT]
 > If you choose to post notifications on behalf of a user via delegated permissions instead, one of the following permissions is required to call this API. We don't recommend this option for creating notifications. If you'd like to learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Notifications.ReadWrite.CreatedByApp    |
-|Delegated (personal Microsoft account) | Notifications.ReadWrite.CreatedByApp    |
-|Application | Not supported.|
+<!-- { "blockType": "permissions", "name": "user_post_notifications" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-post-notifications-permissions.md)]
 
 
 

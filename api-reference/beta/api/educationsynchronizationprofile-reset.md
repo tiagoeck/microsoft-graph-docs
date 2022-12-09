@@ -20,11 +20,8 @@ Reset the sync of a specific school data [synchronization profile](../resources/
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions |
-|:-----------|:----------|
-| Delegated (work or school account) | EduAdministration.ReadWrite |
-|Delegated (personal Microsoft account|Not supported.|
-|Application|EduAdministration.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "educationsynchronizationprofile_reset" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationsynchronizationprofile-reset-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

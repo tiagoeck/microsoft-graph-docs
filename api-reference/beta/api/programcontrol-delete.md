@@ -19,11 +19,8 @@ In the Azure AD [access reviews](../resources/accessreviews-root.md) feature, de
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | ProgramControl.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | ProgramControl.ReadWrite.All  |
+<!-- { "blockType": "permissions", "name": "programcontrol_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/programcontrol-delete-permissions.md)]
 
 The signed in user must also be in a directory role that permits them to delete a `programControl`.
 

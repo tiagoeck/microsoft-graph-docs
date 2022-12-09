@@ -19,11 +19,8 @@ Reprovision a Cloud PC with an Intune [managed device](../resources/cloudpc.md) 
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|CloudPC.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|CloudPC.ReadWrite.All.|
+<!-- { "blockType": "permissions", "name": "manageddevice_reprovisioncloudpc" } -->
+[!INCLUDE [permissions-table](../includes/permissions/manageddevice-reprovisioncloudpc-permissions.md)]
 
 ## HTTP request
 

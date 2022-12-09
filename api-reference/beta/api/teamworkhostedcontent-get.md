@@ -20,11 +20,8 @@ Retrieve the [hosted content](../resources/teamworkhostedcontent.md) in an [app'
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 ### Permissions for app icon in app catalog
-| Permission Type                        | Permissions (from least to most privileged)                      |
-| :------------------------------------- | :--------------------------------------------------------------- |
-| Delegated (work or school account)     | AppCatalog.Read.All, AppCatalog.ReadWrite.All, AppCatalog.Submit |
-| Delegated (personal Microsoft account) | Not supported.                                                   |
-| Application                            | AppCatalog.Read.All, AppCatalog.ReadWrite.All                    |
+<!-- { "blockType": "permissions", "name": "teamworkhostedcontent_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamworkhostedcontent-get-permissions.md)]
 
 ## HTTP request
 

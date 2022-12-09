@@ -19,11 +19,8 @@ Dismiss the risk of one or more [riskyServicePrincipal](../resources/riskyservic
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|IdentityRiskyServicePrincipal.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|IdentityRiskyServicePrincipal.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "riskyserviceprincipal_dismiss" } -->
+[!INCLUDE [permissions-table](../includes/permissions/riskyserviceprincipal-dismiss-permissions.md)]
 
 ## HTTP request
 

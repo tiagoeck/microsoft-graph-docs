@@ -24,11 +24,8 @@ For more information about sensitivity labels from an administrator's perspectiv
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)                                            |
-|:--------------------------------------|:---------------------------------------------------------------------------------------|
-|Delegated (work or school account)     | Files.ReadWrite.All, Sites.ReadWrite.All                                               |
-|Delegated (personal Microsoft account) | Not supported.                                                                         |
-|Application                            | Files.ReadWrite.All, Sites.ReadWrite.All                                               |
+<!-- { "blockType": "permissions", "name": "driveitem_assignsensitivitylabel" } -->
+[!INCLUDE [permissions-table](../includes/permissions/driveitem-assignsensitivitylabel-permissions.md)]
 
 ## HTTP request
 

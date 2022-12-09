@@ -21,11 +21,8 @@ The only property that works for sorting is **createdDateTime**. The search filt
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)
-|:--------------------------------------|:-------------------------------------
-|Delegated (work or school account)     | Sites.Read.All, Sites.ReadWrite.All
-|Delegated (personal Microsoft account) | Not supported.
-|Application                            | Sites.Read.All, Sites.ReadWrite.All
+<!-- { "blockType": "permissions", "name": "site_search" } -->
+[!INCLUDE [permissions-table](../includes/permissions/site-search-permissions.md)]
 
 >**Note:** This method does not support the Sites.Selected application permission.
 

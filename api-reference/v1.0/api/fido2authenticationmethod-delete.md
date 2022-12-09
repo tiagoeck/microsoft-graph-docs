@@ -18,11 +18,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Permissions acting on self
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:---------------------------------------|:-------------------------|
-| Delegated (work or school account)     | UserAuthenticationMethod.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "fido2authenticationmethod_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/fido2authenticationmethod-delete-permissions.md)]
 
 ### Permissions acting on other users
 

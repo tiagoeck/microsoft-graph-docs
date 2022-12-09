@@ -21,11 +21,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Permissions for channel
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| ChannelMessage.ReadWrite |
-|Delegated (personal Microsoft account)| Not supported |
-|Application| Not supported |
+<!-- { "blockType": "permissions", "name": "chatmessage_undosoftdelete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-undosoftdelete-permissions.md)]
 
 > **Note**: Permissions marked with ** are supported only for backward compatibility. We recommend that you update your solutions to use an alternative permission listed in the previous table and avoid using these permissions going forward.
 

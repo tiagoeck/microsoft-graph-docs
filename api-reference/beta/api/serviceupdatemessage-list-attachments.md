@@ -17,11 +17,8 @@ Get a list of attachments associated with a service message.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|ServiceMessage.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|ServiceMessage.Read.All|
+<!-- { "blockType": "permissions", "name": "serviceupdatemessage_list_attachments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceupdatemessage-list-attachments-permissions.md)]
 
 ## HTTP request
 

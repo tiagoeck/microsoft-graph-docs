@@ -19,11 +19,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Memberships for a directory object
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmemberobjects" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmemberobjects-permissions.md)]
 
 ### Memberships for a user
 

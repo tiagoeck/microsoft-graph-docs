@@ -19,11 +19,8 @@ List the [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) objects that
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Policy.Read.All and Application.ReadWrite.All, Policy.ReadWrite.ApplicationConfiguration and Application.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Policy.Read.All and Application.ReadWrite.OwnedBy, Policy.Read.All and Application.ReadWrite.All, Policy.ReadWrite.ApplicationConfiguration and Application.ReadWrite.OwnedBy, Policy.ReadWrite.ApplicationConfiguration and Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "application_list_tokenlifetimepolicies" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-list-tokenlifetimepolicies-permissions.md)]
 
 ## HTTP request
 

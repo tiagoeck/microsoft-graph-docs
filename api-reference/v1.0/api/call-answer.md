@@ -18,11 +18,8 @@ The bot is expected to answer, [reject](./call-reject.md), or [redirect](./call-
 ## Permissions
 You do not need any permissions to answer a peer-to-peer call. You need one of the following permissions to join a group call. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged)                 |
-| :-------------- | :-----------------------------------------------------------|
-| Delegated (work or school account)     | Not supported.                       |
-| Delegated (personal Microsoft account) | Not supported.                       |
-| Application     | Calls.JoinGroupCall.All, Calls.JoinGroupCallAsGuest.All     |
+<!-- { "blockType": "permissions", "name": "call_answer" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-answer-permissions.md)]
 
 > **Note:** For a call that uses application-hosted media, you also need the Calls.AccessMedia.All permission. You must have at least one of the following permissions to ensure that the `source` in the incoming call notification is decrypted: Calls.AccessMedia.All, Calls.Initiate.All, Calls.InitiateGroupCall.All, Calls.JoinGroupCall.All, Calls.JoinGroupCallAsGuest.All. The `source` is the caller info in the incoming call notification. Without at least one of these permissions, the `source` will remain encrypted.
 

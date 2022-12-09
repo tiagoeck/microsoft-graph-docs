@@ -19,11 +19,8 @@ Translate identifiers of Outlook-related resources between formats.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged) |
-|:----------------|:--------------------------------------------|
-| Delegated (work or school account) | User.ReadBasic.All, User.Read, User.ReadWrite, User.ReadBasic.All, User.Read.All, User.ReadWrite.All |
-| Delegated (personal Microsoft account) | User.ReadBasic.All, User.Read, User.ReadWrite |
-| Application | User.Read.All, User.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_translateexchangeids" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-translateexchangeids-permissions.md)]
 
 ## HTTP request
 

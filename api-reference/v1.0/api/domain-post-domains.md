@@ -20,11 +20,8 @@ Adds a domain to the tenant.
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Domain.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Domain.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "domain_post_domains" } -->
+[!INCLUDE [permissions-table](../includes/permissions/domain-post-domains-permissions.md)]
 
 ## HTTP request
 

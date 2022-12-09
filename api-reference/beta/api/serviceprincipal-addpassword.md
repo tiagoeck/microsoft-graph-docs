@@ -19,11 +19,8 @@ Add a strong password or secret to a [servicePrincipal](../resources/serviceprin
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Application.ReadWrite.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Application.ReadWrite.OwnedBy, Application.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_addpassword" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-addpassword-permissions.md)]
 
 ## HTTP request
 

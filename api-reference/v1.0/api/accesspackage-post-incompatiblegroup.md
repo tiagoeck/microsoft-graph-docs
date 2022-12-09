@@ -17,11 +17,8 @@ Add a [group](../resources/group.md) to the list of groups that have been marked
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | EntitlementManagement.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | EntitlementManagement.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "accesspackage_post_incompatiblegroup" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accesspackage-post-incompatiblegroup-permissions.md)]
 
 ## HTTP request
 

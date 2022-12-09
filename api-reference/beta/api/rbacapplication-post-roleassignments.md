@@ -21,11 +21,8 @@ Depending on the RBAC provider and the permission type (delegated or application
 
 ### For the directory (Azure AD) provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  RoleManagement.ReadWrite.Directory   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | RoleManagement.ReadWrite.Directory |
+<!-- { "blockType": "permissions", "name": "rbacapplication_post_roleassignments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/rbacapplication-post-roleassignments-permissions.md)]
 
 ### For the entitlement management provider
 

@@ -19,11 +19,8 @@ A summary of runs for a specified time period. Since the amount of runs returned
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|LifecycleWorkflows.Read.All, LifecycleWorkflows.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|LifecycleWorkflows.Read.All, LifecycleWorkflows.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "identitygovernance_run_summary" } -->
+[!INCLUDE [permissions-table](../includes/permissions/identitygovernance-run-summary-permissions.md)]
 
 For delegated scenarios, the admin needs one of the following [Azure AD roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
 

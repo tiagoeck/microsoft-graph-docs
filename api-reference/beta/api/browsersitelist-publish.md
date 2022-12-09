@@ -17,11 +17,8 @@ Publish the specified [browserSiteList](../resources/browsersitelist.md) for dev
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|BrowserSiteLists.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|BrowserSiteLists.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "browsersitelist_publish" } -->
+[!INCLUDE [permissions-table](../includes/permissions/browsersitelist-publish-permissions.md)]
 
 ## HTTP request
 

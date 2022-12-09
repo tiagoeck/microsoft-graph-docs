@@ -16,11 +16,8 @@ Remove an owner from an [application](../resources/application.md). As a recomme
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "application_delete_owners" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-delete-owners-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

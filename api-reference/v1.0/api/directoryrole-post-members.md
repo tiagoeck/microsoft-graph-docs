@@ -18,11 +18,8 @@ You can use both the object ID and template ID of the **directoryRole** with thi
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | RoleManagement.ReadWrite.Directory    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | RoleManagement.ReadWrite.Directory |
+<!-- { "blockType": "permissions", "name": "directoryrole_post_members" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryrole-post-members-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

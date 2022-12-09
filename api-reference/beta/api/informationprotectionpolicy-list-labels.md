@@ -21,11 +21,8 @@ Get a collection of [information protection labels](../resources/informationprot
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | InformationProtectionPolicy.Read            |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | InformationProtectionPolicy.Read.All        |
+<!-- { "blockType": "permissions", "name": "informationprotectionpolicy_list_labels" } -->
+[!INCLUDE [permissions-table](../includes/permissions/informationprotectionpolicy-list-labels-permissions.md)]
 
 ## HTTP request
 

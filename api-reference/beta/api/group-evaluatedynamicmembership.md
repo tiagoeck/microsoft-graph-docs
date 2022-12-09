@@ -24,11 +24,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Evaluate dynamic membership with member ID and group ID
 
-| Permission type                        | Permissions (from least to most privileged)                                                                                          |
-| :------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| Delegated (work or school account)     | For user: Group.Read.All and User.Read.All, Directory.Read.All<br>For device: Group.Read.All and Device.Read.All, Directory.Read.All |
-| Delegated (personal Microsoft account) | Not supported.                                                                                                                       |
-| Application                            | Not supported.                                                                                                                       |
+<!-- { "blockType": "permissions", "name": "group_evaluatedynamicmembership" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-evaluatedynamicmembership-permissions.md)]
 
 ### Evaluate dynamic membership with member ID and membership rule
 

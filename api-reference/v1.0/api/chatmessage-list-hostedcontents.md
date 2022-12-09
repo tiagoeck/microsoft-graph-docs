@@ -17,11 +17,8 @@ Retrieve the list of [chatMessageHostedContent](../resources/chatmessagehostedco
 
 ### Permissions for channel
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| ChannelMessage.Read.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChannelMessage.Read.Group*, ChannelMessage.Read.All |
+<!-- { "blockType": "permissions", "name": "chatmessage_list_hostedcontents" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-list-hostedcontents-permissions.md)]
 
 ### Permissions for chat
 

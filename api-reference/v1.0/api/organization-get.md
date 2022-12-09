@@ -19,11 +19,8 @@ Since the **organization** resource supports [extensions](/graph/extensibility-o
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read, Organization.Read.All, Directory.Read.All, Organization.ReadWrite.All, Directory.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Organization.Read.All, Directory.Read.All, Organization.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "organization_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/organization-get-permissions.md)]
 
 > **Note**: Applications granted the User.Read permission are able to read only the **id**, **displayName**, and **verifiedDomains** properties of the organization.  All other properties will return with `null` values. To read all properties, use Organization.Read.All.
 

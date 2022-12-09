@@ -24,11 +24,8 @@ This API only returns the first validation failure that is encountered. If the p
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | Group.Read.All, Group.ReadWrite.All         |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Group.Read.All, Group.ReadWrite.All         |
+<!-- { "blockType": "permissions", "name": "group_validateproperties" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-validateproperties-permissions.md)]
 
 ## HTTP request
 

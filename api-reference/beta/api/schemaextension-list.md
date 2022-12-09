@@ -22,11 +22,8 @@ Get a list of [schemaExtension](../resources/schemaextension.md) objects in your
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read, Application.Read.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.Read.All  |
+<!-- { "blockType": "permissions", "name": "schemaextension_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/schemaextension-list-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

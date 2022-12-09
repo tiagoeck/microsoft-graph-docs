@@ -19,13 +19,8 @@ Retire all devices from management for this user
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-| &nbsp; &nbsp; **Device management** | DeviceManagementManagedDevices.PriviligedOperation.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-| &nbsp; &nbsp; **Device management** | DeviceManagementManagedDevices.PriviligedOperation.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_user_removealldevicesfrommanagement" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-user-removealldevicesfrommanagement-permissions.md)]
 
 ## HTTP Request
 <!-- {

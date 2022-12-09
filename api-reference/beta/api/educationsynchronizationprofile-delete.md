@@ -18,11 +18,8 @@ Delete a school data [synchronization profile](../resources/educationsynchroniza
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions |
-|:-----------|:----------|
-| Delegated (work or school account) | EduAdministration.ReadWrite |
-| Delegated (personal Microsoft account) |Not supported.|
-| Application |Not supported.|
+<!-- { "blockType": "permissions", "name": "educationsynchronizationprofile_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationsynchronizationprofile-delete-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

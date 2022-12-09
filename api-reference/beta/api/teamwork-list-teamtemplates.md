@@ -17,11 +17,8 @@ Get the list of [teamTemplate](../resources/teamtemplate.md) objects that are av
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Team.Create|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Team.Create|
+<!-- { "blockType": "permissions", "name": "teamwork_list_teamtemplates" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamwork-list-teamtemplates-permissions.md)]
 
 ## HTTP request
 

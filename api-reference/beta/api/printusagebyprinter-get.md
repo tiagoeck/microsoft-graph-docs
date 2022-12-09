@@ -23,11 +23,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 To use the Universal Print service, the user or app's tenant must have an active Universal Print subscription, in addition to the permissions listed in the following table.
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| Reports.Read.All |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application|Not Supported.|
+<!-- { "blockType": "permissions", "name": "printusagebyprinter_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printusagebyprinter-get-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

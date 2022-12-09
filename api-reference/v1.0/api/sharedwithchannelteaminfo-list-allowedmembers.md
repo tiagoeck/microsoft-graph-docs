@@ -24,11 +24,8 @@ This method does not return the following [conversationMembers](../resources/con
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account) | ChannelMember.Read.All, ChannelMember.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | ChannelMember.Read.All, ChannelMember.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "sharedwithchannelteaminfo_list_allowedmembers" } -->
+[!INCLUDE [permissions-table](../includes/permissions/sharedwithchannelteaminfo-list-allowedmembers-permissions.md)]
 
 
 > **Note**: This API supports admin permissions. Global admins and Microsoft Teams service admins can access teams that they are not a member of.

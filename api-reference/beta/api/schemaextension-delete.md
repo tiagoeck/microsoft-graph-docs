@@ -20,11 +20,8 @@ Delete the definition of a [schema extension](../resources/schemaextension.md). 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "schemaextension_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/schemaextension-delete-permissions.md)]
 
 > [!NOTE]
 > Additionally for the delegated flow, the signed-in user can only delete schemaExtensions they own (where the **owner** property of the schemaExtension is the **appId** of an application the signed-in user owns).

@@ -19,11 +19,8 @@ Get newly created or updated schools without having to perform a full read of th
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                              |
-| :------------------------------------- | :----------------------------------------------------------------------- |
-| Delegated (work or school account)     | EduRoster.ReadBasic, EduRoster.Read, or EduRoster.ReadWrite              |
-| Delegated (personal Microsoft account) | Not supported.                                                           |
-| Application                            | EduRoster.ReadBasic.All, EduRoster.Read.All, or EduRoster.WriteWrite.All |
+<!-- { "blockType": "permissions", "name": "educationschool_delta" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationschool-delta-permissions.md)]
 
 ## HTTP request
 

@@ -19,11 +19,8 @@ You can only reprocess a request within 14 days from the time the original reque
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account) | EntitlementManagement.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | EntitlementManagement.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "accesspackageassignmentrequest_reprocess" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accesspackageassignmentrequest-reprocess-permissions.md)]
   
 ## HTTP request
 

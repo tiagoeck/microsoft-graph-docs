@@ -17,11 +17,8 @@ Retrieve the [accessReviewHistoryDefinition](../resources/accessreviewhistorydef
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|AccessReview.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|AccessReview.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "accessreviewset_list_historydefinitions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewset-list-historydefinitions-permissions.md)]
 
 If the signed-in user is not a Global Admin directory role member or a Global Reader directory role member, only the definitions that the signed-in user created will be returned.
 

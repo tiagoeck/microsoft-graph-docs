@@ -21,11 +21,8 @@ Create [call](../resources/call.md) enables your bot to create a new outgoing pe
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/microsoftteams/platform/concepts/calls-and-meetings/registering-calling-bot#add-microsoft-graph-permissions).
 
-| Permission type                        | Permissions (from least to most privileged)                                             |
-|:---------------------------------------|:----------------------------------------------------------------------------------------|
-| Delegated (work or school account)     | Not supported.                                                                          |
-| Delegated (personal Microsoft account) | Not supported.                                                                          |
-| Application                            | Calls.JoinGroupCalls.Chat*, Calls.JoinGroupCallAsGuest.All, Calls.JoinGroupCall.All, Calls.Initiate.All, Calls.InitiateGroupCall.All |
+<!-- { "blockType": "permissions", "name": "application_post_calls" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-post-calls-permissions.md)]
 
 > **Notes:** For a call with app-hosted media, you need the Calls.AccessMedia.All or the Calls.AccessMedia.Chat* permission in addition to one of the permissions listed.
 >

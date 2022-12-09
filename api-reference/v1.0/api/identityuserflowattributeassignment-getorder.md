@@ -17,11 +17,8 @@ Get the order of identityUserFlowAttributeAssignments being collected within a u
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|IdentityUserFlow.Read.All, IdentityUserFlow.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|IdentityUserFlow.Read.All, IdentityUserFlow.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "identityuserflowattributeassignment_getorder" } -->
+[!INCLUDE [permissions-table](../includes/permissions/identityuserflowattributeassignment-getorder-permissions.md)]
 
 ## HTTP request
 

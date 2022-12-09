@@ -19,11 +19,8 @@ List all [resource-specific permission grants](../resources/resourcespecificperm
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission Type                        | Permissions (from least to most privileged)                                          |
-| :------------------------------------- | :----------------------------------------------------------------------------------- |
-| Delegated (work or school account)     | GroupMember.Read.All, GroupMember.ReadWrite.All, Group.Read.All, Group.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                                                                       |
-| Application                            | GroupMember.Read.All, GroupMember.ReadWrite.All, Group.Read.All, Group.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "group_list_permissiongrants" } -->
+[!INCLUDE [permissions-table](../includes/permissions/group-list-permissiongrants-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -17,11 +17,8 @@ Get the properties of the [team](../resources/team.md) associated with a [teamTe
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Team.Create|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|Team.Create|
+<!-- { "blockType": "permissions", "name": "teamtemplatedefinition_get_teamdefinition" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamtemplatedefinition-get-teamdefinition-permissions.md)]
 
 ## HTTP request
 

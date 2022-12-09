@@ -22,11 +22,8 @@ Retrieve the simple directory **user** that corresponds to this **educationUser*
 
 A combination of permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                                               |
-| :------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
-| Delegated (work or school account)     | One from EduRoster.ReadBasic, EduRoster.Read, EduRoster.Write plus either Directory.Read.All or User.Read |
-| Delegated (personal Microsoft account) | Not supported.                                                                                            |
-| Application                            | EduRoster.Read.All, EduRoster.ReadWrite.All plus Directory.Read.All                                       |
+<!-- { "blockType": "permissions", "name": "educationuser_get_user" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationuser-get-user-permissions.md)]
 
 ## HTTP request
 

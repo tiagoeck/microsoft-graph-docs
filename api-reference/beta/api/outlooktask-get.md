@@ -24,11 +24,8 @@ By default, this operation (and the POST, PATCH, and [complete](../api/outlookta
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:------------------------------------|
-| Delegated (work or school account)     | Tasks.Read                          |
-| Delegated (personal Microsoft account) | Tasks.Read                          |
-| Application                            | Not supported.                      |
+<!-- { "blockType": "permissions", "name": "outlooktask_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/outlooktask-get-permissions.md)]
 
 ## HTTP request
 

@@ -19,11 +19,8 @@ Create a new authenticationListener object for the onSignUpStart event.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.ReadWrite.ApplicationConfiguration|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Policy.ReadWrite.ApplicationConfiguration|
+<!-- { "blockType": "permissions", "name": "authenticationeventspolicy_post_onsignupstart" } -->
+[!INCLUDE [permissions-table](../includes/permissions/authenticationeventspolicy-post-onsignupstart-permissions.md)]
 
 ## HTTP request
 

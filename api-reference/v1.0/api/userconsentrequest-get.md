@@ -17,11 +17,8 @@ Read the properties and relationships of a [userConsentRequest](../resources/use
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|ConsentRequest.Read.All, ConsentRequest.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|ConsentRequest.Read.All, ConsentRequest.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "userconsentrequest_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/userconsentrequest-get-permissions.md)]
 
 ## HTTP request
 

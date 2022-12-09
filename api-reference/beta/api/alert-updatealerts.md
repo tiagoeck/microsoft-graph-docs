@@ -19,11 +19,8 @@ Update multiple alerts in one request instead of multiple requests.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account) |   SecurityEvents.ReadWrite.All  |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | SecurityEvents.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "alert_updatealerts" } -->
+[!INCLUDE [permissions-table](../includes/permissions/alert-updatealerts-permissions.md)]
 
 ## HTTP request
 

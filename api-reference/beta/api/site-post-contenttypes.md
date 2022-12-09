@@ -18,11 +18,8 @@ Create a new [contentType][] for a [site][].
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |Sites.Manage.All, Sites.FullControl.All    |
-|Delegated (personal Microsoft account) |Not Supported    |
-|Application |Sites.Manage.All, Sites.FullControl.All |
+<!-- { "blockType": "permissions", "name": "site_post_contenttypes" } -->
+[!INCLUDE [permissions-table](../includes/permissions/site-post-contenttypes-permissions.md)]
 
 
 ## HTTP request

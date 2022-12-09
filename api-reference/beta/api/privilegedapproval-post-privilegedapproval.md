@@ -20,11 +20,8 @@ Use this API to create a new privilegedApproval.
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "privilegedapproval_post_privilegedapproval" } -->
+[!INCLUDE [permissions-table](../includes/permissions/privilegedapproval-post-privilegedapproval-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -18,11 +18,8 @@ Retrieve a list of domain objects.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Domain.Read.All, Domain.ReadWrite.All, Directory.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Domain.Read.All, Domain.ReadWrite.All, Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "domain_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/domain-list-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

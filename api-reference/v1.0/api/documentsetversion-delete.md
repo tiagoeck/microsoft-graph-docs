@@ -15,11 +15,8 @@ Delete a [version of a document set](../resources/documentsetversion.md) in a li
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                  |
-|:---------------------------------------|:-----------------------------------------------------------------------------|
-| Delegated (work or school account)     | Sites.ReadWrite.All, Sites.Manage.All, Sites.FullControl.All                 |
-| Delegated (personal Microsoft account) | Not supported.                                                               |
-| Application                            | Sites.ReadWrite.All, Sites.Manage.All, Sites.FullControl.All, Sites.Selected |
+<!-- { "blockType": "permissions", "name": "documentsetversion_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/documentsetversion-delete-permissions.md)]
 
 ## HTTP request
 

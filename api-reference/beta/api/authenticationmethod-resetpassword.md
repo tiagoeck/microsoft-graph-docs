@@ -26,11 +26,8 @@ One of the following permissions is required to call this API. To learn more, in
 > [!IMPORTANT]
 > The operation cannot be performed on a user's own account. Only an administrator with the appropriate permissions can perform this operation.
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:---------------------------------------|:-------------------------|
-| Delegated (work or school account)     | UserAuthenticationMethod.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "authenticationmethod_resetpassword" } -->
+[!INCLUDE [permissions-table](../includes/permissions/authenticationmethod-resetpassword-permissions.md)]
 
 For delegated scenarios where an admin is acting on another user, the admin needs one of the following [Azure AD roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
 

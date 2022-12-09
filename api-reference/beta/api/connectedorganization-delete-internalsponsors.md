@@ -18,11 +18,8 @@ Remove a user or a group from the connected organization's internal sponsors. Th
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | EntitlementManagement.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | EntitlementManagement.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "connectedorganization_delete_internalsponsors" } -->
+[!INCLUDE [permissions-table](../includes/permissions/connectedorganization-delete-internalsponsors-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

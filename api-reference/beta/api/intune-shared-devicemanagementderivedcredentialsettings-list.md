@@ -20,13 +20,8 @@ List properties and relationships of the [deviceManagementDerivedCredentialSetti
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-|&nbsp; &nbsp; **Resource Access Policy**|DeviceManagementServiceConfig.ReadWrite.All, DeviceManagementServiceConfig.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-|&nbsp; &nbsp; **Resource Access Policy**|DeviceManagementServiceConfig.ReadWrite.All, DeviceManagementServiceConfig.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_devicemanagementderivedcredentialsettings_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-devicemanagementderivedcredentialsettings-list-permissions.md)]
 
 ## HTTP Request
 <!-- {

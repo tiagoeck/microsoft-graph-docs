@@ -17,11 +17,8 @@ Read the properties and relationships of an [accessReviewPolicy](../resources/ac
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.Read.All, Policy.ReadWrite.AccessReview|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Policy.Read.All, Policy.ReadWrite.AccessReview|
+<!-- { "blockType": "permissions", "name": "accessreviewpolicy_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewpolicy-get-permissions.md)]
 
 ## HTTP request
 

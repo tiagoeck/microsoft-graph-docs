@@ -17,11 +17,8 @@ Get a list of the [authenticationStrengthPolicy](../resources/authenticationstre
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.Read.All, Policy.ReadWrite.ConditionalAccess, Policy.ReadWrite.AuthenticationMethod|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Policy.Read.All, Policy.ReadWrite.ConditionalAccess, Policy.ReadWrite.AuthenticationMethod|
+<!-- { "blockType": "permissions", "name": "authenticationstrengthroot_list_policies" } -->
+[!INCLUDE [permissions-table](../includes/permissions/authenticationstrengthroot-list-policies-permissions.md)]
 
 ## HTTP request
 

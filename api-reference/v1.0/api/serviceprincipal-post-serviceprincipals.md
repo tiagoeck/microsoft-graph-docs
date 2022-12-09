@@ -20,11 +20,8 @@ Create a new [servicePrincipal](../resources/serviceprincipal.md) object.
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_post_serviceprincipals" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-post-serviceprincipals-permissions.md)]
 
 > [!IMPORTANT]
 > The following additional requirements must be met for an app to create a service principal:

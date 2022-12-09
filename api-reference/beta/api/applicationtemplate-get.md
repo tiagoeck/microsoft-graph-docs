@@ -19,11 +19,8 @@ Retrieve the properties of an [applicationTemplate](../resources/applicationtemp
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | None. |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | None. |
+<!-- { "blockType": "permissions", "name": "applicationtemplate_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/applicationtemplate-get-permissions.md)]
 
 Additional permissions are not required to call this API, as long as your application has a valid access token to call Microsoft Graph.
 

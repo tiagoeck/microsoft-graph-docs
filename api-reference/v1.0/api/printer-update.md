@@ -19,11 +19,8 @@ In addition to the following permissions, the user's tenant must have an active 
 
 >**Note:** Only the app that registered the printer is allowed to update the printer using application permissions.
 
-|Permission type | Permissions (from least to most privileged) |
-|:---------------|:--------------------------------------------|
-|Delegated (work or school account)| Printer.ReadWrite.All, Printer.FullControl.All |
-|Delegated (personal Microsoft account)|Not Supported.|
-|Application| Printer.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "printer_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/printer-update-permissions.md)]
 
 >**Note:** Right now, only printers that don't have physical device can be updated using application permissions.
 

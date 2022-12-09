@@ -26,11 +26,8 @@ The **passwordCredential** is used to open the PFX file (private key). It and th
 
 ## Permissions
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All, Directory.ReadWrite.All |
-|Delegated (personal Microsoft account) | None.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "serviceprincipal_addtokensigningcertificate" } -->
+[!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-addtokensigningcertificate-permissions.md)]
 
 
 ## HTTP request

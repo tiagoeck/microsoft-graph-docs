@@ -21,11 +21,8 @@ When an [invokeUserFlowListener](../resources/invokeuserflowlistener.md) is assi
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.Read.All, Policy.ReadWrite.ApplicationConfiguration|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Policy.Read.All, Policy.ReadWrite.ApplicationConfiguration|
+<!-- { "blockType": "permissions", "name": "authenticationeventspolicy_list_onsignupstart" } -->
+[!INCLUDE [permissions-table](../includes/permissions/authenticationeventspolicy-list-onsignupstart-permissions.md)]
 
 ## HTTP request
 

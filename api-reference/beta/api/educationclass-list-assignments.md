@@ -21,11 +21,8 @@ A teacher or an application executing with application permissions can see all a
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                                            |
-| :------------------------------------- | :----------------------------------------------------------------------------------------------------- |
-| Delegated (work or school account)     | EduAssignments.ReadBasic, EduAssignments.ReadWriteBasic, EduAssignments.Read, EduAssignments.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported.                                                                                         |
-| Application                            | EduAssignments.ReadBasic.All, EduAssignments.ReadWriteBasic.All, EduAssignments.Read.All, EduAssignments.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "educationclass_list_assignments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationclass-list-assignments-permissions.md)]
 
 ## HTTP request
 

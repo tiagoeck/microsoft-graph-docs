@@ -22,11 +22,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 >**Note:** This API also requires that the requester have at least one `Active` administrator role assignment (`owner` or `user access administrator`) on the resource.
 
-|Permission type      | Permissions              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureResources  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governancerolesetting_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governancerolesetting-update-permissions.md)]
 ### Azure resources
 
 | Permission type | Permissions |

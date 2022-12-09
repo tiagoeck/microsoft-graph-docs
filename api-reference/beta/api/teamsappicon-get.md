@@ -19,11 +19,8 @@ Retrieve a [Teams app icon](../resources/teamsappicon.md) associated with a spec
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission Type                        | Permissions (from least to most privileged)                      |
-| :------------------------------------- | :--------------------------------------------------------------- |
-| Delegated (work or school account)     | AppCatalog.Read.All, AppCatalog.ReadWrite.All, AppCatalog.Submit |
-| Delegated (personal Microsoft account) | Not supported.                                                   |
-| Application                            | AppCatalog.Read.All, AppCatalog.ReadWrite.All                    |
+<!-- { "blockType": "permissions", "name": "teamsappicon_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamsappicon-get-permissions.md)]
 
 ## HTTP request
 

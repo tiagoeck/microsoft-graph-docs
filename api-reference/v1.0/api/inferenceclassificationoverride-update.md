@@ -23,11 +23,8 @@ the new SMTP address is the only way to "update" the override for this sender.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.ReadWrite    |
-|Delegated (personal Microsoft account) | Mail.ReadWrite    |
-|Application | Mail.ReadWrite |
+<!-- { "blockType": "permissions", "name": "inferenceclassificationoverride_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/inferenceclassificationoverride-update-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -30,11 +30,8 @@ To learn more about the steps involved in the backend before a mail is delivered
 ## Permissions
 One of the following permissions are required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.Send    |
-|Delegated (personal Microsoft account) | Mail.Send    |
-|Application | Mail.Send |
+<!-- { "blockType": "permissions", "name": "user_sendmail" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-sendmail-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -17,11 +17,8 @@ Create a new [externalGroup](../resources/externalconnectors-externalgroup.md) o
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ExternalItem.ReadWrite.OwnedBy, ExternalItem.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported                               |
-| Application                            | ExternalItem.ReadWrite.OwnedBy, ExternalItem.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "externalconnectors_externalconnection_post_groups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/externalconnectors-externalconnection-post-groups-permissions.md)]
 
 ## HTTP request
 

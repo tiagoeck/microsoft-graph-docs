@@ -23,11 +23,8 @@ Retrieve a list of [oAuth2PermissionGrant](../resources/oAuth2PermissionGrant.md
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadBasic.All, Directory.Read.All, DelegatedPermissionGrant.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All, DelegatedPermissionGrant.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_list_oauth2permissiongrants" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-oauth2permissiongrants-permissions.md)]
 
 ## HTTP request
 

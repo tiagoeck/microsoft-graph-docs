@@ -19,13 +19,8 @@ Retrieves the assigned role definitions and role assignments of the currently au
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from most to least privileged)|
-|:---|:---|
-|Delegated (work or school account)||
-| &nbsp; &nbsp; **Role-based access control (RBAC)** | DeviceManagementRBAC.ReadWrite.All, DeviceManagementRBAC.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application||
-| &nbsp; &nbsp; **Role-based access control (RBAC)** | DeviceManagementRBAC.ReadWrite.All, DeviceManagementRBAC.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_shared_devicemanagement_getassignedroleidsforloggedinuser" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-shared-devicemanagement-getassignedroleidsforloggedinuser-permissions.md)]
 ## HTTP Request
 <!-- {
   "blockType": "ignored"

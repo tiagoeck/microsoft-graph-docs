@@ -25,11 +25,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### To update the profile photo of a contact
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)      |   Contacts.ReadWrite           |
-|Delegated (personal Microsoft account)      |   Not supported.            |
-|Application      |    Contacts.ReadWrite           |
+<!-- { "blockType": "permissions", "name": "profilephoto_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-permissions.md)]
 
 ### To update the profile photo of a group
 

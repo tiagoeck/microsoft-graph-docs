@@ -17,11 +17,8 @@ In [Azure AD entitlement management](../resources/entitlementmanagement-overview
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | EntitlementManagement.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "approvalstage_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/approvalstage-update-permissions.md)]
 
 ## HTTP request
 

@@ -19,11 +19,8 @@ Retrieve the properties and relationships of workbookPivotTable object.
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Files.ReadWrite    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "workbookpivottable_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/workbookpivottable-get-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

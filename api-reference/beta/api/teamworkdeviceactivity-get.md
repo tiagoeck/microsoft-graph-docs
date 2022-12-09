@@ -19,11 +19,8 @@ Get the [activity status](../resources/teamworkdeviceactivity.md) of a Microsoft
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamworkDevice.Read.All, TeamworkDevice.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|TeamworkDevice.Read.All, TeamworkDevice.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "teamworkdeviceactivity_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamworkdeviceactivity-get-permissions.md)]
 
 ## HTTP request
 

@@ -18,11 +18,8 @@ Create a request for a new school data [synchronization profile](../resources/ed
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type | Permissions |
-|:-----------|:----------|
-| Delegated (work or school account) | EduAdministration.ReadWrite |
-|Delegated (personal Microsoft account|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "educationsynchronizationprofile_post" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationsynchronizationprofile-post-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

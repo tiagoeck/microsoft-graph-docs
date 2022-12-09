@@ -19,11 +19,8 @@ Retrieve the properties and relationships of a collection of **riskyUser** objec
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | IdentityRiskyUser.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | IdentityRiskyUser.Read.All |
+<!-- { "blockType": "permissions", "name": "riskyusers_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/riskyusers-list-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -20,11 +20,8 @@ Directory setting templates represents a set of templates of directory settings,
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directorysettingtemplate_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directorysettingtemplate-list-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

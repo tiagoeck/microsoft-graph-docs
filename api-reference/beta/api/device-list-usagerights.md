@@ -17,11 +17,8 @@ Retrieve a list of [usageRight](../resources/usageright.md) objects for a given 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Device.Read.All, Directory.Read.All, Directory.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Device.Read.All, Device.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "device_list_usagerights" } -->
+[!INCLUDE [permissions-table](../includes/permissions/device-list-usagerights-permissions.md)]
 
 ## HTTP request
 

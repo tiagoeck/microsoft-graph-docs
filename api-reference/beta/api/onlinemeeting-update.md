@@ -19,11 +19,8 @@ Please see [Request body](#request-body) section for the list of properties that
 
 ## Permissions
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | OnlineMeetings.ReadWrite                    |
-| Delegated (personal Microsoft account) | Not Supported.                              |
-| Application                            | OnlineMeetings.ReadWrite.All                |
+<!-- { "blockType": "permissions", "name": "onlinemeeting_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/onlinemeeting-update-permissions.md)]
 
 To use application permission for this API, tenant administrators must create an [application access policy](/graph/cloud-communication-online-meeting-application-access-policy) and grant it to a user to authorize the app configured in the policy to update online meetings on behalf of that user (with user ID specified in the request path).
 

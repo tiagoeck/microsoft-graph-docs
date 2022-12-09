@@ -18,11 +18,8 @@ Get all the categories that have been defined for the user.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | MailboxSettings.Read    |
-|Delegated (personal Microsoft account) | MailboxSettings.Read    |
-|Application | MailboxSettings.Read |
+<!-- { "blockType": "permissions", "name": "outlookuser_list_mastercategories" } -->
+[!INCLUDE [permissions-table](../includes/permissions/outlookuser-list-mastercategories-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

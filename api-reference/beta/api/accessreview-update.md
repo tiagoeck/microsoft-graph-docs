@@ -23,11 +23,8 @@ This API is not intended to change the reviewers or decisions of a review.  To c
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | AccessReview.ReadWrite.Membership, AccessReview.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | AccessReview.ReadWrite.Membership |
+<!-- { "blockType": "permissions", "name": "accessreview_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreview-update-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

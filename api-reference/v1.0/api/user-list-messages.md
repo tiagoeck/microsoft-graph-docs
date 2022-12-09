@@ -33,11 +33,8 @@ There are two scenarios where an app can get messages in another user's mail fol
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.ReadBasic, Mail.Read, Mail.ReadWrite    |
-|Delegated (personal Microsoft account) | Mail.ReadBasic, Mail.Read, Mail.ReadWrite    |
-|Application | Mail.ReadBasic.All, Mail.Read, Mail.ReadWrite |
+<!-- { "blockType": "permissions", "name": "user_list_messages" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-messages-permissions.md)]
 
 ## HTTP request
 

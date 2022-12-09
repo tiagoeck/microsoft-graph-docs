@@ -20,11 +20,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### For applications and service principals:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.Read.All, Application.ReadWrite.OwnedBy, Application.ReadWrite.All, Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-get-permissions.md)]
 
 ### For users:
 

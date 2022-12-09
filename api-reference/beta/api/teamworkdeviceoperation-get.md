@@ -19,11 +19,8 @@ Get the details of an async, long-running operation on a Microsoft Teams-enabled
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamworkDevice.Read.All, TeamworkDevice.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|TeamworkDevice.Read.All, TeamworkDevice.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "teamworkdeviceoperation_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamworkdeviceoperation-get-permissions.md)]
 
 ## HTTP request
 

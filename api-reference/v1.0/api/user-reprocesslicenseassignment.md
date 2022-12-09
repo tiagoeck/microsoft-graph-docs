@@ -17,11 +17,8 @@ Reprocess all group-based license assignments for the user. To learn more about 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_reprocesslicenseassignment" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-reprocesslicenseassignment-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -19,11 +19,8 @@ When deleted, user resources are moved to a temporary container and can be resto
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "user_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-delete-permissions.md)]
 
 The calling user must be assigned one of the following Azure AD roles:
 + [User Administrator](/azure/active-directory/roles/permissions-reference#user-administrator)

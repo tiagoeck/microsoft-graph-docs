@@ -19,11 +19,8 @@ Add groups to be included in a mobile app management policy.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.ReadWrite.MobilityManagement|
-|Delegated (personal Microsoft account) | Not supported.|
-|Application | Not supported.|
+<!-- { "blockType": "permissions", "name": "mobiledevicemanagementpolicies_post_includedgroups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/mobiledevicemanagementpolicies-post-includedgroups-permissions.md)]
 
 ## HTTP request
 

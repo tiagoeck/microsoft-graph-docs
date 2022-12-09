@@ -17,11 +17,8 @@ Read the properties and relationships of an [ediscoveryCustodian](../resources/s
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|eDiscovery.Read.All, eDiscovery.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported.|
+<!-- { "blockType": "permissions", "name": "security_ediscoverycustodian_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/security-ediscoverycustodian-get-permissions.md)]
 
 ## HTTP request
 

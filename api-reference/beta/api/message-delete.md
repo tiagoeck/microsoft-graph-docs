@@ -22,11 +22,8 @@ For example, you can delete a specific [@-mention](../resources/mention.md) of t
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Mail.ReadWrite    |
-|Delegated (personal Microsoft account) | Mail.ReadWrite    |
-|Application | Mail.ReadWrite |
+<!-- { "blockType": "permissions", "name": "message_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/message-delete-permissions.md)]
 
 ## HTTP request
 

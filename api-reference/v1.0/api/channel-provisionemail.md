@@ -21,11 +21,8 @@ To remove the email address of a **channel**, use the [removeEmail](channel-remo
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | ChannelSettings.ReadWrite.All               |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | Not supported.                              |
+<!-- { "blockType": "permissions", "name": "channel_provisionemail" } -->
+[!INCLUDE [permissions-table](../includes/permissions/channel-provisionemail-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

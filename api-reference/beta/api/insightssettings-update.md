@@ -23,11 +23,8 @@ To learn more about customizing insights privacy for your organization, see:
 
 To update settings for contact insights, one of the following permissions is required to call this API. To learn more, including how to choose permissions, see [permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Organization.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "insightssettings_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/insightssettings-update-permissions.md)]
 
 To update settings for item insights or people insights, one of the following permissions is required to call this API. To learn more, including how to choose permissions, see [permissions](/graph/permissions-reference).
 

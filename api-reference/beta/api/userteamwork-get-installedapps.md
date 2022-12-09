@@ -19,11 +19,8 @@ Retrieve the [app](../resources/teamsappinstallation.md) installed in the person
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | TeamsAppInstallation.ReadForUser, TeamsAppInstallation.ReadWriteSelfForUser, TeamsAppInstallation.ReadWriteForUser |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | TeamsAppInstallation.ReadForUser.All, TeamsAppInstallation.ReadWriteSelfForUser.All, TeamsAppInstallation.ReadWriteForUser.All |
+<!-- { "blockType": "permissions", "name": "userteamwork_get_installedapps" } -->
+[!INCLUDE [permissions-table](../includes/permissions/userteamwork-get-installedapps-permissions.md)]
 
 ## HTTP request
 

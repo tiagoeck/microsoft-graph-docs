@@ -16,11 +16,8 @@ Get the properties and relationships of an [application](../resources/applicatio
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.Read.All, Application.ReadWrite.All, , Directory.Read.All    |
-|Delegated (personal Microsoft account) | Application.Read.All, Application.ReadWrite.All |
-|Application | Application.Read.All, Application.ReadWrite.OwnedBy, Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "application_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/application-get-permissions.md)]
 
 [!INCLUDE [permissions-applicationreadwriteownedby-disclaimer](../../includes/permissions-applicationreadwriteownedby-disclaimer.md)]
 

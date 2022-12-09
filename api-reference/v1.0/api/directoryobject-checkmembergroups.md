@@ -19,11 +19,8 @@ You can check up to a maximum of 20 groups per request. This function supports a
 
 ### Group memberships for a directory object
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadBasic.All and GroupMember.Read.All, User.Read.All and GroupMember.Read.All, User.ReadBasic.All and Group.Read.All, User.Read.All and Group.Read.All, Directory.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.Read.All and GroupMember.Read.All, User.Read.All and Group.Read.All, Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmembergroups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmembergroups-permissions.md)]
 
 ### Group memberships for a user
 

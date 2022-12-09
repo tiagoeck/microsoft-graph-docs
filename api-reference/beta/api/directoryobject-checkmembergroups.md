@@ -23,11 +23,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Group memberships for a directory object
 
-| Permission type                        | Permissions (from least to most privileged)           |
-|:---------------------------------------|:------------------------------------------------------|
-| Delegated (work or school account)     | User.ReadBasic.All, User.Read.All, Directory.Read.All |
-| Delegated (personal Microsoft account) | Not supported.                                        |
-| Application                            | User.Read.All, Directory.Read.All                     |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmembergroups" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmembergroups-permissions.md)]
 
 ### Group memberships for a user
 

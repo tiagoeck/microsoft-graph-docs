@@ -17,11 +17,8 @@ Get a list of the [acronym](../resources/search-acronym.md) objects and their pr
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)| SearchConfiguration.Read.All, SearchConfiguration.ReadWrite.All |
-|Delegated (personal Microsoft account)| Not supported. |
-|Application| SearchConfiguration.Read.All, SearchConfiguration.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "search_searchentity_list_acronyms" } -->
+[!INCLUDE [permissions-table](../includes/permissions/search-searchentity-list-acronyms-permissions.md)]
 
 ## HTTP request
 

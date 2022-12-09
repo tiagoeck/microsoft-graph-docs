@@ -23,11 +23,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 In order to activate a service for an organization the requestor needs to have the _Company Administrator_ role with the following permissions.
 
-|Permission type|Permissions (from least to most privileged)|
-| :--- | :--- |
-| Delegated (work or school account) | Directory.ReadWrite.All|
-| Delegated (personal Microsoft account) | Not Supported. |
-| Application | Directory.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "organization_activateservice" } -->
+[!INCLUDE [permissions-table](../includes/permissions/organization-activateservice-permissions.md)]
 
 
 ## HTTP request

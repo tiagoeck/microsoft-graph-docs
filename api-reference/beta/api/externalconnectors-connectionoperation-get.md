@@ -19,11 +19,8 @@ Retrieve the properties of a [connectionOperation](../resources/externalconnecto
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | ExternalConnection.ReadWrite.OwnedBy, ExternalConnection.Read.All, ExternalConnection.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | ExternalConnection.ReadWrite.OwnedBy, ExternalConnection.Read.All, ExternalConnection.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "externalconnectors_connectionoperation_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/externalconnectors-connectionoperation-get-permissions.md)]
 
 ## HTTP request
 

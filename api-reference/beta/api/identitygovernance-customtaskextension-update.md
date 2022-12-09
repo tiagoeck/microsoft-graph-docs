@@ -19,11 +19,8 @@ Update the properties of a [customTaskExtension](../resources/identitygovernance
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|LifecycleWorkflows.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Not supported|
+<!-- { "blockType": "permissions", "name": "identitygovernance_customtaskextension_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/identitygovernance-customtaskextension-update-permissions.md)]
 
 > [!IMPORTANT]
 > The calling user also requires one of the following Azure Resource Manager roles for the specified Azure Logic App: **Logic App contributor**, **Contributor**, or **Owner**.
