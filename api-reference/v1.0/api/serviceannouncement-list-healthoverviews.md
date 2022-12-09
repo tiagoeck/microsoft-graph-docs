@@ -107,7 +107,7 @@ Content-Type: application/json
   "value": [
     {
         "service": "Exchange Online",
-        "status": "ServicaOperational",
+        "status": "ServiceOperational",
         "id": "Exchange"
     },
     {

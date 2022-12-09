@@ -20,9 +20,13 @@ One of the following permissions is required to call this API. To learn more, in
 [!INCLUDE [permissions-table](../includes/permissions/serviceprincipal-post-owners-permissions.md)]
 
 ## HTTP request
+
+You can address the service principal using either its **id** or **appId**. **id** and **appId** are referred to as the **Object ID** and **Application (Client) ID**, respectively, in the Azure portal
+
 <!-- { "blockType": "ignored" } -->
 ```http
 POST /servicePrincipals/{id}/owners/$ref
+POST /servicePrincipals(appId='{appId}')/owners/$ref
 
 ```
 ## Request headers

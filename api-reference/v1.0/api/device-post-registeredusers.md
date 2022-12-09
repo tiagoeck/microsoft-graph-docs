@@ -21,10 +21,12 @@ One of the following permissions is required to call this API. To learn more, in
 [!INCLUDE [permissions-table](../includes/permissions/device-post-registeredusers-permissions.md)]
 
 ## HTTP request
+
+You can address the device using either its **id** or **deviceId**.
 <!-- { "blockType": "ignored" } -->
 ```http
 POST /devices/{id}/registeredUsers/$ref
-
+POST /devices(deviceId='{deviceId}')/registeredUsers/$ref
 ```
 ## Request headers
 | Name       | Description|
