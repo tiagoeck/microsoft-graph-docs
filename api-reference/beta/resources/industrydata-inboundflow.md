@@ -19,15 +19,13 @@ Inherits from [industryDataActivity](../resources/industrydata-industrydataactiv
 
 A **industryDataInboundFlow** represents an activity that gets executed by the service. The `dataDomain` property defines the type of data being imported and is used determine the common data model format it will be stored in.
 
-## Prerequisites
+The following data is required before using this resource:
 
-You will need to have **sourceSystemDefinition**, **dataConnector**, and **yearTimePeriodDefinition**.
+* [sourceSystemDefinition](../api/industrydata-industrydataroot-post-sourcesystems.md)
+* [dataConnector](../api/industrydata-industrydataroot-post-dataconnectors.md)
+* [yearTimePeriodDefinition](../api/industrydata-industrydataroot-post-years.md)
 
-- **[sourceSystemDefinition](../api/industrydata-industrydataroot-post-sourcesystems.md)**
-- **[dataConnector](../api/industrydata-industrydataroot-post-dataconnectors.md)**
-- **[yearTimePeriodDefinition](../api/industrydata-industrydataroot-post-years.md)**
-
-By default, your Inbound Flow will activate twice (2x) daily, see [IndustryDataRun](industrydata-industrydatarun.md).
+By default, your inbound flow will activate twice (2x) daily. For more details, see [industryDataRun](industrydata-industrydatarun.md).
 
 ## Methods
 
@@ -53,7 +51,7 @@ By default, your Inbound Flow will activate twice (2x) daily, see [IndustryDataR
 
 | Relationship  | Type                                                                              | Description                                                                                 |
 | :------------ | :-------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
-| dataConnector | [industryDataConnector](../resources/industrydata-industrydataconnector.md)       | The data connector in the context of which this flow will pull in data from a source system |
+| dataConnector | [industryDataConnector](../resources/industrydata-industrydataconnector.md)       | The data connector in the context of which this flow will pull in data from a source system. |
 | year          | [yearTimePeriodDefinition](../resources/industrydata-yeartimeperioddefinition.md) | The year that the data being brought in via this flow applies to. |
 
 ## JSON representation

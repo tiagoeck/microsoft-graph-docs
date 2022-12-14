@@ -13,15 +13,15 @@ Namespace: microsoft.graph.industryData
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Represents the matching setting rules for a roleGroup.
+Represents the matching setting rules for a [roleGroup](../resources/industrydata-rolegroup.md).
 
 ## Properties
 
 | Property         | Type                                                                                                                     | Description                                                                         |
 | :--------------- | :----------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
-| matchTarget      | [microsoft.graph.industryData.userMatchTargetReferenceValue](../resources/industrydata-usermatchtargetreferencevalue.md) | The **RefUserMatchTarget** for matching a user from the source with an Azure Active Directory user object. |
-| priorityOrder    | Int32                                                                                                                    | The priority order to apply when a user has multiple **RefRole** codes assigned.        |
-| sourceIdentifier | [microsoft.graph.industryData.identifierTypeReferenceValue](../resources/industrydata-identifiertypereferencevalue.md)   | The **RefIdentifierType** that uniquely identifies a user in the source data.           |
+| matchTarget      | [microsoft.graph.industryData.userMatchTargetReferenceValue](../resources/industrydata-usermatchtargetreferencevalue.md) | The `RefUserMatchTarget` for matching a user from the source with an Azure Active Directory user object. |
+| priorityOrder    | Int32                                                                                                                    | The priority order to apply when a user has multiple `RefRole` codes assigned.        |
+| sourceIdentifier | [microsoft.graph.industryData.identifierTypeReferenceValue](../resources/industrydata-identifiertypereferencevalue.md)   | The `RefIdentifierType` that uniquely identifies a user in the source data.           |
 
 ## Relationships
 
@@ -42,12 +42,8 @@ The following is a JSON representation of the resource.
 ```json
 {
   "@odata.type": "#microsoft.graph.industryData.userMatchingSetting",
-  "matchTarget": {
-    "@odata.type": "microsoft.graph.industryData.userMatchTargetReferenceValue"
-  },
+  "matchTarget": {"@odata.type": "microsoft.graph.industryData.userMatchTargetReferenceValue"},
   "priorityOrder": "Int32",
-  "sourceIdentifier": {
-    "@odata.type": "microsoft.graph.industryData.identifierTypeReferenceValue"
-  }
+  "sourceIdentifier": {"@odata.type": "microsoft.graph.industryData.identifierTypeReferenceValue"}
 }
 ```

@@ -13,7 +13,7 @@ Namespace: microsoft.graph.industryData
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Represents an external source of data in the real world. The data that is ingested is associated to a source system to identify the owner of record.
+Represents an external source of data in the real world. The data that is ingested is associated to a source system to identify the record owner.
 
 ## Methods
 
@@ -30,8 +30,8 @@ Represents an external source of data in the real world. The data that is ingest
 | Property             | Type                                                                                                            | Description                                                                                                  |
 | :------------------- | :-------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
 | displayName          | String                                                                                                          | The name of the source system. Maximum supported length is 100 characters.                                   |
-| userMatchingSettings | [microsoft.graph.industryData.userMatchingSetting](../resources/industrydata-usermatchingsetting.md) collection | A collection of user matching settings by **roleGroup**.                                                     |
-| vendor               | String                                                                                                          | The name of the vendor who supplies the source system. Maximum supported length is 100 characters. Optional. |
+| userMatchingSettings | [microsoft.graph.industryData.userMatchingSetting](../resources/industrydata-usermatchingsetting.md) collection | A collection of user matching settings by [roleGroup](../resources/industrydata-rolegroup.md).                                                     |
+| vendor               | String                                                                                                          | The name of the vendor who supplies the source system. Maximum supported length is 100 characters. |
 
 ## Relationships
 
@@ -54,9 +54,7 @@ The following is a JSON representation of the resource.
   "@odata.type": "#microsoft.graph.industryData.sourceSystemDefinition",
   "displayName": "String",
   "userMatchingSettings": [
-    {
-      "@odata.type": "microsoft.graph.industryData.userMatchingSetting"
-    }
+    {"@odata.type": "microsoft.graph.industryData.userMatchingSetting"}
   ],
   "vendor": "String"
 }
