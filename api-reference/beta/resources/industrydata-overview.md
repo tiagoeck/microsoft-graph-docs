@@ -21,7 +21,7 @@ Additionally, industry data provides resources that you can use to retrieve stat
 
 The system is an ETL (Extract-Transform-Load) engine. It can be visualized as a bow-tie represented by multiple incoming and outgoing flows. A single transformation process will combine and normalize the imported data to land in the Azure Data Lake of the tenant.
 
-![industryData overview](../../../concepts/images/industryData-overview-1.png)
+![industryData overview](../../concepts/images/industryData-overview-1.png)
 
 First, you'll need to connect to the data of your institution. You'll define an inbound flow: Create **sourceSystemDefinition**, **dataConnector**, and **yearTimePeriodDefinition**. By default, your inbound flow will activate twice (2x) daily (called a _run_).
 
