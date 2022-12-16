@@ -174,7 +174,6 @@ items:
             href: /graph/migrate-azure-ad-graph-configure-permissions?context=graph/api/beta
       - name: Exchange Web Services
         items:
-<<<<<<< HEAD
           - name: Migrate EWS apps
             href: /graph/migrate-exchange-web-services-overview?context=graph/api/beta
             displayName: Migration, Exchange Web Services, EWS, migrate
@@ -182,30 +181,6 @@ items:
             href: /graph/migrate-exchange-web-services-authentication?context=graph/api/beta
           - name: API mapping
             href: /graph/migrate-exchange-web-services-api-mapping?context=graph/api/beta
-=======
-        - name: App registration
-          href: /graph/migrate-azure-ad-graph-app-registration?context=graph/api/beta
-        - name: Auth libraries
-          href: /graph/migrate-azure-ad-graph-authentication-library?context=graph/api/beta
-        - name: .NET client libraries
-          href: /graph/migrate-azure-ad-graph-client-libraries?context=graph/api/beta
-      - name: "4: Deploy, test, and extend"
-        href: /graph/migrate-azure-ad-graph-deploy-test-extend?context=graph/api/beta
-      - name: Azure AD Graph migration FAQ
-        href: /graph/migrate-azure-ad-graph-faq?context=graph/api/beta
-        displayName: migrate, frequently asked questions
-      - name: Configure Azure AD Graph permissions
-        href: /graph/migrate-azure-ad-graph-configure-permissions?context=graph/api/beta
-    - name: Exchange Web Services
-      items:
-      - name: Migrate EWS apps
-        href: /graph/migrate-exchange-web-services-overview?context=graph/api/beta
-        displayName: Migration, Exchange Web Services, EWS, migrate
-      - name: Authentication
-        href: /graph/migrate-exchange-web-services-authentication?context=graph/api/beta
-      - name: API mapping
-        href: /graph/migrate-exchange-web-services-api-mapping?context=graph/api/beta
->>>>>>> origin/main
   - name: Use SDKs
     items:
     - name: Overview

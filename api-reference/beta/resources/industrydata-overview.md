@@ -95,13 +95,13 @@ The **dataDomain** property defines the type of data being imported and determin
 
 Each **referenceDefinition** uses a composite identifier of `{referenceType}-{code}`. The approach provides a more natural developer experience as most code values are defined by a standards body, and will be recognizable to developers in that industry domain.
 
-[Retrieving referenceDefinition](resources/industrydata-referencedefinition.md)
+[Retrieving referenceDefinition](industrydata-referencedefinition.md)
 
 ### Reference values
 
 When the API requires the developer to provide a **referenceDefinition**, it uses a type derived from **industryDataReferenceValue**.
 
-The **industryDataReferenceValue** is designed to simplify selecting [referenceDefinition](resources/industrydata-referencedefinition.md) and to reduce developer configuration by only requiring the **code** value. The type of reference value is defined by the **industryDataReferenceValue** type, eliminating potential confusing as to which **referenceDefinition** a given property is expecting.
+The **industryDataReferenceValue** is designed to simplify selecting [referenceDefinition](industrydata-referencedefinition.md) and to reduce developer configuration by only requiring the **code** value. The type of reference value is defined by the **industryDataReferenceValue** type, eliminating potential confusing as to which **referenceDefinition** a given property is expecting.
 
 #### Example usage
 
@@ -125,7 +125,7 @@ or binding the **industryDataReferenceDefinition** entity directly.
 
 ### Role groups
 
-Transformation of the data is often shaped by each individual user's role within an organization. These roles are defined as reference definitions. Given the number of potential roles, binding each role individual would result in a tedious user experience. [Role groups](resources/industrydata-rolegroup.md) are simply a collection of role values used to provide a convenient way to reference multiple reference definitions. The default role groups are _Students_ and _Staff_.
+Transformation of the data is often shaped by each individual user's role within an organization. These roles are defined as reference definitions. Given the number of potential roles, binding each role individual would result in a tedious user experience. [Role groups](industrydata-rolegroup.md) are simply a collection of role values used to provide a convenient way to reference multiple reference definitions. The default role groups are _Students_ and _Staff_.
 
 #### Get the staff role group
 
@@ -152,10 +152,10 @@ Transformation of the data is often shaped by each individual user's role within
 
 The two most common scenarios are _Upload and Validate CSV Data_ and _Run Health and Monitoring_.
 
-- [Upload and Validate CSV Data](resources/industrydata-azuredatalakeconnector.md)
-- [Run Health and Monitoring](resources/industrydata-industrydatarun.md)
+- [Upload and Validate CSV Data](industrydata-azuredatalakeconnector.md)
+- [Run Health and Monitoring](industrydata-industrydatarun.md)
 
 ### Other scenarios
 
-- [Create inbound flow](resources/industrydata-inboundflow.md)
-- [Edit inbound flow](resources/industrydata-inboundflow.md)
+- [Create inbound flow](industrydata-inboundflow.md)
+- [Edit inbound flow](industrydata-inboundflow.md)
