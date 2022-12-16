@@ -4,134 +4,125 @@ items:
     href: /graph/overview
   - name: Authentication and authorization
     items:
-    - name: Overview
-      href: /graph/auth/index?context=graph/api/beta
-      displayName: authentication, authorization, authenticate, authorize
-    - name: Basics
-      href: /graph/auth/auth-concepts?context=graph/api/beta
-    - name: Register your app
-      href: /graph/auth-register-app-v2?context=graph/api/beta
-    - name: Get access on behalf of a user
-      href: /graph/auth-v2-user?context=graph/api/beta
-    - name: Get access without a user
-      href: /graph/auth-v2-service?context=graph/api/beta
-    - name: Permissions
-      items:
       - name: Overview
-        displayName: Microsoft Graph permissions
-        href: /graph/permissions-overview?context=graph/api/1.0
-      - name: Permissions reference
-        displayName: Microsoft Graph permissions list
-        href: /graph/permissions-reference?context=graph/api/1.0
-      - name: Azure AD built-in roles
-        displayName: Microsoft Graph permissions
-        href: /azure/active-directory/roles/permissions-reference?toc=/graph/toc.json
-    - name: Manage app access (CSPs)
-      href: /graph/auth-cloudsolutionprovider?context=graph/api/beta
-    - name: Limit mailbox access
-      href: /graph/auth-limit-mailbox-access?context=graph/api/beta
-    - name: Resolve authorization errors
-      href: /graph/resolve-auth-errors?context=graph/api/beta
+        href: /graph/auth/index?context=graph/api/beta
+        displayName: authentication, authorization, authenticate, authorize
+      - name: Basics
+        href: /graph/auth/auth-concepts?context=graph/api/beta
+      - name: Register your app
+        href: /graph/auth-register-app-v2?context=graph/api/beta
+      - name: Get access on behalf of a user
+        href: /graph/auth-v2-user?context=graph/api/beta
+      - name: Get access without a user
+        href: /graph/auth-v2-service?context=graph/api/beta
+      - name: Permissions
+        href: /graph/permissions-reference?context=graph/api/beta
+      - name: Manage app access (CSPs)
+        href: /graph/auth-cloudsolutionprovider?context=graph/api/beta
+      - name: Limit mailbox access
+        href: /graph/auth-limit-mailbox-access?context=graph/api/beta
+      - name: Resolve authorization errors
+        href: /graph/resolve-auth-errors?context=graph/api/beta
   - name: Use the API
     items:
-    - name: Overview
-      href: /graph/use-the-api?context=graph/api/beta
-      displayName: Microsoft Graph API, API, Microsoft Graph REST API, REST API
-    - name: Access data and methods
-      href: /graph/traverse-the-graph?context=graph/api/beta
-    - name: Paging
-      href: /graph/paging?context=graph/api/beta
-    - name: Query parameters
-      displayName: OData version 4.01, OData query parameters
-      items:
-      - name: Use query parameters
-        displayName: OData query parameters, OData
-        href: /graph/query-parameters?context=graph/api/beta
-      - name: Use $filter
-        displayName: OData query parameters, OData
-        href: /graph/filter-query-parameter?context=graph/api/beta
-      - name: Use $search
-        displayName: OData query parameters, OData
-        href: /graph/search-query-parameter?context=graph/api/beta
-      - name: Advanced query capabilities
-        displayName: OData query parameters, OData
-        href: /graph/aad-advanced-queries?context=graph/api/beta
-      - name: Optimize requests with query parameters
-        displayName: OData query parameters, OData
-        href: /training/modules/optimize-data-usage
-    - name: Batching
-      href: /graph/json-batching?context=graph/api/beta
-      displayName: Batch request
-    - name: Throttling
-      items:
       - name: Overview
-        href: /graph/throttling?context=graph/api/beta
-        displayName: throttling
-      - name: Service-specific limits
-        href: /graph/throttling-limits?context=graph/api/beta
-        displayName: throttling
-      - name: Optimize network traffic
-        displayName: throttling
-        href: /training/modules/optimize-network-traffic
-    - name: Change notifications
-      items:
-      - name: Overview
-        href: /graph/api/resources/webhooks?context=graph/api/beta
-        displayName: change notifications, WebHooks, set up notifications for changes in resource data
-      - name: Change notifications tutorial
-        href: /training/modules/msgraph-changenotifications-trackchanges
-      - name: Missing change notifications
-        href: /graph/webhooks-lifecycle?context=graph/api/beta
-      - name: Notifications with resource data
-        href: /graph/webhooks-with-resource-data?context=graph/api/beta
-      - name: Get notifications delivered different ways
-        href: /graph/change-notifications-delivery?context=graph/api/beta
-      - name: Change notifications for cloud printing
-        href: /graph/universal-print-webhook-notifications?context=graph/api/beta
-      - name: Change notifications for Microsoft Teams resources
+        href: /graph/use-the-api?context=graph/api/beta
+        displayName: Microsoft Graph API, API, Microsoft Graph REST API, REST API
+      - name: Access data and methods
+        href: /graph/traverse-the-graph?context=graph/api/beta
+      - name: Paging
+        href: /graph/paging?context=graph/api/beta
+      - name: Query parameters
+        displayName: OData version 4.01, OData query parameters
         items:
-        - name: Notification types and payloads
-          href: /graph/teams-change-notification-in-microsoft-teams-overview?context=graph/api/beta
-          displayName: change notifications, Teams, Microsoft Teams
-        - name: Teams and channels
-          href: /graph/teams-changenotifications-team-and-channel?context=graph/api/beta
-        - name: Team and channel membership
-          href: /graph/teams-changenotifications-teamMembership?context=graph/api/beta
-        - name: Chat and channel messages
-          href: /graph/teams-changenotifications-chatmessage?context=graph/api/beta
-        - name: Chat
-          href: /graph/teams-changenotifications-chat?context=graph/api/beta
-        - name: Chat membership
-          href: /graph/teams-changenotifications-chatMembership?context=graph/api/beta
-      - name: Change notifications for Outlook resources
-        href: /graph/outlook-change-notifications-overview?context=graph/api/beta
-    - name: Change tracking
-      items:
-      - name: Overview
-        href: /graph/delta-query-overview?context=graph/api/beta
-        displayName: Delta query, track changes, change tracking
-      - name: Get changes to events (example)
-        href: /graph/delta-query-events?context=graph/api/beta
-      - name: Get changes to groups (example)
-        href: /graph/delta-query-groups?context=graph/api/beta
-      - name: Get changes to messages (example)
-        href: /graph/delta-query-messages?context=graph/api/beta
-      - name: Get changes to users (example)
-        href: /graph/delta-query-users?context=graph/api/beta
-    - name: Add custom data
-      displayName: directory extensions, schema extensions, open extensions, extension attributes
-      href: /graph/extensibility-overview?context=graph/api/beta
-    - name: Use Graph Explorer
-      items:
-      - name: Get started
-        href: /graph/graph-explorer/graph-explorer-overview?context=graph/api/beta
-        displayName: Graph Explorer, try the API, try API
-      - name: Work with Graph Explorer
-        href: /graph/graph-explorer/graph-explorer-features?context=graph/api/beta
-    - name: Use Postman
-      href: /graph/use-postman?context=graph/api/beta
-    - name: System messages
-      href: /graph/system-messages?context=graph/api/beta
+          - name: Use query parameters
+            displayName: OData query parameters, OData
+            href: /graph/query-parameters?context=graph/api/beta
+          - name: Use $filter
+            displayName: OData query parameters, OData
+            href: /graph/filter-query-parameter?context=graph/api/beta
+          - name: Use $search
+            displayName: OData query parameters, OData
+            href: /graph/search-query-parameter?context=graph/api/beta
+          - name: Advanced query capabilities
+            displayName: OData query parameters, OData
+            href: /graph/aad-advanced-queries?context=graph/api/beta
+          - name: Optimize requests with query parameters
+            displayName: OData query parameters, OData
+            href: /learn/modules/optimize-data-usage
+      - name: Batching
+        href: /graph/json-batching?context=graph/api/beta
+        displayName: Batch request
+      - name: Throttling
+        items:
+          - name: Overview
+            href: /graph/throttling?context=graph/api/beta
+            displayName: throttling
+          - name: Service-specific limits
+            href: /graph/throttling-limits?context=graph/api/beta
+            displayName: throttling
+          - name: Optimize network traffic
+            displayName: throttling
+            href: /learn/modules/optimize-network-traffic
+      - name: Change notifications
+        items:
+          - name: Overview
+            href: /graph/api/resources/webhooks?context=graph/api/beta
+            displayName: change notifications, WebHooks, set up notifications for changes in resource data
+          - name: Change notifications tutorial
+            href: /learn/modules/msgraph-changenotifications-trackchanges
+          - name: Missing change notifications
+            href: /graph/webhooks-lifecycle?context=graph/api/beta
+          - name: Notifications with resource data
+            href: /graph/webhooks-with-resource-data?context=graph/api/beta
+          - name: Get notifications delivered different ways (preview)
+            href: /graph/change-notifications-delivery?context=graph/api/beta
+          - name: Change notifications for cloud printing
+            href: /graph/universal-print-webhook-notifications?context=graph/api/beta
+          - name: Change notifications for Microsoft Teams resources
+            items:
+              - name: Notification types and payloads
+                href: /graph/teams-change-notification-in-microsoft-teams-overview?context=graph/api/beta
+                displayName: change notifications, Teams, Microsoft Teams
+              - name: Teams and channels
+                href: /graph/teams-changenotifications-team-and-channel?context=graph/api/beta
+              - name: Team and channel membership
+                href: /graph/teams-changenotifications-teamMembership?context=graph/api/beta
+              - name: Chat and channel messages
+                href: /graph/teams-changenotifications-chatmessage?context=graph/api/beta
+              - name: Chat
+                href: /graph/teams-changenotifications-chat?context=graph/api/beta
+              - name: Chat membership
+                href: /graph/teams-changenotifications-chatMembership?context=graph/api/beta
+          - name: Change notifications for Outlook resources
+            href: /graph/outlook-change-notifications-overview?context=graph/api/beta
+      - name: Change tracking
+        items:
+          - name: Overview
+            href: /graph/delta-query-overview?context=graph/api/beta
+            displayName: Delta query, track changes, change tracking
+          - name: Get changes to events (example)
+            href: /graph/delta-query-events?context=graph/api/beta
+          - name: Get changes to groups (example)
+            href: /graph/delta-query-groups?context=graph/api/beta
+          - name: Get changes to messages (example)
+            href: /graph/delta-query-messages?context=graph/api/beta
+          - name: Get changes to users (example)
+            href: /graph/delta-query-users?context=graph/api/beta
+      - name: Add custom data
+        displayName: directory extensions, schema extensions, open extensions, extension attributes
+        href: /graph/extensibility-overview?context=graph/api/beta
+      - name: Use Graph Explorer
+        items:
+          - name: Get started
+            href: /graph/graph-explorer/graph-explorer-overview?context=graph/api/beta
+            displayName: Graph Explorer, try the API, try API
+          - name: Work with Graph Explorer
+            href: /graph/graph-explorer/graph-explorer-features?context=graph/api/beta
+      - name: Use Postman
+        href: /graph/use-postman?context=graph/api/beta
+      - name: System messages
+        href: /graph/system-messages?context=graph/api/beta
   - name: Migrate
     items:
       - name: Azure AD Graph
@@ -183,140 +174,136 @@ items:
             href: /graph/migrate-exchange-web-services-api-mapping?context=graph/api/beta
   - name: Use SDKs
     items:
-    - name: Overview
-      href: /graph/sdks/sdks-overview?context=graph/api/beta
-      displayName: SDK, SDKs, Microsoft Graph SDK
-    - name: Install an SDK
-      href: /graph/sdks/sdk-installation?context=graph/api/beta
-      displayName: install SDK, install SDKs, installation
-    - name: Create a client
-      href: /graph/sdks/create-client?context=graph/api/beta
-    - name: Customize a client
-      href: /graph/sdks/customize-client?context=graph/api/beta
-    - name: Choose an authentication provider
-      href: /graph/sdks/choose-authentication-providers?context=graph/api/beta
-    - name: Connect to national clouds
-      href: /graph/sdks/national-clouds?context=graph/api/beta
-    - name: Create requests
-      href: /graph/sdks/create-requests?context=graph/api/beta
-    - name: Page through a collection
-      href: /graph/sdks/paging?context=graph/api/beta
-    - name: Create a batch request
-      href: /graph/sdks/batch-requests?context=graph/api/beta
-    - name: Upload large files
-      href: /graph/sdks/large-file-upload?context=graph/api/beta
-    - name: Use beta API
-      href: /graph/sdks/use-beta?context=graph/api/beta
-    - name: Use PowerShell
-      items:
-      - name: PowerShell overview
-        href: /powershell/microsoftgraph/overview?toc=/graph/toc.json
-      - name: Install PowerShell SDK
-        href: /powershell/microsoftgraph/installation?toc=/graph/toc.json
-      - name: Get started
-        href: /powershell/microsoftgraph/get-started?toc=/graph/toc.json
-      - name: Navigate the PowerShell SDK
-        href: /powershell/microsoftgraph/navigating?toc=/graph/toc.json
-      - name: App-only authentication
-        href: /powershell/microsoftgraph/app-only?toc=/graph/toc.json
+      - name: Overview
+        href: /graph/sdks/sdks-overview?context=graph/api/beta
+        displayName: SDK, SDKs, Microsoft Graph SDK
+      - name: Install an SDK
+        href: /graph/sdks/sdk-installation?context=graph/api/beta
+        displayName: install SDK, install SDKs, installation
+      - name: Create a client
+        href: /graph/sdks/create-client?context=graph/api/beta
+      - name: Customize a client
+        href: /graph/sdks/customize-client?context=graph/api/beta
+      - name: Choose an authentication provider
+        href: /graph/sdks/choose-authentication-providers?context=graph/api/beta
+      - name: Create requests
+        href: /graph/sdks/create-requests?context=graph/api/beta
+      - name: Page through a collection
+        href: /graph/sdks/paging?context=graph/api/beta
+      - name: Create a batch request
+        href: /graph/sdks/batch-requests?context=graph/api/beta
+      - name: Upload large files
+        href: /graph/sdks/large-file-upload?context=graph/api/beta
+      - name: Use beta API
+        href: /graph/sdks/use-beta?context=graph/api/beta
+      - name: Use PowerShell
+        items:
+          - name: PowerShell overview
+            href: /powershell/microsoftgraph/overview?toc=/graph/toc.json
+          - name: Install PowerShell SDK
+            href: /powershell/microsoftgraph/installation?toc=/graph/toc.json
+          - name: Get started
+            href: /powershell/microsoftgraph/get-started?toc=/graph/toc.json
+          - name: Navigate the PowerShell SDK
+            href: /powershell/microsoftgraph/navigating?toc=/graph/toc.json
+          - name: App-only authentication
+            href: /powershell/microsoftgraph/app-only?toc=/graph/toc.json
   - name: Use the toolkit
     items:
-    - name: Overview
-      href: /graph/toolkit/overview?context=graph/api/beta
-      displayName: Microsoft Graph Toolkit, toolkit
-    - name: Get started
-      items:
-      - name: Get started
-        href: /graph/toolkit/get-started/overview?context=graph/api/beta
+      - name: Overview
+        href: /graph/toolkit/overview?context=graph/api/beta
         displayName: Microsoft Graph Toolkit, toolkit
-      - name: Toolkit for React
-        href: /graph/toolkit/get-started/mgt-react?context=graph/api/beta
-      - name: Toolkit for SPFx
-        href: /graph/toolkit/get-started/mgt-spfx?context=graph/api/beta
-    - name: Build your first app
-      items:
-      - name: Register an Azure AD app
-        href: /graph/toolkit/get-started/add-aad-app-registration?context=graph/api/beta
-      - name: Build a web app (JavaScript)
-        href: /graph/toolkit/get-started/build-a-web-app?context=graph/api/beta
-      - name: Build a web app (React)
-        href: /graph/toolkit/get-started/use-toolkit-with-react?context=graph/api/beta
-      - name: Build a web app (Angular)
-        href: /graph/toolkit/get-started/use-toolkit-with-angular?context=graph/api/beta
-      - name: Build a SharePoint web part
-        href: /graph/toolkit/get-started/build-a-sharepoint-web-part?context=graph/api/beta
-      - name: Build a Teams tab
-        href: /graph/toolkit/get-started/build-a-microsoft-teams-tab?context=graph/api/beta
-      - name: Build a Teams tab with SSO
-        href: /graph/toolkit/get-started/build-a-microsoft-teams-sso-tab?context=graph/api/beta
-      - name: Build an Electron app
-        href: /graph/toolkit/get-started/build-an-electron-app?context=graph/api/beta
-      - name: Build a productivity hub app
-        href: /graph/toolkit/get-started/building-one-productivity-hub?context=graph/api/beta
-    - name: Providers
-      items:
-      - name: Using the providers
-        href: /graph/toolkit/providers/providers?context=graph/api/beta
-        displayName: Microsoft Graph Toolkit providers, toolkit provider
-      - name: MSAL provider
-        href: /graph/toolkit/providers/msal?context=graph/api/beta
-      - name: MSAL2 provider
-        href: /graph/toolkit/providers/msal2?context=graph/api/beta
-      - name: SharePoint provider
-        href: /graph/toolkit/providers/sharepoint?context=graph/api/beta
-      - name: Teams provider
-        href: /graph/toolkit/providers/teams?context=graph/api/beta
-      - name: Teams MSAL2 provider
-        href: /graph/toolkit/providers/teams-msal2?context=graph/api/beta
-      - name: TeamsFx provider
-        href: /graph/toolkit/providers/teamsfx?context=graph/api/beta
-      - name: Electron provider
-        href: /graph/toolkit/providers/electron?context=graph/api/beta
-      - name: Proxy provider
-        href: /graph/toolkit/providers/proxy?context=graph/api/beta
-      - name: Custom provider
-        href: /graph/toolkit/providers/custom?context=graph/api/beta
-    - name: Components
-      items:
-      - name: Login
-        href: /graph/toolkit/components/login?context=graph/api/beta
-        displayName: Microsoft Graph toolkit components, toolkit component
-      - name: Get
-        href: /graph/toolkit/components/get?context=graph/api/beta
-      - name: Person
-        href: /graph/toolkit/components/person?context=graph/api/beta
-      - name: People
-        href: /graph/toolkit/components/people?context=graph/api/beta
-      - name: Person card
-        href: /graph/toolkit/components/person-card?context=graph/api/beta
-      - name: People picker
-        href: /graph/toolkit/components/people-picker?context=graph/api/beta
-      - name: Teams channel picker
-        href: /graph/toolkit/components/teams-channel-picker?context=graph/api/beta
-      - name: Agenda
-        href: /graph/toolkit/components/agenda?context=graph/api/beta
-      - name: Planner tasks
-        href: /graph/toolkit/components/tasks?context=graph/api/beta
-      - name: To-do tasks
-        href: /graph/toolkit/components/todo?context=graph/api/beta
-      - name: File
-        href: /graph/toolkit/components/file?context=graph/api/beta
-      - name: File list
-        href: /graph/toolkit/components/file-list?context=graph/api/beta
-    - name: Customize components
-      items:
-      - name: Styling components
-        href: /graph/toolkit/customize-components/style?context=graph/api/beta
-      - name: Templating components
-        href: /graph/toolkit/customize-components/templates?context=graph/api/beta
-      - name: Handling events
-        href: /graph/toolkit/customize-components/events?context=graph/api/beta
-      - name: Caching Microsoft Graph calls in components
-        href: /graph/toolkit/customize-components/cache?context=graph/api/beta
-      - name: Localizing components
-        href: /graph/toolkit/customize-components/localization?context=graph/api/beta
-      - name: Right-to-left support
-        href: /graph/toolkit/customize-components/right-to-left?context=graph/api/beta
+      - name: Get started
+        items:
+          - name: Get started
+            href: /graph/toolkit/get-started/overview?context=graph/api/beta
+            displayName: Microsoft Graph Toolkit, toolkit
+          - name: Toolkit for React
+            href: /graph/toolkit/get-started/mgt-react?context=graph/api/beta
+          - name: Toolkit for SPFx
+            href: /graph/toolkit/get-started/mgt-spfx?context=graph/api/beta
+      - name: Build your first app
+        items:
+          - name: Register an Azure AD app
+            href: /graph/toolkit/get-started/add-aad-app-registration?context=graph/api/beta
+          - name: Build a web app (JavaScript)
+            href: /graph/toolkit/get-started/build-a-web-app?context=graph/api/beta
+          - name: Build a web app (React)
+            href: /graph/toolkit/get-started/use-toolkit-with-react?context=graph/api/beta
+          - name: Build a web app (Angular)
+            href: /graph/toolkit/get-started/use-toolkit-with-angular?context=graph/api/beta
+          - name: Build a SharePoint web part
+            href: /graph/toolkit/get-started/build-a-sharepoint-web-part?context=graph/api/beta
+          - name: Build a Teams tab
+            href: /graph/toolkit/get-started/build-a-microsoft-teams-tab?context=graph/api/beta
+          - name: Build a Teams tab with SSO
+            href: /graph/toolkit/get-started/build-a-microsoft-teams-sso-tab?context=graph/api/beta
+          - name: Build an Electron app
+            href: /graph/toolkit/get-started/build-an-electron-app?context=graph/api/beta
+      - name: Providers
+        items:
+          - name: Using the providers
+            href: /graph/toolkit/providers/providers?context=graph/api/beta
+            displayName: Microsoft Graph Toolkit providers, toolkit provider
+          - name: MSAL provider
+            href: /graph/toolkit/providers/msal?context=graph/api/beta
+          - name: MSAL2 provider
+            href: /graph/toolkit/providers/msal2?context=graph/api/beta
+          - name: SharePoint provider
+            href: /graph/toolkit/providers/sharepoint?context=graph/api/beta
+          - name: Teams provider
+            href: /graph/toolkit/providers/teams?context=graph/api/beta
+          - name: Teams MSAL2 provider
+            href: /graph/toolkit/providers/teams-msal2?context=graph/api/beta
+          - name: TeamsFx provider
+            href: /graph/toolkit/providers/teamsfx?context=graph/api/beta
+          - name: Electron provider
+            href: /graph/toolkit/providers/electron?context=graph/api/beta
+          - name: Proxy provider
+            href: /graph/toolkit/providers/proxy?context=graph/api/beta
+          - name: Custom provider
+            href: /graph/toolkit/providers/custom?context=graph/api/beta
+      - name: Components
+        items:
+          - name: Login
+            href: /graph/toolkit/components/login?context=graph/api/beta
+            displayName: Microsoft Graph toolkit components, toolkit component
+          - name: Get
+            href: /graph/toolkit/components/get?context=graph/api/beta
+          - name: Person
+            href: /graph/toolkit/components/person?context=graph/api/beta
+          - name: People
+            href: /graph/toolkit/components/people?context=graph/api/beta
+          - name: Person card
+            href: /graph/toolkit/components/person-card?context=graph/api/beta
+          - name: People picker
+            href: /graph/toolkit/components/people-picker?context=graph/api/beta
+          - name: Teams channel picker
+            href: /graph/toolkit/components/teams-channel-picker?context=graph/api/beta
+          - name: Agenda
+            href: /graph/toolkit/components/agenda?context=graph/api/beta
+          - name: Planner tasks
+            href: /graph/toolkit/components/tasks?context=graph/api/beta
+          - name: To-do tasks
+            href: /graph/toolkit/components/todo?context=graph/api/beta
+          - name: File
+            href: /graph/toolkit/components/file?context=graph/api/beta
+          - name: File list
+            href: /graph/toolkit/components/file-list?context=graph/api/beta
+      - name: Customize components
+        items:
+          - name: Styling components
+            href: /graph/toolkit/customize-components/style?context=graph/api/beta
+          - name: Templating components
+            href: /graph/toolkit/customize-components/templates?context=graph/api/beta
+          - name: Handling events
+            href: /graph/toolkit/customize-components/events?context=graph/api/beta
+          - name: Caching Microsoft Graph calls in components
+            href: /graph/toolkit/customize-components/cache?context=graph/api/beta
+          - name: Localizing components
+            href: /graph/toolkit/customize-components/localization?context=graph/api/beta
+          - name: Right-to-left support
+            href: /graph/toolkit/customize-components/right-to-left?context=graph/api/beta
   - name: Resources
     items:
       - name: Best practices
@@ -2143,7 +2130,7 @@ items:
                 href: api/bookingstaffmember-update.md
               - name: Delete
                 href: api/bookingstaffmember-delete.md
-      - name: Industry data ETL
+      - name: Industry data ingestion
         items:
           - name: Overview
             href: resources/industrydata-overview.md
